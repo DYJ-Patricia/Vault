@@ -78,6 +78,17 @@
 * `git reset HEAD <文件名>`：撤销暂存区的更改。
 * `git reset --hard <commit ID>`：回退到指定提交。
 
+### 手动添加忽略文件
+- `touch .gitignore`:创建忽略文件。
+- `echo "*.exe" >> .gitignore`：省略上传所有.exe文件
+
+### Obsidian的github备份
+#### .gitignore中写入：
+- echo ".obsidian/plugins/github-sync/main.js" >> .gitignore
+- echo ".obsidian/plugins/github-sync/manifest.json" >> .gitignore
+- echo ".obsidian/plugins/github-sync/styles.css" >> .gitignore
+- echo ".obsidian/plugins/github-sync/data.json" >> .gitignore
+
 ## Git Bash 常用命令
 
 ### 导航
@@ -93,6 +104,10 @@
 * `mkdir <目录名>`：创建目录。
 * `rm <文件名>`：删除文件。
 * `rm -r <目录名>`：删除目录及其内容。
+* `cat <文件名>`:观看文件内容。
+* `echo "content" > <文件名>`:覆盖写入内容，没有文件就自动创建。
+* `echo "content" >> <文件名>`:接后文写入内容。
+* `vim <文件名>`:打开vim编辑器编辑文件。[具体操作](VIM)。
 
 ### 其他
 
@@ -110,19 +125,12 @@
 
 * `git config --global core.editor "编辑器路径"`
 
-## 注意事项
 
-* 养成频繁提交的习惯。
-* 编写清晰的提交信息。
-* 合理使用分支。
-* 定期拉取远程仓库的更改。
-* 解决冲突时仔细检查。
 
 ## 参考资料
 
 * [Git 官方文档](https://git-scm.com/doc)
 * [Pro Git](https://git-scm.com/book/zh/v2)
 
-## 标签
 
-\#Git \#GitBash \#版本控制 \#命令行
+

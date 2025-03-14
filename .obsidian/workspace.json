@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs61b/Notes/Inheritance and Implements.md",
+                "file": "cs61b/Notes/Lists.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Inheritance and Implements"
+              "title": "Lists"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "b429708acd7e85a8",
   "lastOpenFiles": [
-    "cs61b/Notes/Lists.md",
     "cs61b/Notes/Inheritance and Implements.md",
+    "cs61b/Notes/Lists.md",
     "pictures",
     "cs61b/Notes",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",

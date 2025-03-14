@@ -9,7 +9,7 @@ tags:
 初始设想是利用链表：
 
 
-```
+```Java
 public class IntList {  
       public int first;  
       public IntList rest;  
@@ -25,7 +25,7 @@ public class IntList {
 
 显然，在这上面直接添加函数方法会很裸奔，我们选择将核心提出，并创建新的类：
 
-```
+```Java
 public class IntNode {  
       public int item;  
       public IntNode next;  
@@ -63,10 +63,13 @@ public class IntNode {
 
 添加前向指针(这个说法不严谨但是我先这么写)，使得列表变成可以双向访问的类型：
 
-|   |   |
-|---|---|
-|1  <br>2  <br>3  <br>4  <br>5|```<br>public class IntNode {    public IntNode prev;    public int item;    public IntNode next;}<br>```|
-
+```Java
+public class IntNode {
+    public IntNode prev;
+    public int item;
+    public IntNode next;
+}
+```
 同时为末端结点同样设置一个哨兵结点，由此得到的数据结构会类似下面的拓扑图：
 
 [![dllist_double_sentinel_size_2.png](https://joshhug.gitbooks.io/hug61b/content/chap2/fig23/dllist_double_sentinel_size_2.png)](https://joshhug.gitbooks.io/hug61b/content/chap2/fig23/dllist_double_sentinel_size_2.png "dllist_double_sentinel_size_2.png")
@@ -83,22 +86,49 @@ dllist_circular_sentinel_size_2.png
 
 一个可以容纳任何类型的通用 `DLList` 看起来如下：
 
-|   |   |
-|---|---|
-|1  <br>2  <br>3  <br>4  <br>5  <br>6  <br>7  <br>8  <br>9  <br>10  <br>11  <br>12|```<br>public class DLList<BleepBlorp> {    private IntNode sentinel;    private int size;    public class IntNode {        public IntNode prev;        public BleepBlorp item;        public IntNode next;        ...    }    ...}<br>```|
+```Java
+public class DLList {
+    private IntNode sentinel;
+    private int size;
 
+    public class IntNode {
+        public IntNode prev;
+        public int item;
+        public IntNode next;
+        ...
+    }
+    ...
+}
+```
+
+与之相对比的是之前的代码：
+```Java
+public class DLList {
+    private IntNode sentinel;
+    private int size;
+
+    public class IntNode {
+        public IntNode prev;
+        public int item;
+        public IntNode next;
+        ...
+    }
+    ...
+}
+```
 现在我们已经定义了一个 `DLList` 类的通用版本，我们还必须使用特殊的语法来实例化这个类。为此，在声明时，我们将所需的类型放在尖括号内，并在实例化时使用空的尖括号。例如：
 
-|   |   |
-|---|---|
-|1  <br>2|```<br>DLList<String> d2 = new DLList<>("hello");d2.addLast("world");<br>```|
+```Java
+DLList<String> d2 = new DLList<>("hello");  
+d2.addLast("world");
+```
 
 由于泛型仅适用于引用类型，我们无法将原始类型如 `int` 或 `double` 放入尖括号中，例如 `<int>` 。相反，我们使用原始类型的引用版本，在 `int` 情况下是 `Integer` ，例如。
 
-|   |   |
-|---|---|
-|1  <br>2|```<br>DLList<Integer> d1 = new DLList<>(5);d1.insertFront(10);<br>```|
-
+```Java
+DLList<Integer> d1 = new DLList<>(5);  
+d1.insertFront(10);
+```
 有关使用通用类型的更多细微差别，我们将把它们推迟到本书的后面章节。现在，请使用以下经验法则：
 
 - 在实现数据结构的.java 文件中，在类名之后的文件顶部只需指定一次泛型类型名称。
@@ -107,9 +137,9 @@ dllist_circular_sentinel_size_2.png
 
 细节：在实例化时，您也可以在尖括号内声明类型，尽管这并非必需，只要您也在同一行上声明变量。换句话说，下面的代码行是完全有效的，即使右侧的 `Integer` 是多余的。
 
-|   |   |
-|---|---|
-|1|```<br>DLList<Integer> d1 = new DLList<Integer>(5);<br>```|
+```Java
+DLList<Integer> d1 = new DLList<Integer>(5);
+```
 
 #### AList
 
@@ -125,9 +155,24 @@ dllist_circular_sentinel_size_2.png
 
 包含数组基本操作的代码：
 
-|   |   |
-|---|---|
-|1  <br>2  <br>3  <br>4  <br>5  <br>6  <br>7  <br>8  <br>9  <br>10  <br>11  <br>12  <br>13  <br>14  <br>15  <br>16|```<br>int[] z = null;int[] x, y;x = new int[]{1, 2, 3, 4, 5};y = x;x = new int[]{-1, 2, 5, 4, 99};y = new int[3];z = new int[0];int xL = x.length;String[] s = new String[6];s[4] = "ketchup";s[x[3] - x[1]] = "muffins";int[] b = {9, 10, 11};System.arraycopy(b, 0, x, 3, 2);<br>```|
+```Java
+int[] z = null;
+int[] x, y;
+
+x = new int[]{1, 2, 3, 4, 5};
+y = x;
+x = new int[]{-1, 2, 5, 4, 99};
+y = new int[3];
+z = new int[0];
+int xL = x.length;
+
+String[] s = new String[6];
+s[4] = "ketchup";
+s[x[3] - x[1]] = "muffins";
+
+int[] b = {9, 10, 11};
+System.arraycopy(b, 0, x, 3, 2);
+```
 
 最后一行展示了一种将信息从一个数组复制到另一个数组的方法。 `System.arraycopy` 接受五个参数：
 
@@ -149,13 +194,25 @@ fig25/insert_experiment.png
 
 将加的数额改成 100？1000？不，这样做的时间消耗始终是平方级别的，我们使用乘法来扩展数组，实现效率的极大提升！
 
-|   |   |
-|---|---|
-|1  <br>2  <br>3  <br>4  <br>5  <br>6  <br>7|```<br>public void insertBack(int x) {    if (size == items.length) {           resize(size + RFACTOR);    }    items[size] = x;    size += 1;}<br>```|
+```Java
+public void insertBack(int x) {
+    if (size == items.length) {
+           resize(size + RFACTOR);
+    }
+    items[size] = x;
+    size += 1;
+}
+```
 
-|   |   |
-|---|---|
-|1  <br>2  <br>3  <br>4  <br>5  <br>6  <br>7|```<br>public void insertBack(int x) {    if (size == items.length) {           resize(size * RFACTOR);    }    items[size] = x;    size += 1;}<br>```|
+```Java
+public void insertBack(int x) {
+    if (size == items.length) {
+           resize(size * RFACTOR);
+    }
+    items[size] = x;
+    size += 1;
+}
+```
 
 最后记得将 AList 数组列表模板化，以适应不同的使用需求
 
@@ -163,14 +220,14 @@ fig25/insert_experiment.png
 
 Java 不允许我们创建一个泛型对象数组，因为泛型的实现方式存在一个模糊的问题。也就是说，我们不能做类似以下的事情：
 
-|   |   |
-|---|---|
-|1|```<br>Glorp[] items = new Glorp[8];<br>```|
+```Java
+Glorp[] items = new Glorp[8];
+```
 
 相反，我们必须使用下面的抽象语法：
 
-|   |   |
-|---|---|
-|1|```<br>Glorp[] items = (Glorp []) new Object[8];<br>```|
+```Java
+Glorp[] items = (Glorp []) new Object[8];
+```
 
 这将产生一个编译警告，暂时不用管。我们将在后面更详细地讨论

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "110ccaa6c6456336",
+        "id": "52c5af9b13179990",
         "type": "tabs",
         "children": [
           {
-            "id": "9a138cc078230b8f",
+            "id": "b429708acd7e85a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/learn obsidian/我的第二篇笔记.md",
+                "file": "cs61b/Notes/Inheritance and Implements.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "我的第二篇笔记"
+              "title": "Inheritance and Implements"
             }
           }
         ]
@@ -174,24 +174,28 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "9a138cc078230b8f",
+  "active": "b429708acd7e85a8",
   "lastOpenFiles": [
+    "cs61b/Notes/Lists.md",
+    "cs61b/Notes/Inheritance and Implements.md",
+    "pictures",
+    "cs61b/Notes",
+    "cs61b/Syntax/Pick-up/Trivial Keywords.md",
+    "Tools/learn obsidian/我的第二篇笔记.md",
     "README.md",
     "新建 文本文档.txt",
     "Tools/GIT.md",
     "Tools/VIM.md",
-    "Pasted image 20250313124736.png",
-    "Pasted image 20250313124550.png",
-    "Pasted image 20250313124532.png",
-    "Pasted image 20250313124504.png",
+    "pictures/Pasted image 20250313124736.png",
+    "pictures/Pasted image 20250313124550.png",
+    "pictures/Pasted image 20250313124532.png",
+    "pictures/Pasted image 20250313124504.png",
     "Tools",
     "Tools/learn obsidian/Obsidian Markdown.md",
     "Tools/learn obsidian/first.md",
-    "Tools/learn obsidian/我的第二篇笔记.md",
     "cs61b/Syntax/Basic/Data Structure.md",
     "cs61b/Syntax/Basic/Basic Syntax.md",
     "2025-03-01.md",
-    "cs61b/Syntax/Pick-up/Trivial Keywords.md",
     "cs61b/Source Code In Class Practiced",
     "cs61b/Syntax.md",
     "cs61b/Syntax/Pick-up",

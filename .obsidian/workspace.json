@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "cs61b/Notes/Inheritance and Implements.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -61,6 +61,16 @@
               },
               "icon": "lucide-file",
               "title": "Textbook"
+            }
+          },
+          {
+            "id": "cfc0fd581b268965",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -218,11 +228,11 @@
   },
   "active": "b429708acd7e85a8",
   "lastOpenFiles": [
-    "cs61b/Textbook.md",
-    "cs61b/Notes/Inheritance and Implements.md",
-    "Textbook.md",
-    "Tools/learn obsidian/Obsidian Markdown.md",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
+    "cs61b/Notes/Inheritance and Implements.md",
+    "cs61b/Textbook.md",
+    "Tools/learn obsidian/Obsidian Markdown.md",
+    "Textbook.md",
     "cs61b/Syntax/Basic/Data Structure.md",
     "cs61b/Syntax/Basic/Basic Syntax.md",
     "Tools/GIT.md",

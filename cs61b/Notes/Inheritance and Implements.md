@@ -117,30 +117,14 @@ Java 怎么知道使用哪个方法？这就需要提到我们的静态类型与
 List61B<String> lst = new SLList<String>();
 ```
 
-In the above declaration and instantiation, lst is of type “List61B”. This is called the **“static type”**
-
-However, the objects themselves have types as well. the object that lst points to is of type SLList. Although this object is intrinsically an SLList (since it was declared as such), it is also a List61B, because of the **“is-a”** relationship we explored earlier. But, because the object itself was instantiated using the SLList constructor, We call this its **“dynamic type”**.
-
-Aside: the name “dynamic type” is actually quite semantic in its origin! Should lst be reassigned to point to an object of another type, say a AList object, lst’s dynamic type would **now be AList and not SLList**! It’s dynamic because it changes based on the type of the object it’s currently referring to.
 
 当 Java 运行一个被覆盖的方法时，它会在其动态类型中搜索适当的方法签名并运行它。
 
-#### Interface Inheritance VS Implement Inheritance
+#### Interface Inheritance VS Implement Inheritance^[[[Trivial Keywords#两种继承方式]]]
 
-二者的区别与优劣如何？我这里直接摘录教材原文——
+二者的区别与优劣如何？我这里直接摘录教材原文[[Textbook#Interface Inheritance VS Implement Inheritance]]
 
-- Interface inheritance (what): Simply tells what the subclasses should be able to do.
-    - EX) all lists should be able to print themselves, how they do it is up to them.
-- Implementation inheritance (how): Tells the subclasses how they should behave.
-    - EX) Lists should print themselves exactly this way: by getting each element in order and then printing them.
 
-When you are creating these hierarchies, remember that the relationship between a subclass and a superclass should be an “is-a” relationship. AKA Cat should only implement Animal Cat **is an** Animal. You should not be defining them using a “has-a” relationship. Cat **has-a** Claw, but Cat definitely should not be implementing Claw.
-
-Finally, Implementation inheritance may sound nice and all but there are some drawbacks:
-
-- We are fallible humans, and we can’t keep track of everything, so it’s possible that you overrode a method but forgot you did.
-- It may be hard to resolve conflicts in case two interfaces give conflicting default methods.
-- It encourages overly complex code
 
 #### Extends
 
@@ -502,7 +486,26 @@ public class ArraySet<T> implements Iterable<T> {
 ##### toString()
 
 相当于将某个对象字符串化的时候该怎么办？toString()解决的就是这个问题
+当你运行 `System.out.println(dog)`时, 实际上调用的是这个:
 
+```Java
+String s = dog.toString()
+System.out.println(s)
+```
+
+那我们怎么实现自己的`toString`太打印一个`ArraySet`呢？初始想法是运用字符串的方法，如下：
+```Java
+public String toString() {
+    String returnString = "{";
+    for (int i = 0; i < size; i += 1) {
+        returnString += keys[i];
+        returnString += ", ";
+    }
+    returnString += "}";
+    return returnString;
+}
+```
+然后，它太过裸露原始，`returnString += keys[i];`实际上是新建了字符串，而不是
 ##### equals()
 
 注意，Java 中 `==` 在比较对象的时候实际上比较的是**二者是否是同一个对象**，即二者存储的地址是否相同。而这显然不符合特定情况下我们的要求，所以我们采取 `equals` 来**重载我们的 `=`**

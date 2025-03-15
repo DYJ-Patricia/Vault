@@ -396,6 +396,31 @@ Whatever you decide, it is important that users know what to expect. That is why
 #### Iterators and Iterables
 
 ##### 实现原始ArraySet
+```Java
+public class Naive_ArraySet<T> {  
+    private T[] Items;  
+    private int size;  
+    public Naive_ArraySet(){  
+        Items=(T[]) new Object[100];  
+        size=0;  
+    }  
+    public boolean contains(T x){  
+        for (int i =0;i<Items.length;i++){  
+            if(Items[i]==x){  
+                return  true;  
+            }  
+        }  
+        return false;  
+    }  
+    public void add(T x){  
+        if (!contains(x)){  
+            Items[size]=x;  
+            size+=1;  
+        }  
+    }  
+}
+```
+Java 内置的Lists和Sets都是自带迭代器的，可以直接用`for(int i : aset)`遍历，然而我们自己构造的这个ArraySet显然不满足，那我们可以先手搓一个。
 
 
 迭代器与可迭代对象。这部分内容实际上就是 python 中迭代器的概念加上上文提到的用 Java 实现比较器的手段

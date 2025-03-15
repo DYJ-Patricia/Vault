@@ -464,6 +464,66 @@ public interface Iterator<T> {
     T next();
 }
 ```
+
+We are going to add iteration through keys to our `ArraySet` class. First, we write a new class called ArraySetIterator, nested inside of ArraySet:
+
+```Java
+private class ArraySetIterator implements Iterator<T> {
+    private int wizPos;
+
+    public ArraySetIterator() {
+        wizPos = 0;
+    }
+
+    public boolean hasNext() {
+        return wizPos < size;
+    }
+
+    public T next() {
+        T returnItem = items[wizPos];
+        wizPos += 1;
+        return returnItem;
+    }
+}
+```
+
+This ArraySetIterator implements `Iterator<T>`, which means it implements a `hasNext()` method, and a `next()` method, using a `wizPos` position as an index to keep track of its position in the array. For a different data structure, we might implement these two methods differently.
+
+**Thought Exercise:** How would you design `hasNext()` and `next()` for a linked list?
+
+Now that we have the appropriate methods, we could use a ArraySetIterator to iterate through an `ArraySet`:
+
+```Java
+ArraySet<Integer> aset = new ArraySet<>();
+aset.add(5);
+aset.add(23);
+aset.add(42);
+
+Iterator<Integer> iter = aset.iterator();
+
+while(iter.hasNext()) {
+    System.out.println(iter.next());
+}
+```
+
+We still want to be able to support the enhanced for loop, though, to make our calls cleaner. So, we need to make `ArraySet` implement the Iterable interface. The essential method of the Iterable interface is `iterator()`, which returns an Iterator object for that class. All we have to do is return an instance of our `ArraySetIterator` that we just wrote!
+
+```Java
+public Iterator<T> iterator() {
+    return new ArraySetIterator();
+}
+```
+
+Now we can use enhanced for loops with our `ArrraySet`!
+
+
+```Java
+ArraySet<Integer> aset = new ArraySet<>();
+...
+for (int i : aset) {
+    System.out.println(i);
+}
+```
 在此基础上我们实现了可迭代版本的 Arraysets，完整的代码如下：
 
  ```Java
@@ -545,7 +605,9 @@ public class ArraySet<T> implements Iterable<T> {
 }
 ```
 ==总结==:
-- 
+- Here we've seen **Iterable**, the interface that makes a class able to be iterated on, and requires the method `iterator()`, which returns an Iterator object. And we've seen **Iterator**, the interface that defines the object with methods to actually do that iteration. You can think of an Iterator as a machine that you put onto an iterable that facilitates the iteration. Any iterable is the object on which the iterator is performing.
+
+With these two components, you can make fancy for loops for your classes!
 #### Object Methods
 
 如上文所述，Java 中所有的类都是 Object 类的子类，也可以说 Object 是最顶端的 superclass，继承的方法如下：

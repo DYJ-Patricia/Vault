@@ -315,13 +315,40 @@ public class Dog implements Comparable<Dog> {
 ```
 ==这里注意用static不然不能用类名直接调用==
 
+```Java
+public class NameMaximizer {  
+    public static void main(String[] args) {  
+        Dog d1=new Dog("Elyse",3);  
+        Dog d2=new Dog("Sture",9);  
+       Comparator<Dog>nc =  (Comparator<Dog>) Dog.getNameComparator();  
+        if (nc.compare(d1,d2)>0){  
+            System.out.println(d1);  
+        }else{  
+            System.out.println(d2);  
+        }  
+    }  
+}
+```
+
+```Java
+public interface Comparable<T>{  
+    public int compareTo(T object);  
+    //实现大小比较  
+  
+}
+```
+
+```Java
+public interface Comparator<T>{  
+    int compare(T a,T b);  
+}
+```
 Note that we’ve declared NameComparator to be a static class. A minor difference, but we do so because we do not need to instantiate a Dog to get a NameComparator. Let’s see how this Comparator works in action.
 
 [![img](https://joshhug.gitbooks.io/hug61b/content/assets/comparator.png)](https://joshhug.gitbooks.io/hug61b/content/assets/comparator.png "img")
 
 img
 
-也是让鼠鼠大开眼界！
 
 ### Exceptions，Iterators，Iterables，Object Methods
 
@@ -367,6 +394,9 @@ However, it would be better if the program doesn’t crash at all. There are dif
 Whatever you decide, it is important that users know what to expect. That is why documentation (such as comments about your methods) is very important.
 
 #### Iterators and Iterables
+
+##### 实现原始ArraySet
+
 
 迭代器与可迭代对象。这部分内容实际上就是 python 中迭代器的概念加上上文提到的用 Java 实现比较器的手段
 

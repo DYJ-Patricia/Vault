@@ -87,8 +87,7 @@
               "title": "GIT"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,8 +240,9 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "32c545f9291bfcd7",
+  "active": "b429708acd7e85a8",
   "lastOpenFiles": [
+    "Tools/GIT.md",
     "cs61b/Notes/Inheritance and Implements.md",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
     "cs61b/Textbook.md",
@@ -250,7 +250,6 @@
     "Textbook.md",
     "cs61b/Syntax/Basic/Data Structure.md",
     "cs61b/Syntax/Basic/Basic Syntax.md",
-    "Tools/GIT.md",
     "Tools/VIM.md",
     "Tools/learn obsidian/我的第二篇笔记.md",
     "cs61b/Notes/Lists.md",

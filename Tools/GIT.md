@@ -69,6 +69,9 @@
 
 * `git remote -v`：查看远程仓库的详细信息。
 
+### 查看版本号
+- `git reflog`
+
 ### 查看差异
 - `git diff`:显示工作目录中未暂存的更改。
 - `git diff HEAD`:查看工作区和HEAD的差异。
@@ -89,6 +92,7 @@
 * `git reset HEAD <文件名>`：撤销暂存区的更改。
 * `git reset HEAD^`:回退到上一个版本。
 * `git reset --hard <commit ID>`：回退到指定提交。
+* `git reset -- ~ <ID>`
 
 ### 手动添加忽略文件
 - `touch .gitignore`:创建忽略文件。

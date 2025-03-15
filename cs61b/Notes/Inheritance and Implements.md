@@ -313,6 +313,8 @@ public class Dog implements Comparable<Dog> {
     }
 }
 ```
+==这里注意用static不然不能用类名直接调用==
+
 Note that we’ve declared NameComparator to be a static class. A minor difference, but we do so because we do not need to instantiate a Dog to get a NameComparator. Let’s see how this Comparator works in action.
 
 [![img](https://joshhug.gitbooks.io/hug61b/content/assets/comparator.png)](https://joshhug.gitbooks.io/hug61b/content/assets/comparator.png "img")

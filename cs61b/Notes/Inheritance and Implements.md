@@ -422,6 +422,25 @@ public class Naive_ArraySet<T> {
 ```
 Java 内置的Lists和Sets都是自带迭代器的，可以直接用`for(int i : aset)`遍历，然而我们自己构造的这个ArraySet显然不满足，那我们可以先手搓一个。
 
+##### 实现可迭代ArraySet
+
+`Set<Integer> javaset = new HashSet<Integer>()`
+
+```Java
+for (int x : javaset) {
+   System.out.printlin(x);
+}
+```
+以上代码是以下代码的shorthand形式：
+```Java
+Public Iterator<E> iterator();
+
+Interator<Integer> seer=javaset.iteator();
+while(seer.hasnext()){
+    int x = seer.next();
+    System.out.printlin(x);
+}
+```
 
 迭代器与可迭代对象。这部分内容实际上就是 python 中迭代器的概念加上上文提到的用 Java 实现比较器的手段
 
@@ -525,7 +544,8 @@ public class ArraySet<T> implements Iterable<T> {
 
 }
 ```
-
+==总结==:
+- 
 #### Object Methods
 
 如上文所述，Java 中所有的类都是 Object 类的子类，也可以说 Object 是最顶端的 superclass，继承的方法如下：

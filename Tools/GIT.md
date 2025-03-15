@@ -11,11 +11,14 @@
 
 * `git add <文件名>`：添加指定文件到暂存区。
 * `git add .`：添加所有更改的文件到暂存区。
+* `git add *.txt`
+
 
 ### 提交更改
 
 * `git commit -m "提交信息"`：提交暂存区的更改到本地仓库。
     * `-m`：指定提交信息。
+* `git commit`:VIM交互。
 
 ### 查看仓库状态
 
@@ -76,6 +79,7 @@
 
 * `git checkout -- <文件名>`：撤销工作区的更改。
 * `git reset HEAD <文件名>`：撤销暂存区的更改。
+* `git reset HEAD^`:回退到上一个版本。
 * `git reset --hard <commit ID>`：回退到指定提交。
 
 ### 手动添加忽略文件

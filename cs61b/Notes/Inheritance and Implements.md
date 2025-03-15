@@ -1,3 +1,7 @@
+---
+date: 2025-03-14
+---
+
 继承与实现！继续学习 Java 的编程特性，同时更加深入地学习列表等数据结构！这一节的内容主要包括：继承，转换，扩展，高阶函数，多态与 Java 库和包，我们书接上文，从我们熟悉的 SLList 和 DLList，AList 讲起······
 
 假设我们有一个计算最长单词的函数：
@@ -505,7 +509,20 @@ public String toString() {
     return returnString;
 }
 ```
-然后，它太过裸露原始，`returnString += keys[i];`实际上是新建了字符串，而不是
+然后，它太过裸露原始，`returnString += keys[i];`实际上是新建了字符串，而不是把内容增添上去，每次新增字符串又太过耗费时间。
+为了解决这个问题，Java 有一个名为 StringBuilder 的特殊类。它创建一个可变的字符串对象，因此可以继续追加同一个字符串对象，而不必每次都创建一个新的字符串对象。
+```Java
+public String toString() {
+        StringBuilder returnSB = new StringBuilder("{");
+        for (int i = 0; i < size - 1; i += 1) {
+            returnSB.append(items[i].toString());
+            returnSB.append(", ");
+        }
+        returnSB.append(items[size - 1]);
+        returnSB.append("}");
+        return returnSB.toString();
+    }
+```
 ##### equals()
 
 注意，Java 中 `==` 在比较对象的时候实际上比较的是**二者是否是同一个对象**，即二者存储的地址是否相同。而这显然不符合特定情况下我们的要求，所以我们采取 `equals` 来**重载我们的 `=`**

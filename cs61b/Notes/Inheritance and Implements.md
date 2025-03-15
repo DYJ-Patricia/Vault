@@ -506,7 +506,7 @@ while(iter.hasNext()) {
 }
 ```
 
-We still want to be able to support the enhanced for loop, though, to make our calls cleaner. So, we need to make `ArraySet` implement the Iterable interface. The essential method of the Iterable interface is `iterator()`, which returns an Iterator object for that class. All we have to do is return an instance of our `ArraySetIterator` that we just wrote!
+We still want to be able to support the enhanced for loop, though, to make our calls ==cleaner==. So, we need to make `ArraySet` implement the Iterable interface. The essential method of the Iterable interface is `iterator()`, which returns an Iterator object for that class. All we have to do is return an instance of our `ArraySetIterator` that we just wrote!
 
 ```Java
 public Iterator<T> iterator() {

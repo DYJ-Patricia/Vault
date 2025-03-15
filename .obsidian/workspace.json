@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs61b/Notes/Inheritance and Implements.md",
+                "file": "Tools/GIT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inheritance and Implements"
+              "title": "GIT"
             }
           },
           {
@@ -242,8 +242,8 @@
   },
   "active": "b429708acd7e85a8",
   "lastOpenFiles": [
-    "Tools/GIT.md",
     "cs61b/Notes/Inheritance and Implements.md",
+    "Tools/GIT.md",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
     "cs61b/Textbook.md",
     "Tools/learn obsidian/Obsidian Markdown.md",

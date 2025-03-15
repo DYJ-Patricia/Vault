@@ -92,7 +92,10 @@
 * `git reset HEAD <文件名>`：撤销暂存区的更改。
 * `git reset HEAD^`:回退到上一个版本。
 * `git reset --hard <commit ID>`：回退到指定提交。
-* `git reset -- ~ <ID>`
+* `git reset -- ~ <ID>`：回溯。
+* `git reset --soft <ID>`:保留工作区和暂存区的回退。
+* `git reset --hard <ID>:都不保留。
+* `git reset --mixed <ID>：保留工作区。
 
 ### 手动添加忽略文件
 - `touch .gitignore`:创建忽略文件。

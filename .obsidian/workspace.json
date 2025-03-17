@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "刷题心得/笔记.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -87,8 +87,7 @@
               "title": "GIT"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,10 +240,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "cfc0fd581b268965",
+  "active": "b429708acd7e85a8",
   "lastOpenFiles": [
-    "刷题心得/笔记.md",
     "Tools/learn obsidian/Obsidian Markdown.md",
+    "刷题心得/笔记.md",
     "Tools/GIT.md",
     "刷题心得",
     "cs61b/Notes/Inheritance and Implements.md",

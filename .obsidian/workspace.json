@@ -87,8 +87,7 @@
               "title": "GIT"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,7 +240,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "cfc0fd581b268965",
+  "active": "b429708acd7e85a8",
   "lastOpenFiles": [
     "刷题心得/笔记.md",
     "Tools/learn obsidian/Obsidian Markdown.md",

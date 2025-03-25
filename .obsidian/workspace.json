@@ -19,7 +19,8 @@
               },
               "icon": "lucide-file",
               "title": "笔记"
-            }
+            },
+            "group": "456bc8e41ca794bf"
           },
           {
             "id": "2a0a5ebf348f5727",
@@ -86,6 +87,25 @@
               "icon": "lucide-file",
               "title": "GIT"
             }
+          }
+        ]
+      },
+      {
+        "id": "4876a43bb07127d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29aa2fd1d23bc46a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "刷题心得/笔记.md"
+              },
+              "icon": "lucide-list",
+              "title": "笔记 的大纲"
+            },
+            "group": "456bc8e41ca794bf"
           }
         ]
       }
@@ -240,7 +260,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "b429708acd7e85a8",
+  "active": "29aa2fd1d23bc46a",
   "lastOpenFiles": [
     "刷题心得/笔记.md",
     "Tools/learn obsidian/Obsidian Markdown.md",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVAWEB/SE.md",
+                "file": "Tools/GIT.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SE"
+              "title": "GIT"
             }
           },
           {
@@ -190,8 +190,8 @@
   },
   "active": "b429708acd7e85a8",
   "lastOpenFiles": [
-    "刷题心得/笔记.md",
     "JAVAWEB/SE.md",
+    "刷题心得/笔记.md",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
     "Tools/learn obsidian/Obsidian Markdown.md",
     "未命名.md",

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs61b/Syntax/Pick-up/Trivial Keywords.md",
+                "file": "JAVAWEB/SE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trivial Keywords"
+              "title": "SE"
             }
           }
         ]
@@ -191,13 +191,13 @@
   "active": "b429708acd7e85a8",
   "lastOpenFiles": [
     "JAVAWEB/SE.md",
-    "刷题心得/笔记.md",
+    "Tools/GIT.md",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
+    "刷题心得/笔记.md",
     "Tools/learn obsidian/Obsidian Markdown.md",
     "未命名.md",
     "JAVAWEB.md",
     "JAVAWEB",
-    "Tools/GIT.md",
     "刷题心得",
     "cs61b/Notes/Inheritance and Implements.md",
     "cs61b/Textbook.md",

@@ -83,7 +83,7 @@
 			* Method[] getDeclaredMethods()  
 			* Method getDeclaredMethod(String name, 类&lt;?&gt;... parameterTypes)  
 
-		4. 获取全类名	
+		4. 获取全类名
 			* String getName()  
 
 

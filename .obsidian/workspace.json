@@ -19,7 +19,27 @@
               },
               "icon": "lucide-file",
               "title": "MYSQL"
-            }
+            },
+            "group": "9315c94aa2ff6b3e"
+          }
+        ]
+      },
+      {
+        "id": "0acbbf9ade879289",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ddb7cb18f5f0479",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JAVAWEB/MYSQL.md"
+              },
+              "icon": "lucide-list",
+              "title": "MYSQL 的大纲"
+            },
+            "group": "9315c94aa2ff6b3e"
           }
         ]
       }
@@ -174,7 +194,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "2a0a5ebf348f5727",
+  "active": "1ddb7cb18f5f0479",
   "lastOpenFiles": [
     "JAVAWEB/SE.md",
     "JAVAWEB/MYSQL.md",

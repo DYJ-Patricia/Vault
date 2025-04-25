@@ -47,7 +47,7 @@
 			* net start mysql : 启动mysql的服务
 			* net stop mysql:关闭mysql服务
 	* MySQL登录
-	*mysql -u root -p
+	*mysql -u root（用户名） -p
 	* 输入后输密码更安全
 		1. mysql -uroot -p密码
 		2. mysql -hip -uroot -p连接目标的密码

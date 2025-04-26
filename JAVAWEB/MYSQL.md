@@ -78,7 +78,7 @@
 	2. 可使用空格和缩进来增强语句的可读性。
 	3. MySQL 数据库的 SQL 语句不区分大小写，关键字建议使用大写。
 	4. 3 种注释
-		* 单行注释: -- 注释内容 或 # 注释内容(mysql 特有) 
+		* 单行注释: -- 注释内容（横杠后必须加空格） 或 # 注释内容(mysql 特有) 
 		* 多行注释: /* 注释 */
 	
 3. SQL分类
@@ -91,7 +91,7 @@
 	4) DCL(Data Control Language)数据控制语言(了解)
 		用来定义数据库的访问权限和安全级别，及创建用户。关键字：GRANT， REVOKE 等
 ```
-
+![[Pasted image 20250425235820.png]]
 ## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3Df91797e7ep26f459210af97437c1069f%26expires%3D24h%26dp_logid%3D357031163498423540%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-0n%25252F5XiREpVW3vjh0bety8x9AKes%25253D%26file_size%3D9369%26timestamp%3D1745580779%26method%3Dinfo%26fid%3D3170504070-250528-109480116473723%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=MySQL%E5%9F%BA%E7%A1%80%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0.md&path=%2FJAVA%E7%AC%94%E8%AE%B0%2F%E7%AC%94%E8%AE%B0%2F%E7%AC%94%E8%AE%B0%281%29%2FMySQL%E5%9F%BA%E7%A1%80%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0.md&fs_id=109480116473723&size=9369&uk=3170504070&from=yuanguanjia&fsid=109480116473723&clienttype=8&scence=mac_main#ddl%E6%93%8D%E4%BD%9C%E6%95%B0%E6%8D%AE%E5%BA%93-%E8%A1%A8)DDL:操作数据库、表
 
 ```

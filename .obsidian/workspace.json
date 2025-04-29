@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVAWEB/MYSQL.md",
+                "file": "JAVA/Base.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MYSQL"
+              "title": "Base"
             },
             "group": "9315c94aa2ff6b3e"
           }
@@ -34,10 +34,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVAWEB/MYSQL.md"
+                "file": "JAVA/Base.md"
               },
               "icon": "lucide-list",
-              "title": "MYSQL 的大纲"
+              "title": "Base 的大纲"
             },
             "group": "9315c94aa2ff6b3e"
           }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Day1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,8 +197,10 @@
   },
   "active": "2a0a5ebf348f5727",
   "lastOpenFiles": [
-    "JAVAWEB/SE.md",
-    "JAVAWEB/MYSQL.md",
+    "JAVA/JAVAWEB/MYSQL.md",
+    "JAVA/Base.md",
+    "JAVA/JAVAWEB",
+    "JAVA/JAVAWEB/SE.md",
     "Pasted image 20250425235820.png",
     "Tools/GIT.md",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
@@ -205,7 +208,7 @@
     "Tools/learn obsidian/Obsidian Markdown.md",
     "未命名.md",
     "JAVAWEB.md",
-    "JAVAWEB",
+    "JAVA",
     "刷题心得",
     "cs61b/Notes/Inheritance and Implements.md",
     "cs61b/Textbook.md",
@@ -230,7 +233,6 @@
     "cs61b/Syntax.md",
     "cs61b/Syntax/Pick-up",
     "cs61b/Syntax/Basic",
-    "cs61b/Syntax",
     "2025-01-15.md"
   ]
 }

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2a0a5ebf348f5727",
+            "id": "24d04328cbc40098",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,29 +19,24 @@
               },
               "icon": "lucide-file",
               "title": "Base"
-            },
-            "group": "9315c94aa2ff6b3e"
-          }
-        ]
-      },
-      {
-        "id": "0acbbf9ade879289",
-        "type": "tabs",
-        "children": [
+            }
+          },
           {
-            "id": "1ddb7cb18f5f0479",
+            "id": "272c06026d9f6476",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "markdown",
               "state": {
-                "file": "JAVA/Base.md"
+                "file": "JAVA/JAVAWEB/MYSQL.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-list",
-              "title": "Base 的大纲"
-            },
-            "group": "9315c94aa2ff6b3e"
+              "icon": "lucide-file",
+              "title": "MYSQL"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Day1",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,8 +88,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -159,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs61b/Syntax/Basic/Basic Syntax.md"
+                "file": "JAVA/JAVAWEB/MYSQL.md"
               },
               "icon": "lucide-list",
-              "title": "Basic Syntax 的大纲"
+              "title": "MYSQL 的大纲"
             }
           },
           {
@@ -176,12 +170,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,21 +188,37 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "2a0a5ebf348f5727",
+  "active": "272c06026d9f6476",
   "lastOpenFiles": [
-    "JAVA/JAVAWEB/MYSQL.md",
     "JAVA/Base.md",
-    "JAVA/JAVAWEB",
+    "pictures/assets/1662625958924.png",
+    "pictures/assets/1662627093033.png",
+    "pictures/assets/1662628227117.png",
+    "pictures/assets/1662627257875.png",
+    "pictures/assets/1662626997850.png",
+    "pictures/assets/1662626798467.png",
+    "pictures/assets/1662629404170.png",
+    "pictures/assets/1662627473765.png",
+    "pictures/assets/1662645669483.png",
+    "pictures/assets/1662792538291.png",
+    "pictures/assets/1662792538291.png.baiduyun.p.downloading",
+    "pictures/assets/1662781272258.png.baiduyun.p.downloading",
+    "pictures/assets/1662780740132.png.baiduyun.p.downloading",
+    "pictures/assets/1662779472588.png.baiduyun.p.downloading",
+    "pictures/assets/1662779078001.png.baiduyun.p.downloading",
+    "pictures/assets/1662645798025.png.baiduyun.p.downloading",
+    "pictures/assets/1662645669483.png.baiduyun.p.downloading",
+    "pictures/assets/1662645452619.png.baiduyun.p.downloading",
+    "pictures/assets/1662644255745.png.baiduyun.p.downloading",
+    "pictures/assets/1662643802111.png.baiduyun.p.downloading",
+    "JAVA/JAVAWEB/MYSQL.md",
     "JAVA/JAVAWEB/SE.md",
-    "Pasted image 20250425235820.png",
     "Tools/GIT.md",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
     "刷题心得/笔记.md",
     "Tools/learn obsidian/Obsidian Markdown.md",
     "未命名.md",
     "JAVAWEB.md",
-    "JAVA",
-    "刷题心得",
     "cs61b/Notes/Inheritance and Implements.md",
     "cs61b/Textbook.md",
     "Textbook.md",
@@ -218,21 +227,10 @@
     "Tools/VIM.md",
     "Tools/learn obsidian/我的第二篇笔记.md",
     "cs61b/Notes/Lists.md",
-    "pictures",
-    "cs61b/Notes",
     "README.md",
-    "新建 文本文档.txt",
-    "pictures/Pasted image 20250313124736.png",
-    "pictures/Pasted image 20250313124550.png",
-    "pictures/Pasted image 20250313124532.png",
-    "pictures/Pasted image 20250313124504.png",
-    "Tools",
     "Tools/learn obsidian/first.md",
     "2025-03-01.md",
-    "cs61b/Source Code In Class Practiced",
     "cs61b/Syntax.md",
-    "cs61b/Syntax/Pick-up",
-    "cs61b/Syntax/Basic",
     "2025-01-15.md"
   ]
 }

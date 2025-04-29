@@ -4308,14 +4308,124 @@ while (true) {
 - 如果当前程序中，要调用多个不同包下的程序，而这些程序名正好一样，此时默认只能导入一个程序，另一个程序必须带包名访问。
     
 
-## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443709929040815351%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-jOZC0bHS%25252BupMZYq%25252F3Bm07jgS3pE%25253D%26file_size%3D32000%26timestamp%3D1745903682%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#%E4%B8%89-string%E7%B1%BB)
+# day08——Java常用API
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#%E4%B8%80-%E4%BB%8A%E6%97%A5%E5%86%85%E5%AE%B9%E4%BB%8B%E7%BB%8D-api%E6%A6%82%E8%BF%B0)一、今日内容介绍、API概述
+
+各位同学，我们前面已经学习了面向对象编程，使用面向编程这个套路，我们需要自己写类，然后创建对象来解决问题。但是在以后的实际开发中，更多的时候，我们是利用面向编程这种套路，使用别人已经写好的类来编程的。
+
+这就是我们今天要学习的内容——常用API（全称是Application Program Interface 应用程序接口），说人话就是：**别人写好的一些程序，给咱们程序员直接拿去调用。**
+
+Java官方其实已经给我们写好了很多很多类，每一个类中又提供了一系列方法来解决与这个类相关的问题。
+
+- 比如String类，表示字符串，提供的方法全都是对字符串操作的。
+- 比如ArrayList类，表示一个容器，提供的方法都是对容器中的数据进行操作的。
+
+像这样的类还有很多，Java把这些类是干什么用的、类中的每一个方法是什么含义，编写成了文档，我们把这个文档称之为API文档。
+
+![1662602386634](https://pan.baidu.com/wap/assets/1662602386634.png)
+
+**1. 我们为什么要学习别人写好的程序呢？**
+
+​ 在行业中有这么一句话：“不要重复造轮子”。这里所说的轮子就是别人已经写过的程序。意思就是不要写重复的程序，因为程序是用来解决问题的，如果这个问题别人已经解决过，并且这个解决方案也得到了市场认可，那就不用再自己重复写这个程序了。
+
+​ Java已经发展了20多年，在这20多年里，已经积累类了很多问题的解决方案，基本上现在我们遇到的问题，在这20多年里，早就有人解决过。
+
+​ 所以我们把面向对象的高级知识学习完之后，Java语言的语法知识就已经学习完了。剩下的所有内容都是是学习一个一个的API，通过调用API提供的方法来解决实际问题。
+
+**2. 我们要学习哪些API**
+
+Java的API文档中，有那么多的类，是所有的类都要学习吗？并不是 ，虽然Java提供了很多个类，但是并不是所有类都得到了市场认可，我们只学习一些在工作中常用的就行。
+
+除了Java官方提供的API，还一些第三方的公司或者组织也会提供一些API，甚至比Java官方提供的API更好用，在需要的时候我们也会告诉大家怎么用。
+
+**3. 今天我们主要学习两个类，一个是String类、还有一个是ArrayList类。**
+
+![1662605214383](https://pan.baidu.com/wap/assets/1662605214383.png)
+
+字符串的应用场景是非常多的，可以说是无处不在。
+
+比如，在用户登录时，需要对用户名和密码进行校验，这里的用户名和密码都是String
+
+![1662605347797](https://pan.baidu.com/wap/assets/1662605347797.png)
+
+再比如，在和网友聊天时，其实输入的文字就是一个一个字符串
+
+![1662605396550](https://pan.baidu.com/wap/assets/1662605396550.png)
+
+再比如，在百度上搜索时，搜素的关键词，也是字符串
+
+![1662605442842](https://pan.baidu.com/wap/assets/1662605442842.png)
+
+学习完String类之后，还会学习一个类ArrayList
+
+![1662605519698](https://pan.baidu.com/wap/assets/1662605519698.png)
+
+大家知道数组是一个容器，有数组干嘛还要集合呢？ 因为数字的长度是固定的，一旦创建不可改变。
+
+比如数组的长度为3，想要存储第4个元素就存不进去了。
+
+![1662605575865](https://pan.baidu.com/wap/assets/1662605575865.png)
+
+使用集合就可以解决上面的问题，集合可以根据需要想存多少个元素就存多少个元素。
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#%E4%BA%8C-%E5%8C%85)二、包
+
+**1. 什么是包**
+
+在学习API类之前，我们先要学习包。因为Java官方提供的类有很多，为了对这些类进行分门别类的管理，别人把写好的类都是放在不同的包里的。
+
+包其实类似于文件夹，一个包中可以放多个类文件。如下图所示
+
+![1662605881879](https://pan.baidu.com/wap/assets/1662605881879.png)
+
+建包的语法格式：
+
+```
+//类文件的第一行定义包
+package com.itheima.javabean;
+
+public class 类名{
+    
+}
+```
+
+**2. 在自己的程序中，调用其他包中的程序，需要注意下面一个问题**
+
+- 如果当前程序中，要调用自己所在包下的其他程序，可以直接调用。（同一个包下的类，互相可以直接调用）
+    
+- 如果当前程序中，要调用其他包下的程序，则必须在当前程序中导包, 才可以访问！
+    
+    导包格式： `import 包名.类名`
+    
+- 如果当前程序中，要调用Java.lang包下的程序，不需要我们导包的，可以直接使用。
+    
+- 如果当前程序中，要调用多个不同包下的程序，而这些程序名正好一样，此时默认只能导入一个程序，另一个程序必须带包名访问。
+    
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#%E4%B8%89-string%E7%B1%BB)三、String类
+
+### [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#1-string%E7%B1%BB%E6%A6%82%E8%BF%B0)1. String类概述
+
+各位同学，接下来我们学习String这个类，也就是学对字符串进行处理。为什么要学习字符串处理呢？因为在开发中对于字符串的处理还是非常常见的。
+
+比如：在用户登录时，用户输入的用户名和密码送到后台，需要和正确的用户名和密码进行校验，这就需要用到String类提供的比较功能。
+
+![1662605347797](https://pan.baidu.com/wap/assets/1662605347797.png)
+
+再比如：同学们在直播留言时，有些小伙伴可能不太文明说了一些脏话，后台检测到你输入的是脏话，就会用`***`把脏话屏蔽掉。这也需要用到String类提供的替换功能
+
+![1662605396550](https://pan.baidu.com/wap/assets/1662605396550.png)
+
+Java为了方便我们处理字符串，所以给我们提供了一个String类来代表字符串，这个类就是`java.lang`包下。
+
 按照面向对象的编程思想，对于字符串的操作，只需要创建字符串对象，用字符串对象封装字符串数据，然后调用String类的方法就可以了。
 
 ![1662607669465](https://pan.baidu.com/wap/assets/1662607669465.png)
 
 ---
 
-### [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443709929040815351%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-jOZC0bHS%25252BupMZYq%25252F3Bm07jgS3pE%25253D%26file_size%3D32000%26timestamp%3D1745903682%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#2-string%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1)2. String创建对象
+### [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#2-string%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1)2. String创建对象
 
 接下来我们打开String类的API，看一下String类的对象如何创建。如下图所示
 
@@ -4362,5 +4472,1275 @@ String rs4 = new String(bytes);
 System.out.println(rs4);
 ```
 
-关于String类是用来干什么的，
-![1661444896100](https://pan.baidu.com/wap/assets/1661444896100.png)
+关于String类是用来干什么的，以及String类对象的创建我们就学习到这里。最后总结一下
+
+```
+1. String是什么，可以做什么？
+	答：String代表字符串，可以用来创建对象封装字符串数据，并对其进行处理。
+
+2.String类创建对象封装字符串数据的方式有几种？
+	方式一： 直接使用双引号“...” 。
+	方式二：new String类，调用构造器初始化字符串对象。
+```
+
+### [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#3-string%E7%B1%BB%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95)3. String类的常用方法
+
+各位同学，在上一节课中，我们学习了如何通过字符串对象封装数据，接下来我们学习调用String类的方法对象字符串数据进行处理。
+
+这里已经将String类的常用方法，给同学们挑出来了，我们先快速的认识一下。为什么是快速认识一下呢？因为API真正的作用是来解决业务需求的，如果不解决业务需求，只是记API是很难记住的。
+
+![1662609378727](https://pan.baidu.com/wap/assets/1662609378727.png)
+
+所以API的正确打开方式是，先找到这个类，把这个类中的方法先用代码快速过一遍，有一个大概印象就行。然后再具体的案例中，选择你需要的方法来用就行。
+
+下面我们就把String类中的方法，按照方法的调用规则，先快速过一遍。（注意：第一次调用API方法，都是看着API方法来调用用的，不是背的）
+
+```
+public class StringDemo2 {
+    public static void main(String[] args) {
+        //目标：快速熟悉String提供的处理字符串的常用方法。
+        String s = "黑马Java";
+        // 1、获取字符串的长度
+        System.out.println(s.length());
+
+        // 2、提取字符串中某个索引位置处的字符
+        char c = s.charAt(1);
+        System.out.println(c);
+
+        // 字符串的遍历
+        for (int i = 0; i &lt; s.length(); i++) {
+            // i = 0 1 2 3 4 5
+            char ch = s.charAt(i);
+            System.out.println(ch);
+        }
+
+        System.out.println("-------------------");
+
+        // 3、把字符串转换成字符数组，再进行遍历
+        char[] chars = s.toCharArray();
+        for (int i = 0; i &lt; chars.length; i++) {
+            System.out.println(chars[i]);
+        }
+
+        // 4、判断字符串内容，内容一样就返回true
+        String s1 = new String("黑马");
+        String s2 = new String("黑马");
+        System.out.println(s1 == s2); // false
+        System.out.println(s1.equals(s2)); // true
+
+        // 5、忽略大小写比较字符串内容
+        String c1 = "34AeFG";
+        String c2 = "34aEfg";
+        System.out.println(c1.equals(c2)); // false
+        System.out.println(c1.equalsIgnoreCase(c2)); // true
+
+        // 6、截取字符串内容 (包前不包后的)
+        String s3 = "Java是最好的编程语言之一";
+        String rs = s3.substring(0, 8);
+        System.out.println(rs);
+
+        // 7、从当前索引位置一直截取到字符串的末尾
+        String rs2 = s3.substring(5);
+        System.out.println(rs2);
+
+        // 8、把字符串中的某个内容替换成新内容，并返回新的字符串对象给我们
+        String info = "这个电影简直是个垃圾，垃圾电影！！";
+        String rs3 = info.replace("垃圾", "**");
+        System.out.println(rs3);
+
+        // 9、判断字符串中是否包含某个关键字
+        String info2 = "Java是最好的编程语言之一，我爱Java,Java不爱我！";
+        System.out.println(info2.contains("Java"));
+        System.out.println(info2.contains("java"));
+        System.out.println(info2.contains("Java2"));
+
+        // 10、判断字符串是否以某个字符串开头。
+        String rs4 = "张三丰";
+        System.out.println(rs4.startsWith("张"));
+        System.out.println(rs4.startsWith("张三"));
+        System.out.println(rs4.startsWith("张三2"));
+
+        // 11、把字符串按照某个指定内容分割成多个字符串，放到一个字符串数组中返回给我们
+        String rs5 = "张无忌,周芷若,殷素素,赵敏";
+        String[] names = rs5.split(",");
+        for (int i = 0; i &lt; names.length; i++) {
+            System.out.println(names[i]);
+        }
+    }
+}
+```
+
+演示完String类的这些方法之后，我们对字符串有哪些方法，就已经有一个大致印象了。至少知道String字符串能干哪些事情。
+
+至于String类的这些方法是否都记住了，这个还需要通过一些案例训练，在用的过程中去找哪个方法能够解决你的实际需求，就用哪个方法。同一个方法用的次数多个，自然就记住了。
+
+### [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#4-string%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)4. String的注意事项
+
+在上一节，我们学习了字符串的一些常用方法，在实际工作中用这些方法解决字符串的常见问题是完全足够的，但是在面试时可能会问一些原理性的东西。
+
+所以把字符串原理性的内容，就当做注意事项来学习一下。一共有下面的2点：
+
+![1662610060051](https://pan.baidu.com/wap/assets/1662610060051.png)
+
+- **注意事项1：String类的对象是不可变的对象**
+
+我们先看一段代码，分析这段代码的结果
+
+![1662610347618](https://pan.baidu.com/wap/assets/1662610347618.png)
+
+以上代码中，先定义了一个String变量 name第一次赋值为`“黑马”;` 然后对`name`变量记录的字符串进行两次拼接，第一次拼接`“程序员”`，第二次拼接`“播妞”`；我们发现得到的结果是：`黑马程序员播妞`
+
+这里问题就来了，你不是是说：**String类的对象是不可变的字符串对象吗？**我看name的值变了呀！！！![1662610591674](https://pan.baidu.com/wap/assets/1662610591674.png)
+
+下面我们就解释一下，String是不可变对象到底是什么含义。
+
+需要注意的是：只要是以`“”`方式写出的字符串对象，会在堆内存中的**字符串常量池**中存储。
+
+执行第一句话时，会在堆内存的常量池中，创建一个字符串对象`“黑马”`，然后把`“黑马”`的地址赋值给`String name`
+
+![1662610697641](https://pan.baidu.com/wap/assets/1662610697641.png)
+
+当执行第二句话时，又会再堆内存的常量池中创建一个字符串`“程序员”`，和`“黑马”`拼接，拼接之后还会产生一个新的字符串对象`”黑马程序员“`，然后将新产生的`“黑马程序员”`对象的地址赋值给`String name`变量。
+
+![1662610978351](https://pan.baidu.com/wap/assets/1662610978351.png)
+
+此时你会发现，之前创建的字符串对象`“黑马”`内容确实是没有改变的。所以说String的对象是不可变的。
+
+- **注意事项2：字符串字面量和new出来字符串的区别**
+    1. 只要是以`“...”`方式写出的字符串对象，会存储到字符串常量池，且相同内容的字符串只存储一份。如下图一所示
+    2. 但通过`new`方式创建字符串对象，每new一次都会产生一个新的对象放在堆内存中。如下图二所示
+
+![1662618688215](https://pan.baidu.com/wap/assets/1662618688215.png)
+
+![1662618651517](https://pan.baidu.com/wap/assets/1662618651517.png)
+
+- 总结一下，字符串的注意事项。
+
+```
+1. String是不可变字符串对象
+2. 只要是以“...”方式写出的字符串对象，会存储到字符串常量池，且相同内容的字符串只存储一份；
+3. 但通过new方式创建字符串对象，每new一次都会产生一个新的对象放在堆内存中。
+```
+
+### [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#5-string%E6%A1%88%E4%BE%8B%E4%B8%80%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95%E6%A1%88%E4%BE%8B)5. String案例一：用户登录案例
+
+接下来给大家做一个案例，使用字符串的功能完成登录案例。案例需求如下：
+
+![1662618819077](https://pan.baidu.com/wap/assets/1662618819077.png)
+
+```
+分析一下完成案例的步骤：
+	1.首先，从登录界面上可以得出，需要让用户输入登录名和密码
+	2.设计一个登录方法，对用户名和密码进行校验
+	3.调用登录方法，根据方法的返回结果，判断登录是否成功。
+	4.如果登录失败，循环登录3次，结束循环；如果登录成功，跳出循环;
+```
+
+案例分析的步骤完成代码
+
+```
+/**
+   目标：完成用户的登录案例。
+ */
+public class StringTest4 {
+    public static void main(String[] args) {
+        // 1、开发一个登录界面
+        for (int i = 0; i &lt; 3; i++) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("请您输入登录名称：");
+            String loginName = sc.next();
+            System.out.println("请您输入登录密码：");
+            String passWord = sc.next();
+
+            // 5、开始调用登录方法，判断是否登录成功
+            boolean rs = login(loginName, passWord);
+            if(rs){
+                System.out.println("恭喜您，欢迎进入系统~~");
+                break; // 跳出for循环，代表登录完成
+            }else {
+                System.out.println("登录名或者密码错误，请您确认~~");
+            }
+        }
+    }
+
+    /**
+      2、开发一个登录方法，接收用户的登录名和密码，返回认证的结果
+     */
+    public static boolean login(String loginName, String passWord){
+        // 3、准备一份系统正确的登录名和密码
+        String okLoginName = "itheima";
+        String okPassWord = "123456";
+
+        // 4、开始正式判断用户是否登录成功
+        /*if(okLoginName.equals(loginName) && okPassWord.equals(passWord)){
+            // 登录成功的
+            return true;
+        }else {
+            return false;
+        }*/
+        return okLoginName.equals(loginName) && okPassWord.equals(passWord);
+    }
+}
+```
+
+### [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#6-string%E6%A1%88%E4%BE%8B%E4%BA%8C%E9%9A%8F%E6%9C%BA%E4%BA%A7%E7%94%9F%E9%AA%8C%E8%AF%81%E7%A0%81)6. String案例二：随机产生验证码
+
+接下来学习一个再工作中也比较常见的案例，使用String来开发验证码。需求如下：
+
+![1662619371060](https://pan.baidu.com/wap/assets/1662619371060.png)
+
+```
+根据需求分析，步骤如下：
+	1.首先，设计一个方法，该方法接收一个整型参数，最终要返回对应位数的随机验证码。
+	2.方法内定义2个字符串变量：
+		1个用来记住生成的验证码，1个用来记住要用到的全部字符。
+	3.定义for循环控制生成多少位随机字符
+	4.每次得到一个字符范围内的随机索引
+	5.根据索引提取该字符，把该字符交给code变量连接起
+	6.循环结束后，在循环外返回code即可。
+	7.在主方法中调用生成验证码的方法
+```
+
+根据步骤完成代码
+
+```
+import java.util.Random;
+/**
+    目标：完成随机产生验证码，验证码的每位可能是数字、大写字母、小写字母
+ */
+public class StringTest5 {
+    public static void main(String[] args) {
+        System.out.println(createCode(4));
+        System.out.println(createCode(6));
+    }
+    /**
+       1、设计一个方法，返回指定位数的验证码
+     */
+    public static String createCode(int n){
+        // 2、定义2个变量 
+        //一个是记住最终产生的随机验证码 
+        //一个是记住可能用到的全部字符
+        String code = "";
+        String data = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+
+        Random r = new Random();
+        // 3、开始定义一个循环产生每位随机字符
+        for (int i = 0; i &lt; n; i++) {
+            // 4、随机一个字符范围内的索引。
+            int index = r.nextInt(data.length());
+            // 5、根据索引去全部字符中提取该字符
+            code += data.charAt(index); // code = code + 字符
+        }
+        // 6、返回code即可
+        return code;
+    }
+}
+```
+
+关于String的案例，我们先练习到这里。以后遇到对字符串进行操作的需求，优先找String类有没有提供对应的方法。
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#%E5%9B%9B-arraylist%E7%B1%BB)四、ArrayList类
+
+### [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#1-arraylist%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8)1. ArrayList快速入门
+
+学习完String类之后，接下来再学习一个类——叫ArrayList。
+
+ArrayList表示一种集合，它是一个容器，用来装数据的，类似于数组。那有了数组，为什么要有集合呢？
+
+因为数组一旦创建大小不变，比如创建一个长度为3的数组，就只能存储3个元素，想要存储第4个元素就不行。而集合是大小可变的，想要存储几个元素就存储几个元素，在实际工作中用得更多。
+
+然后集合有很多种，而ArrayList只是众多集合中的一种，跟多的集合我们在就业班的课程中再学习。如下图所示：
+
+![1662620084702](https://pan.baidu.com/wap/assets/1662620084702.png)
+
+集合该怎么学呢？1. 首先你要会创建集合对象，2. 然后能够调用集合提供的方法对容器中的数据进行增删改查，3. 最后知道集合的一些特点就可以了。
+
+![1662620152564](https://pan.baidu.com/wap/assets/1662620152564.png)
+
+### [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#2-arraylist%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95)2. ArrayList常用方法
+
+想要使用ArrayList存储数据，并对数据进行操作：
+
+- 第一步：创建ArrayList容器对象。一般使用空参数构造方法，如下图所示：
+    
+- 第二步：调用ArrayList类的常用方法对容器中的数据进行操作。常用方法如下：
+    
+
+![1662620389155](https://pan.baidu.com/wap/assets/1662620389155.png)
+
+接下来我们把ArrayList集合的这些方法快速的熟悉一下：
+
+```
+/**
+目标：要求同学们掌握如何创建ArrayList集合的对象，并熟悉ArrayList提供的常用方法。
+ */
+public class ArrayListDemo1 {
+    public static void main(String[] args) {
+        // 1、创建一个ArrayList的集合对象
+        // ArrayList&lt;String&gt; list = new ArrayList&lt;String&gt;();
+        // 从jdk 1.7开始才支持的
+        ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();
+
+        list.add("黑马");
+        list.add("黑马");
+        list.add("Java");
+        System.out.println(list);
+
+        // 2、往集合中的某个索引位置处添加一个数据
+        list.add(1, "MySQL");
+        System.out.println(list);
+
+        // 3、根据索引获取集合中某个索引位置处的值
+        String rs = list.get(1);
+        System.out.println(rs);
+
+        // 4、获取集合的大小（返回集合中存储的元素个数）
+        System.out.println(list.size());
+
+        // 5、根据索引删除集合中的某个元素值，会返回被删除的元素值给我们
+        System.out.println(list.remove(1));
+        System.out.println(list);
+
+        // 6、直接删除某个元素值，删除成功会返回true，反之
+        System.out.println(list.remove("Java"));
+        System.out.println(list);
+
+        list.add(1, "html");
+        System.out.println(list);
+
+        // 默认删除的是第一次出现的这个黑马的数据的
+        System.out.println(list.remove("黑马"));
+        System.out.println(list);
+
+        // 7、修改某个索引位置处的数据，修改后会返回原来的值给我们
+        System.out.println(list.set(1, "黑马程序员"));
+        System.out.println(list);
+    }
+}
+```
+
+### [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#3-arraylist%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B1)3. ArrayList应用案例1
+
+接下来，我们学习一个ArrayList的应用案例，需求如下：
+
+![1662620686208](https://pan.baidu.com/wap/assets/1662620686208.png)
+
+我们分析一下这个案例的步骤该如何实现：
+
+```
+1.用户可以选购多个商品，可以创建一个ArrayList集合，存储这些商品
+2.按照需求，如果用户选择了"枸杞"批量删除，应该删除包含"枸杞"的所有元素
+	1)这时应该遍历集合中每一个String类型的元素
+	2)使用String类的方法contains判断字符串中是否包含"枸杞"
+    3)包含就把元素删除
+3.输出集合中的元素，看是否包含"枸杞"的元素全部删除
+```
+
+按照分析的步骤，完成代码
+
+```
+public class ArrayListTest2 {
+    public static void main(String[] args) {
+        // 1、创建一个ArrayList集合对象
+        ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();
+        list.add("枸杞");
+        list.add("Java入门");
+        list.add("宁夏枸杞");
+        list.add("黑枸杞");
+        list.add("人字拖");
+        list.add("特级枸杞");
+        list.add("枸杞子");
+        System.out.println(list);
+        //运行结果如下： [Java入门, 宁夏枸杞, 黑枸杞, 人字拖, 特级枸杞, 枸杞子]
+       
+        // 2、开始完成需求：从集合中找出包含枸杞的数据并删除它
+        for (int i = 0; i &lt; list.size(); i++) {
+            // i = 0 1 2 3 4 5
+            // 取出当前遍历到的数据
+            String ele = list.get(i);
+            // 判断这个数据中包含枸杞
+            if(ele.contains("枸杞")){
+                // 直接从集合中删除该数据
+                list.remove(ele);
+            }
+        }
+        System.out.println(list);
+        //删除后结果如下：[Java入门, 黑枸杞, 人字拖, 枸杞子]
+    }
+}
+```
+
+运行完上面代码，我们会发现，删除后的集合中，竟然还有`黑枸杞`，`枸杞子`在集合中。这是为什么呢？
+
+![1662621705234](https://pan.baidu.com/wap/assets/1662621705234.png)
+
+枸杞子被保留下来，原理是一样的。可以自行分析。
+
+那如何解决这个问题呢？这里打算给大家提供两种解决方案：
+
+- **集合删除元素方式一**：每次删除完元素后，让控制循环的变量`i--`就可以了；如下图所示
+
+![1662622656784](https://pan.baidu.com/wap/assets/1662622656784.png)
+
+具体代码如下：
+
+```
+// 方式一：每次删除一个数据后，就让i往左边退一步
+for (int i = 0; i &lt; list.size(); i++) {
+    // i = 0 1 2 3 4 5
+    // 取出当前遍历到的数据
+    String ele = list.get(i);
+    // 判断这个数据中包含枸杞
+    if(ele.contains("枸杞")){
+        // 直接从集合中删除该数据
+        list.remove(ele);
+        i--;
+    }
+}
+System.out.println(list);
+```
+
+- **集合删除元素方式二**：我们只需要倒着遍历集合，在遍历过程中删除元素就可以了
+
+![1662623052476](https://pan.baidu.com/wap/assets/1662623052476.png)
+
+![1662623321970](https://pan.baidu.com/wap/assets/1662623321970.png)
+
+![1662623468659](https://pan.baidu.com/wap/assets/1662623468659.png)
+
+![1662623624269](https://pan.baidu.com/wap/assets/1662623624269.png)
+
+具体代码如下：
+
+```
+// 方式二：从集合的后面倒着遍历并删除
+// [Java入门, 人字拖]
+//   i
+for (int i = list.size() - 1; i &gt;= 0; i--) {
+    // 取出当前遍历到的数据
+    String ele = list.get(i);
+    // 判断这个数据中包含枸杞
+    if(ele.contains("枸杞")){
+        // 直接从集合中删除该数据
+        list.remove(ele);
+    }
+}
+System.out.println(list);
+```
+
+### [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D6a9b44abfrf69adbba828b3271bda20b%26expires%3D24h%26dp_logid%3D443728669880878065%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-sF0mrnf8ElYOB%25252FANJxswJNB9GlU%25253D%26file_size%3D32000%26timestamp%3D1745903752%26method%3Dinfo%26fid%3D3170504070-250528-971560969751281%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day08-Java%E5%B8%B8%E7%94%A8API.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday08-Java%E5%B8%B8%E7%94%A8API%2Fday08-Java%E5%B8%B8%E7%94%A8API.md&fs_id=971560969751281&size=32000&uk=3170504070&from=yuanguanjia&fsid=971560969751281&clienttype=8&scence=mac_main#4-arraylist%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B2)4. ArrayList应用案例2
+
+各位同学，上一个ArrayList应用案例中，我们往集合存储的元素是String类型的元素，实际上在工作中我们经常往集合中自定义存储对象。
+
+接下来我们做个案例，用来往集合中存储自定义的对象，先阅读下面的案例需求：
+
+![1662623794937](https://pan.baidu.com/wap/assets/1662623794937.png)
+
+分析需求发现：
+
+1. 在外卖系统中，每一份菜都包含，菜品的名称、菜品的原价、菜品的优惠价、菜品的其他信息。那我们就可以定义一个菜品类（Food类），用来描述每一个菜品对象要封装那些数据。
+2. 接着再写一个菜品管理类（FoodManager类），提供展示操作界面、上架菜品、浏览菜品的功能。
+
+- 首先我们先定义一个菜品类（Food类），用来描述每一个菜品对象要封装那些数据。
+
+```
+public class Food {
+    private String name;	//菜品名称
+    private double originalPrice; //菜品原价
+    private double specialPrice; //菜品优惠价
+    private String info; //菜品其他信息
+
+    public Food() {
+    }
+
+    public Food(String name, double originalPrice, double specialPrice, String info) {
+        this.name = name;
+        this.originalPrice = originalPrice;
+        this.specialPrice = specialPrice;
+        this.info = info;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getOriginalPrice() {
+        return originalPrice;
+    }
+
+    public void setOriginalPrice(double originalPrice) {
+        this.originalPrice = originalPrice;
+    }
+
+    public double getSpecialPrice() {
+        return specialPrice;
+    }
+
+    public void setSpecialPrice(double specialPrice) {
+        this.specialPrice = specialPrice;
+    }
+
+    public String getInfo() {
+        return info;
+    }
+
+    public void setInfo(String info) {
+        this.info = info;
+    }
+}
+```
+
+- 接下来写一个菜品管理类，提供**上架菜品的功能、浏览菜品的功能、展示操作界面的功能。**
+
+```
+public class FoodManager{
+    //为了存储多个菜品，预先创建一个ArrayList集合；
+    //上架菜品时，其实就是往集合中添加菜品对象
+    //浏览菜品时，其实就是遍历集合中的菜品对象，并打印菜品对象的属性信息。
+    private ArrayList&lt;Food&gt; foods = new ArrayList&lt;&gt;(); 
+    //为了在下面的多个方法中，能够使用键盘录入，提前把Scanner对象创建好；
+    private Scanner sc = new Scanner(System.in);
+   
+    /**
+     1、商家上架菜品
+     */
+    public void add(){
+        System.out.println("===菜品上架==");
+        // 2、提前创建一个菜品对象，用于封装用户上架的菜品信息
+        Food food = new Food();
+        System.out.println("请您输入上架菜品的名称：");
+        String name = sc.next();
+        food.setName(name);
+
+        System.out.println("请您输入上架菜品的原价：");
+        double originalPrice = sc.nextDouble();
+        food.setOriginalPrice(originalPrice);
+
+        System.out.println("请您输入上架菜品的优惠价：");
+        double specialPrice = sc.nextDouble();
+        food.setSpecialPrice(specialPrice);
+
+        System.out.println("请您输入上架菜品的其他信息：");
+        String info = sc.next();
+        food.setInfo(info);
+
+        // 3、把菜品对象添加到集合容器中去
+        foods.add(food);
+        System.out.println("恭喜您，上架成功~~~");
+    }
+
+    /**
+       2、菜品；浏览功能
+     */
+    public void printAllFoods(){
+        System.out.println("==当前菜品信息如下：==");
+        for (int i = 0; i &lt; foods.size(); i++) {
+            Food food = foods.get(i);
+            System.out.println("菜品名称：" + food.getName());
+            System.out.println("菜品原价：" + food.getOriginalPrice());
+            System.out.println("菜品优惠价：" + food.getSpecialPrice());
+            System.out.println("其他描述信息：" + food.getInfo());
+            System.out.println("------------------------");
+        }
+    }
+    /**
+    3、专门负责展示系统界面的
+    */
+    public void start(){
+        while (true) {
+            System.out.println("====欢迎进入商家后台管理系统=====");
+            System.out.println("1、上架菜品（add）");
+            System.out.println("2、浏览菜品（query）");
+            System.out.println("3、退出系统（exit）");
+            System.out.println("请您选择操作命令：");
+            String command = sc.next();
+            switch (command) {
+                case "add":
+                    add();
+                    break;
+                case "query":
+                    printAllFoods();
+                    break;
+                case "exit":
+                    return; // 结束当前方法！
+                default:
+                    System.out.println("您输入的操作命令有误~~");
+            }
+        }
+	}
+}
+```
+
+- 最后在写一个测试类Test，在测试类中进行测试。其实测试类，只起到一个启动程序的作用。
+
+```
+public class Test {
+    public static void main(String[] args) {
+        FoodManager manager = new FoodManager();
+        manager.start();
+    }
+}
+```
+
+运行结果如下：需要用户输入add、query或者exit，选择进入不同的功能。
+
+![1662624841469](https://pan.baidu.com/wap/assets/1662624841469.png)
+
+好了，如果你能够把这个案例写出来，说明你对面向对象的思维封装数据，以及使用ArrayList容器存储数据，并对数据进行处理这方面的知识已经运用的很熟悉了。
+
+# day09——Java基础项目（ATM系统）
+
+各位同学，恭喜大家，学完前面的课程内容之后，就算对Java语言开发程序成功入门了。接下来我们就可以使用Java语言开发一个小项目了——ATM系统。
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D717a89bd7g9eefc1df0210412748ef53%26expires%3D24h%26dp_logid%3D443756317453794328%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-oXMkkAI7nI8e6oxQLb%25252F3SAYjx9U%25253D%26file_size%3D28334%26timestamp%3D1745903855%26method%3Dinfo%26fid%3D3170504070-250528-671374507900470%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&fs_id=671374507900470&size=28334&uk=3170504070&from=yuanguanjia&fsid=671374507900470&clienttype=8&scence=mac_main#%E4%B8%80-atm%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D)一、ATM项目介绍
+
+**1. ATM系统功能介绍**
+
+大家都应该去过银行的ATM机上取过钱，每次取钱的时候，首先需要用户把卡插入机器，然后机器会自动读取你的卡号，由用户输入密码，如果密码校验通过，就会进入ATM机的主操作界面：**有查询、取款、存款、转账等业务功能**，用户选择哪个功能就执行对应预先设定好的程序。
+
+![1662625958924](https://pan.baidu.com/wap/assets/1662625958924.png)
+
+由于没有图形化界面编程，所以我们是做不出界面效果的，但是我们可以在控制台模拟ATM机的各项功能。
+
+如下图所示：运行程序时，进入登录界面，在此界面可以登录、或者开户。
+
+![1662626798467](https://pan.baidu.com/wap/assets/1662626798467.png)
+
+- 在登录界面，如果用户录入2就进入**用户开户**的功能：如下图所示
+
+![1662626997850](https://pan.baidu.com/wap/assets/1662626997850.png)
+
+- 在登录界面，如果用户录入1就进入**用户登录**的功能：如下图所示：
+
+![1662627257875](https://pan.baidu.com/wap/assets/1662627257875.png)
+
+各位同学，你可能会觉得这个案例功能怎么这么多啊！ 太复杂了，其实也没你想得那么复杂。接下来，我将手把手带领大家把这个ATM系统完成。
+
+**2. ATM系统中我们会用到哪些技术呢？**
+
+如下图所示：该项目涵盖了我们前面所学习的所有知识点，包括面向对象编程、集合容器的使用、流程控制、常用的API（比如String的运用）等。
+
+![1662627473765](https://pan.baidu.com/wap/assets/1662627473765.png)
+
+**3. 完成ATM系统，我们能收获什么**
+
+![1662628227117](https://pan.baidu.com/wap/assets/1662628227117.png)
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D717a89bd7g9eefc1df0210412748ef53%26expires%3D24h%26dp_logid%3D443756317453794328%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-oXMkkAI7nI8e6oxQLb%25252F3SAYjx9U%25253D%26file_size%3D28334%26timestamp%3D1745903855%26method%3Dinfo%26fid%3D3170504070-250528-671374507900470%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&fs_id=671374507900470&size=28334&uk=3170504070&from=yuanguanjia&fsid=671374507900470&clienttype=8&scence=mac_main#%E4%BA%8C-%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84%E6%90%AD%E5%BB%BA-%E6%AC%A2%E8%BF%8E%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1)二、项目架构搭建、欢迎界面设计
+
+接下来，我们带着大家开始开发这个ATM系统。首先我们来完成项目的架构搭建、和欢迎界面的设计。
+
+首先我们来分析一下，开发这个ATM系统的流程：
+
+- 由于每一个账户都包含一些个人信息，比如：卡号、姓名、性别、密码、余额、每次取现额度等等。所以，首先可以设计一个Account类，用来描述账户对象需要封装那些数据。
+    
+- 紧接着，定义一个ATM类，用来表示ATM系统，负责提供所有的业务需求。
+    
+    比如：展示ATM系统的欢迎页面、开户、登录、转账等功能。
+    
+- 最后，定义一个测试类Test，负责启动我们开发好的ATM系统，进行测试。
+    
+
+> 第一步：先来完成Account类的编写
+
+```
+//首先可以设计一个Account类，来描述账户对象需要封装哪些数据。
+public class Account {
+    private String cardId; //卡号
+    private String userName; //用户名
+    private char sex; //性别
+    private String passWord;//密码
+    private double money; //余额
+    private double limit; // 限额
+
+    public String getCardId() {
+        return cardId;
+    }
+
+    public void setCardId(String cardId) {
+        this.cardId = cardId;
+    }
+
+    public String getUserName() {
+        return userName + ( sex  == '男' ? "先生" : "女士");
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public char getSex() {
+        return sex;
+    }
+
+    public void setSex(char sex) {
+        this.sex = sex;
+    }
+
+    public String getPassWord() {
+        return passWord;
+    }
+
+    public void setPassWord(String passWord) {
+        this.passWord = passWord;
+    }
+
+    public double getMoney() {
+        return money;
+    }
+
+    public void setMoney(double money) {
+        this.money = money;
+    }
+
+    public double getLimit() {
+        return limit;
+    }
+
+    public void setLimit(double limit) {
+        this.limit = limit;
+    }
+}
+```
+
+> 第二步：编写一个ATM类，负责对每一个账户对象进行管理
+
+```
+public class ATM {
+    //创建一个存储账户对象的集合；后面每开一个账户，就往集合中添加一个账户对象
+    private ArrayList&lt;Account&gt; accounts = new ArrayList&lt;&gt;();    
+}
+```
+
+> 第三步：在ATM类中，编写欢迎界面
+
+```
+public class ATM {
+    //创建一个存储账户对象的集合；后面每开一个账户，就往集合中添加一个账户对象
+    private ArrayList&lt;Account&gt; accounts = new ArrayList&lt;&gt;(); 
+    //为了后面键盘录入方便一点，先创建好一个Scanner对象
+    private Scanner sc = new Scanner(System.in);
+    
+    /**启动ATM系统 展示欢迎界面 */
+    public void start(){
+        while (true) {
+            System.out.println("===欢迎您进入到了ATM系统===");
+            System.out.println("1、用户登录");
+            System.out.println("2、用户开户");
+            System.out.println("请选择：");
+            int command = sc.nextInt();
+            switch (command){
+                case 1:
+                    // 用户登录
+                    System.out.println("进入登录功能");
+                    break;
+                case 2:
+                    // 用户开户
+                   	System.out.println("进入开户功能");
+                    break;
+                default:
+                    System.out.println("没有该操作~~");
+            }
+        }
+    }
+}
+```
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D717a89bd7g9eefc1df0210412748ef53%26expires%3D24h%26dp_logid%3D443756317453794328%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-oXMkkAI7nI8e6oxQLb%25252F3SAYjx9U%25253D%26file_size%3D28334%26timestamp%3D1745903855%26method%3Dinfo%26fid%3D3170504070-250528-671374507900470%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&fs_id=671374507900470&size=28334&uk=3170504070&from=yuanguanjia&fsid=671374507900470&clienttype=8&scence=mac_main#%E4%B8%89-%E5%BC%80%E6%88%B7%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0)三、开户功能实现
+
+接下来，我们完成**开户功能**的实现。需求如下：
+
+![1662629404170](https://pan.baidu.com/wap/assets/1662629404170.png)
+
+为了系统的代码结构更加清晰，在ATM类中，写一个开户的方法。
+
+步骤如下：
+
+> - 1、创建一个账户对象，用于封装用户的开户信息 > - 2、需要用户输入自己的开户信息，赋值给账户对象 > - 输入账户名，设置给账户对象 > - 输入性别，如果性别是`'男'`或者`'女'`，将性别设置给账户对象；否则重新录入性别知道录入正确为止。 > - 输入账户、并且输入两次密码，只有两次密码相同，才将账户和密码设置给账户对象。 > - 输入提现限额，并且设置给账户对象 > - 3、输出开户成功，的提示语句。
+
+```
+/** 完成用户开户操作  */
+private void createAccount(){
+    System.out.println("==系统开户操作==");
+    // 1、创建一个账户对象，用于封装用户的开户信息
+    Account acc = new Account();
+
+    // 2、需要用户输入自己的开户信息，赋值给账户对象
+    System.out.println("请您输入您的账户名称：");
+    String name = sc.next();
+    acc.setUserName(name);
+
+    while (true) {
+        System.out.println("请您输入您的性别：");
+        char sex = sc.next().charAt(0); // "男"
+        if(sex == '男' || sex == '女'){
+            acc.setSex(sex);
+            break;
+        }else {
+            System.out.println("您输入的性别有误~只能是男或者女~");
+        }
+    }
+
+    while (true) {
+        System.out.println("请您输入您的账户密码：");
+        String passWord  = sc.next();
+        System.out.println("请您输入您的确认密码：");
+        String okPassWord  = sc.next();
+        // 判断2次密码是否一样。
+        if(okPassWord.equals(passWord)){
+            acc.setPassWord(okPassWord);
+            break;
+        }else {
+            System.out.println("您输入的2次密码不一致，请您确认~~");
+        }
+    }
+
+    System.out.println("请您输入您的取现额度：");
+    double limit = sc.nextDouble();
+    acc.setLimit(limit);
+
+    // 重点：我们需要为这个账户生成一个卡号（由系统自动生成。8位数字表示，不能与其他账户的卡号重复：会在下节课详细讲解）
+    //TODO 这里先留着，待会把生成卡号的功能写好，再到这里调用
+
+    // 3、把这个账户对象，存入到账户集合中去
+    accounts.add(acc);
+    System.out.println("恭喜您，" + acc.getUserName() + "开户成功，您的卡号是：" + acc.getCardId());
+}
+```
+
+到这里，开户功能其实只完成的一大半。如果细心的同学可能会发现，开户功能中并没有给账户设置卡号。
+
+因为生成卡号比较麻烦，所以在下一节，我们单独来写一个方法用于生成卡号。
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D717a89bd7g9eefc1df0210412748ef53%26expires%3D24h%26dp_logid%3D443756317453794328%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-oXMkkAI7nI8e6oxQLb%25252F3SAYjx9U%25253D%26file_size%3D28334%26timestamp%3D1745903855%26method%3Dinfo%26fid%3D3170504070-250528-671374507900470%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&fs_id=671374507900470&size=28334&uk=3170504070&from=yuanguanjia&fsid=671374507900470&clienttype=8&scence=mac_main#%E5%9B%9B-%E7%94%9F%E6%88%90%E5%8D%A1%E5%8F%B7)四、生成卡号
+
+各位同学，刚才在完成开户功能的时候，并没有生成卡号，所以我们接着把生成卡号的功能完成。
+
+> 第一步：先在ATM类中，写一个判断卡号是否存在的功能。 > > - 遍历存储Account对象的集合，得到每一个Account对象，获取对象的卡号 > > - 如果卡号存在，返回该卡号对应的Account对象 > > - 如果卡号不存在，返回null
+
+```
+/** 根据卡号查询账户对象返回 accounts = [c1, c2, c3 ...]*/
+private Account getAccountByCardId(String cardId){
+    // 遍历全部的账户对象
+    for (int i = 0; i &lt; accounts.size(); i++) {
+        Account acc = accounts.get(i);
+        // 判断这个账户对象acc中的卡号是否是我们要找的卡号
+        if(acc.getCardId().equals(cardId)){
+            return acc;
+        }
+    }
+    return null; // 查无此账户，这个卡号不存在的
+}
+```
+
+> 第二步：再在ATM类中，写一个生成卡号的功能 > > - 1、先随机产生8个[0,9]范围内的随机数，拼接成一个字符串 >- 2、然后再调用getAccountByCardId方法，判断这个卡号字符串是否存在 > - 3、判断生成的卡号是否存在 > - 如果生成的卡号不存在，说明生成的卡号是有效的，把卡号返回， > - 如果生成的卡号存在，说明生成的卡号无效，循环继续生产卡号。
+
+```
+/** 返回一个8位 数字的卡号，而且这个卡号不能与其他账户的卡号重复 */
+private String createCardId(){
+    while (true) {
+        // 1、定义一个String类型的变量记住8位数字作为一个卡号
+        String cardId = "";
+        // 2、使用循环，循环8次，每次产生一个随机数给cardId连接起来
+        Random r = new Random();
+        for (int i = 0; i &lt; 8; i++) {
+            int data = r.nextInt(10); // 0 - 9
+            cardId += data;
+        }
+        // 3、判断cardId中记住的卡号，是否与其他账户的卡号重复了，没有重复，才可以做为一个新卡号返回。
+        Account acc = getAccountByCardId(cardId);
+        if(acc == null){
+            // 说明cardId没有找到账户对象，因此cardId没有与其他账户的卡号重复，可以返回它做为一个新卡号
+            return cardId;
+        }
+    }
+}
+```
+
+写完生成卡号的功能后，在开户功能的`TODO`位置，调用生成卡号的功能，并且将生成的卡号设置到账户对象中。
+
+![1662643802111](https://pan.baidu.com/wap/assets/1662643802111.png)
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D717a89bd7g9eefc1df0210412748ef53%26expires%3D24h%26dp_logid%3D443756317453794328%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-oXMkkAI7nI8e6oxQLb%25252F3SAYjx9U%25253D%26file_size%3D28334%26timestamp%3D1745903855%26method%3Dinfo%26fid%3D3170504070-250528-671374507900470%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&fs_id=671374507900470&size=28334&uk=3170504070&from=yuanguanjia&fsid=671374507900470&clienttype=8&scence=mac_main#%E4%BA%94-%E7%99%BB%E5%BD%95%E5%8A%9F%E8%83%BD)五、登录功能
+
+各位同学，在上面我们已经完成了开户功能。接下来我们来编写登录功能，编写登录功能的时候我们要满足一下需求：
+
+① 如果系统没有任何账户对象，则不允许登录。
+
+② 让用户输入登录的卡号，先判断卡号是否正确，如果不正确要给出提示。
+
+③ 如果卡号正确，再让用户输入账户密码，如果密码不正确要给出提示，如果密码也正确，则给出登录成功的提示。
+
+> 登录功能具体实现步骤如下： > > - 1、判断系统中是否存在账户对象，存在才能登录，如果不存在，我们直接结束登录操作 > - 2、输入登录的卡号，并判断卡号是否存在 > - 3、如果卡号不存在，直接给出提示 > - 4、如果卡号存在，接着输入用户密码，并判断密码是否正确 > - 5、如果密码也正确，则登录成功，并且记录当前的登录账户
+
+```
+/** 完成用户的登录操作 */
+private void login(){
+    System.out.println("==系统登录==");
+    // 1、判断系统中是否存在账户对象，存在才能登录，如果不存在，我们直接结束登录操作
+    if(accounts.size() == 0){
+        System.out.println("当前系统中无任何账户，请先开户再来登录~~");
+        return; // 跳出登录操作。
+    }
+
+    // 2、系统中存在账户对象，可以开始进行登录操作了
+    while (true) {
+        System.out.println("请您输入您的登录卡号：");
+        String cardId = sc.next();
+        // 3、判断这个卡号是否存在啊？
+        Account acc = getAccountByCardId(cardId);
+        if(acc == null){
+            // 说明这个卡号不存在。
+            System.out.println("您输入的登录卡号不存在，请确认~~");
+        }else {
+            while (true) {
+                // 卡号存在了，接着让用户输入密码
+                System.out.println("请您输入登录密码：");
+                String passWord = sc.next();
+                // 4、判断密码是否正确
+                if(acc.getPassWord().equals(passWord)){
+                    loginAcc = acc;
+                    // 密码正确了，登录成功了
+                    System.out.println("恭喜您，" + acc.getUserName() + "成功登录了系统，您的卡号是：" + acc.getCardId());
+                    //TODO 把展示登录界面的功能写成一个方法，写好了再回来调用。                   
+                    return; // 跳出并结束当前登录方法
+                }else {
+                    System.out.println("您输入的密码不正确，请确认~~");
+                }
+            }
+        }
+    }
+}
+```
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D717a89bd7g9eefc1df0210412748ef53%26expires%3D24h%26dp_logid%3D443756317453794328%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-oXMkkAI7nI8e6oxQLb%25252F3SAYjx9U%25253D%26file_size%3D28334%26timestamp%3D1745903855%26method%3Dinfo%26fid%3D3170504070-250528-671374507900470%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&fs_id=671374507900470&size=28334&uk=3170504070&from=yuanguanjia&fsid=671374507900470&clienttype=8&scence=mac_main#%E5%85%AD-%E5%B1%95%E7%A4%BA%E7%94%A8%E6%88%B7%E6%93%8D%E4%BD%9C%E7%95%8C%E9%9D%A2)六、展示用户操作界面
+
+登录成功之后，需要显示登录后的用户操作界面。效果如下
+
+![1662627257875](https://pan.baidu.com/wap/assets/1662627257875.png)
+
+写成一个方法，用来展示登录成功的操作界面，代码如下：
+
+```
+/** 展示登录后的操作界面的 */
+private void showUserCommand(){
+    while (true) {
+        System.out.println(loginAcc.getUserName() + "您可以选择如下功能进行账户的处理====");
+        System.out.println("1、查询账户");
+        System.out.println("2、存款");
+        System.out.println("3、取款");
+        System.out.println("4、转账");
+        System.out.println("5、密码修改");
+        System.out.println("6、退出");
+        System.out.println("7、注销当前账户");
+        System.out.println("请选择：");
+        int command = sc.nextInt();
+        switch (command){
+            case 1:
+                //TODO 查询当前账户
+                break;
+            case 2:
+                //TODO 存款
+                break;
+            case 3:
+                //TODO取款
+                break;
+            case 4:
+                //TOD 转账
+                break;
+            case 5:
+                //TODO 密码修改
+                return;// 跳出并结束当前方法
+            case 6:
+                //TODO 退出
+                System.out.println(loginAcc.getUserName() + "您退出系统成功！");
+                return; // 跳出并结束当前方法
+            case 7:
+                // 注销当前登录的账户
+                if(deleteAccount()){
+                    // 销户成功了，回到欢迎界面
+                    return;
+                }
+                break;
+            default:
+                System.out.println("您当前选择的操作是不存在的，请确认~~");
+        }
+    }
+}
+```
+
+写好用户操作界面的方法之后，再到登录成功的位置调用，登录成功后，马上显示用户操作界面。刚才在哪里打了一个`TODO`标记的，回去找找。
+
+![1662644255745](https://pan.baidu.com/wap/assets/1662644255745.png)
+
+到这里，登录功能就写好了。
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D717a89bd7g9eefc1df0210412748ef53%26expires%3D24h%26dp_logid%3D443756317453794328%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-oXMkkAI7nI8e6oxQLb%25252F3SAYjx9U%25253D%26file_size%3D28334%26timestamp%3D1745903855%26method%3Dinfo%26fid%3D3170504070-250528-671374507900470%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&fs_id=671374507900470&size=28334&uk=3170504070&from=yuanguanjia&fsid=671374507900470&clienttype=8&scence=mac_main#%E5%85%AD-%E6%9F%A5%E8%AF%A2%E8%B4%A6%E6%88%B7-%E9%80%80%E5%87%BA)六、查询账户、退出
+
+- 查询账户：在用户操作界面，选择1查询当前账户信息。效果如下：
+
+![1662645452619](https://pan.baidu.com/wap/assets/1662645452619.png)
+
+登录成功的时候，已经把当前账户对象用一个成员变量存储了 ，所以直接按照如下格式打印账户对象的属性信息即可。
+
+这里也写成一个方法
+
+```
+/**
+展示当前登录的账户信息
+*/
+private void showLoginAccount(){
+    System.out.println("==当前您的账户信息如下：==");
+    System.out.println("卡号：" + loginAcc.getCardId());
+    System.out.println("户主：" + loginAcc.getUserName());
+    System.out.println("性别：" + loginAcc.getSex());
+    System.out.println("余额：" + loginAcc.getMoney());
+    System.out.println("每次取现额度：" + loginAcc.getLimit());
+}
+```
+
+写好方法之后，到用户操作界面调用。如下图所示
+
+![1662645669483](https://pan.baidu.com/wap/assets/1662645669483.png)
+
+- 退出功能：其实就是将ATM系统中，在用户界面选择6时，直接结束程序。
+
+![1662645798025](https://pan.baidu.com/wap/assets/1662645798025.png)
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D717a89bd7g9eefc1df0210412748ef53%26expires%3D24h%26dp_logid%3D443756317453794328%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-oXMkkAI7nI8e6oxQLb%25252F3SAYjx9U%25253D%26file_size%3D28334%26timestamp%3D1745903855%26method%3Dinfo%26fid%3D3170504070-250528-671374507900470%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&fs_id=671374507900470&size=28334&uk=3170504070&from=yuanguanjia&fsid=671374507900470&clienttype=8&scence=mac_main#%E4%B8%83-%E5%AD%98%E6%AC%BE)七、存款
+
+各位同学，接下来来完成存款操作。
+
+> 我们把存款功能也写成一个方法，具体步骤如下： > > - 1. 键盘录入要存入的金额 > - 2. 在原有余额的基础上，加上存入金额，得到新的余额 > - 3. 再将新的余额设置给当前账户对象
+
+```
+/** 存钱 */
+private void depositMoney() {
+    System.out.println("==存钱操作==");
+    System.out.println("请您输入存款金额：");
+    double money = sc.nextDouble();
+
+    // 更新当前登录的账户的余额。
+    loginAcc.setMoney(loginAcc.getMoney() + money);
+    System.out.println("恭喜您，您存钱：" + money + "成功，存钱后余额是：" + loginAcc.getMoney());
+}
+```
+
+写好存款的方法之后，在`case 2:`的下面调用`depositMoney()`方法
+
+![1662779078001](https://pan.baidu.com/wap/assets/1662779078001.png)
+
+到这里，存款功能就写好了。
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D717a89bd7g9eefc1df0210412748ef53%26expires%3D24h%26dp_logid%3D443756317453794328%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-oXMkkAI7nI8e6oxQLb%25252F3SAYjx9U%25253D%26file_size%3D28334%26timestamp%3D1745903855%26method%3Dinfo%26fid%3D3170504070-250528-671374507900470%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&fs_id=671374507900470&size=28334&uk=3170504070&from=yuanguanjia&fsid=671374507900470&clienttype=8&scence=mac_main#%E5%85%AB-%E5%8F%96%E6%AC%BE)八、取款
+
+各位同学，接下来我们写一下取款的功能。
+
+> 把取款的功能也写成一个方法，具体步骤如下 > > - 1、判断账户余额是否达到了100元，如果不够100元，就不让用户取钱了 > > - 2、让用户输入取款金额 > > - 3、判断账户余额是否足够 > > - 如果余额足够， 继续判断当前取款金额是否超过了每次限额 > > - 如果超过限额，提示“每次只能取xxx限额的钱” > > - 如果不超过限额，则在当前余额上减去取钱的金额，得到新的余额 > > 并将新的余额设置给账户对象。 > > - 如果余额不足，提示“你的余额不足，你的账户余额是xxx元”
+
+按照上面分析的步骤，代码如下
+
+```
+/** 取钱 */
+private void drawMoney() {
+    System.out.println("==取钱操作==");
+    // 1、判断账户余额是否达到了100元，如果不够100元，就不让用户取钱了
+    if(loginAcc.getMoney() &lt; 100){
+        System.out.println("您的账户余额不足100元，不允许取钱~~");
+        return;
+    }
+
+    // 2、让用户输入取款金额
+    while (true) {
+        System.out.println("请您输入取款金额：");
+        double money = sc.nextDouble();
+
+        // 3、判断账户余额是否足够
+        if(loginAcc.getMoney() &gt;= money){
+            // 账户中的余额是足够的
+            // 4、判断当前取款金额是否超过了每次限额
+            if(money &gt; loginAcc.getLimit()){
+                System.out.println("您当前取款金额超过了每次限额，您每次最多可取：" + loginAcc.getLimit());
+            }else {
+                // 代表可以开始取钱了。更新当前账户的余额即可
+                loginAcc.setMoney(loginAcc.getMoney() - money);
+                System.out.println("您取款：" + money + "成功，取款后您剩余：" + loginAcc.getMoney());
+                break;
+            }
+        }else {
+            System.out.println("余额不足，您的账户中的余额是：" + loginAcc.getMoney());
+        }
+    }
+}
+```
+
+写好取钱方法之后，在`case 3:`的位置调用`drawMoney()`方法
+
+![1662779472588](https://pan.baidu.com/wap/assets/1662779472588.png)
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D717a89bd7g9eefc1df0210412748ef53%26expires%3D24h%26dp_logid%3D443756317453794328%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-oXMkkAI7nI8e6oxQLb%25252F3SAYjx9U%25253D%26file_size%3D28334%26timestamp%3D1745903855%26method%3Dinfo%26fid%3D3170504070-250528-671374507900470%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&fs_id=671374507900470&size=28334&uk=3170504070&from=yuanguanjia&fsid=671374507900470&clienttype=8&scence=mac_main#%E4%B9%9D-%E8%BD%AC%E8%B4%A6)九、转账
+
+各位同学，接下来我们来编写转账的功能。转账的意思就是，将一个账户的钱转入另一个账，具体的转账逻辑如下：
+
+> 我们把转账功能也写成一个方法 > > - 1、判断系统中是否存在其他账户 > > - 2、判断自己的账户中是否有钱 > > - 3、真正开始转账了，输入对方卡号 > > - 4、判断对方卡号是否正确啊？ > > - 5、如果卡号正确，就继续让用户输入姓氏， 并判断这个姓氏是否正确？ > > - 如果姓氏不正确，给出提示“对不起，您姓氏有问题，转账失败！” > > - 6、如果姓氏正确，继续判断这个转账金额是否超过自己的余额。 > > - 如果转账金额超过余额，给出提示“对不起，余额不足，转账失败！” > > - 7、如果对方卡号存在、姓氏匹配、余额足够，就完成真正的转账操作 > > - 获取当前自己账户的余额，减去转账金额，就可以得到自己账户新的余额， > > 并将新的余额，设置给当前账户 > > - 并且获取对方的账户余额，加上转账金额，就可以得到对方账户新的余额， > > 并将新的余额，设置给对方账户 > > - 给出提示：“您转账成功了~~~”
+
+```
+/** 转账 */
+private void transferMoney() {
+    System.out.println("==用户转账==");
+    // 1、判断系统中是否存在其他账户。
+    if(accounts.size() &lt; 2){
+        System.out.println("当前系统中只有你一个账户，无法为其他账户转账~~");
+        return;
+    }
+
+    // 2、判断自己的账户中是否有钱
+    if(loginAcc.getMoney() == 0){
+        System.out.println("您自己都没钱，就别转了~~");
+        return;
+    }
+
+    while (true) {
+        // 3、真正开始转账了
+        System.out.println("请您输入对方的卡号：");
+        String cardId = sc.next();
+
+        // 4、判断这个卡号是否正确啊？？
+        Account acc = getAccountByCardId(cardId);
+        if(acc == null){
+            System.out.println("您输入的对方的卡号不存在~~");
+        }else {
+            // 对方的账户存在，继续让用户认证姓氏。
+            String name = "*" + acc.getUserName().substring(1); // * + 马刘德华
+            System.out.println("请您输入【" + name + "】的姓氏：");
+            String preName = sc.next();
+            // 5、判断这个姓氏是否正确啊
+            if(acc.getUserName().startsWith(preName)) {
+                while (true) {
+                    // 认证通过了：真正转账了
+                    System.out.println("请您输入转账给对方的金额：");
+                    double money = sc.nextDouble();
+                    // 6、判断这个金额是否没有超过自己的余额。
+                    if(loginAcc.getMoney() &gt;= money){
+                        // 7、转给对方了
+                        // 更新自己的账户余额
+                        loginAcc.setMoney(loginAcc.getMoney() - money);
+                        // 更新对方的账户余额
+                        acc.setMoney(acc.getMoney() + money);
+                        System.out.println("您转账成功了~~~");
+                        return; // 跳出转账方法。。
+                    }else {
+                        System.out.println("您余额不足，无法给对方转这么多钱，最多可转：" + loginAcc.getMoney());
+                    }
+                }
+            }else {
+                System.out.println("对不起，您认证的姓氏有问题~~");
+            }
+        }
+    }
+}
+```
+
+写好修改转账功能之后，在`case 4:`这里调用。如下：
+
+![1662780740132](https://pan.baidu.com/wap/assets/1662780740132.png)
+
+到这里，转账功能就写好了。
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D717a89bd7g9eefc1df0210412748ef53%26expires%3D24h%26dp_logid%3D443756317453794328%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-oXMkkAI7nI8e6oxQLb%25252F3SAYjx9U%25253D%26file_size%3D28334%26timestamp%3D1745903855%26method%3Dinfo%26fid%3D3170504070-250528-671374507900470%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&fs_id=671374507900470&size=28334&uk=3170504070&from=yuanguanjia&fsid=671374507900470&clienttype=8&scence=mac_main#%E5%8D%81-%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81)十、修改密码
+
+各位同学，接下来我们完成修改密码的功能。
+
+> 把修改密码的功能也是写成一个方法，具体步骤如下 > > - 1、提醒用户输入当前密码 > > - 2、认证当前密码是否正确 > - 如果认证密码错误，提示“您当前输入的密码不正确~~”；重新输入密码，再次认证密码是否正确。 > > - 3、如果认证密码正确，开始修改密码，修改密码时需要用户输入2次新密码 > - 4、判断2次 密码是否一致 > - 如果两次密码一致，就将新密码设置给当前账户对象，密码修改成功 > - 如果两次密码不一直，则给出提示“您输入的2次密码不一致~~”；重新输入新密码，并确认密码。
+
+```
+/** 账户密码修改 */
+private void updatePassWord() {
+    System.out.println("==账户密码修改操作==");
+    while (true) {
+        // 1、提醒用户认证当前密码
+        System.out.println("请您输入当前账户的密码：");
+        String passWord = sc.next();
+
+        // 2、认证当前密码是否正确啊
+        if(loginAcc.getPassWord().equals(passWord)){
+            // 认证通过
+            while (true) {
+                // 3、真正开始修改密码了
+                System.out.println("请您输入新密码：");
+                String newPassWord = sc.next();
+
+                System.out.println("请您再次输入密码：");
+                String okPassWord = sc.next();
+
+                // 4、判断2次 密码是否一致
+                if(okPassWord.equals(newPassWord)){
+                    // 可以真正开始修改密码了
+                    loginAcc.setPassWord(okPassWord);
+                    System.out.println("恭喜您，您的密码修改成功~~~");
+                    return;
+                }else {
+                    System.out.println("您输入的2次密码不一致~~");
+                }
+            }
+        }else {
+            System.out.println("您当前输入的密码不正确~~");
+        }
+    }
+}
+```
+
+写好修改密码的功能之后。在`case 5:`的位置调用`updatePassWord()`方法。如下图所示
+
+![1662781272258](https://pan.baidu.com/wap/assets/1662781272258.png)
+
+好了，到这里修改密码的功能就写好了。
+
+## [](https://pan.baidu.com/wap/markdown?picdocpreview=https%3A%2F%2Fpcsdata.baidu.com%2Frest%2F2.0%2Fdocview%2Ftext%3Fobject%3D717a89bd7g9eefc1df0210412748ef53%26expires%3D24h%26dp_logid%3D443756317453794328%26rt%3Dpr%26sign%3DFOTRE-DCb740ccc5511e5e8fedcff06b081203-oXMkkAI7nI8e6oxQLb%25252F3SAYjx9U%25253D%26file_size%3D28334%26timestamp%3D1745903855%26method%3Dinfo%26fid%3D3170504070-250528-671374507900470%26client_type%3Dpcygj%26file_type%3Dmd&server_filename=day09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&path=%2F%E8%87%AA%E5%AD%A6%2F2025%E6%9C%80%E6%96%B0%E7%89%88-Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%2F%E7%AC%AC1%E9%98%B6%E6%AE%B5%E2%80%94Java%E5%9F%BA%E7%A1%80%2F1%E3%80%81Java%E5%9F%BA%E7%A1%80-20%E5%A4%A9%E5%AD%A6%E4%BC%9AJava%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A89%E5%A4%A9%E8%AF%BE%E7%A8%8B%EF%BC%88%E8%B5%84%E6%96%99%EF%BC%89%2F%E5%85%A8%E9%83%A8%E8%AE%B2%E4%B9%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89%2Fday09-Java%E5%9F%BA%E7%A1%80%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE%EF%BC%88ATM%E7%B3%BB%E7%BB%9F%EF%BC%89.md&fs_id=671374507900470&size=28334&uk=3170504070&from=yuanguanjia&fsid=671374507900470&clienttype=8&scence=mac_main#%E5%8D%81%E4%B8%80-%E6%B3%A8%E9%94%80)十一、注销
+
+各位同学，接下来我们完成最后一个功能，注销功能。
+
+> 这里把注销功能也写成一个方法，具体步骤如下 > > - 1、先确认是否需要注销账户，让用户输入y或者n > - 如果输入y，表示确认 > - 如果输入n，表示取消注销操作 > - 2、输入y后，继续判断当前用户的账户是否有钱 > - 如果账户有钱，提示：“对不起，您的账户中存钱金额，不允许销” > - 如果账户没有钱，则把当前账户对象，从系统的集合中删除，完成注销。
+
+按照上面的步骤代码如下
+
+```
+/** 销户操作 */
+private boolean deleteAccount() {
+    System.out.println("==进行销户操作==");
+    // 1、问问用户是否确定要销户啊
+    System.out.println("请问您确认销户吗？y/n");
+    String command = sc.next();
+    switch (command) {
+        case "y":
+            // 确实要销户
+            // 2、判断用户的账户中是否有钱：loginAcc
+            if(loginAcc.getMoney() == 0) {
+                // 真的销户了
+                accounts.remove(loginAcc);
+                System.out.println("您好，您的账户已经成功销户~~");
+                return true;
+            }else {
+                System.out.println("对不起，您的账户中存钱金额，不允许销户~~");
+                return false;
+            }
+        default:
+            System.out.println("好的，您的账户保留！！");
+            return false;
+    }
+}
+```
+
+注销功能写好之后，在用户操作界面的`case 7:`位置调用`deleteAccount()`的方法。
+
+代码如下
+
+![1662792538291](https://pan.baidu.com/wap/assets/1662792538291.png)
+
+---
+
+到这里注销账户的功能就写好了。

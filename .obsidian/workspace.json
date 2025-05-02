@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Base.md",
+                "file": "JAVA/JAVAWEB/MYSQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Base"
+              "title": "MYSQL"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "GIT"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/GIT.md"
+                "file": "JAVA/JAVAWEB/MYSQL.md"
               },
               "icon": "lucide-list",
-              "title": "GIT 的大纲"
+              "title": "MYSQL 的大纲"
             }
           },
           {
@@ -188,10 +187,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "272c06026d9f6476",
+  "active": "24d04328cbc40098",
   "lastOpenFiles": [
-    "JAVA/JAVAWEB/MYSQL.md",
     "JAVA/Base.md",
+    "Tools/GIT.md",
+    "JAVA/JAVAWEB/MYSQL.md",
     "pictures/assets/1662625958924.png",
     "pictures/assets/1662627093033.png",
     "pictures/assets/1662628227117.png",
@@ -213,7 +213,6 @@
     "pictures/assets/1662644255745.png.baiduyun.p.downloading",
     "pictures/assets/1662643802111.png.baiduyun.p.downloading",
     "JAVA/JAVAWEB/SE.md",
-    "Tools/GIT.md",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
     "刷题心得/笔记.md",
     "Tools/learn obsidian/Obsidian Markdown.md",

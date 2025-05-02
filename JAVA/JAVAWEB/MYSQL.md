@@ -1280,7 +1280,7 @@
 		* 练习：
 			* 定义一个方法，查询emp表的数据将其封装为对象，然后装载集合，返回。
 				1. 定义Emp类
-				2. 定义方法 public List&lt;Emp&gt; findAll(){}
+				2. 定义方法 public List&lt<Emp> findAll(){}
 				3. 实现方法 select * from emp;
 					
 	5. PreparedStatement：执行sql的对象

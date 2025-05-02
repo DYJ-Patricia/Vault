@@ -1343,7 +1343,7 @@
             //1. 创建Properties集合类。
             Properties pro = new Properties();
 
-            //获取src路径下的文件的方式---&gt;ClassLoader 类加载器
+            //获取src路径下的文件的方式--->ClassLoader 类加载器
             ClassLoader classLoader = JDBCUtils.class.getClassLoader();
             URL res  = classLoader.getResource("jdbc.properties");
             String path = res.getPath();

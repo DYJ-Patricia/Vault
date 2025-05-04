@@ -1846,7 +1846,7 @@
 			    @Test
 			    public void test4(){
 			        String sql = "select * from emp where id = ? or id = ?";
-			        Map&lt;String, Object&gt; map = template.queryForMap(sql, 1001,1002);
+			        Map<String, Object> map = template.queryForMap(sql, 1001,1002);
 			        System.out.println(map);
 			        //{id=1001, ename=孙悟空, job_id=4, mgr=1004, joindate=2000-12-17, salary=10000.00, bonus=null, dept_id=20}
 			
@@ -1858,9 +1858,9 @@
 			    @Test
 			    public void test5(){
 			        String sql = "select * from emp";
-			        List&lt;Map&lt;String, Object&gt;&gt; list = template.queryForList(sql);
+			        List<Map<String, Object>>list = template.queryForList(sql);
 			
-			        for (Map&lt;String, Object&gt; stringObjectMap : list) {
+			        for (Map<String, Object>stringObjectMap : list) {
 			            System.out.println(stringObjectMap);
 			        }
 			    }
@@ -1872,7 +1872,7 @@
 			    @Test
 			    public void test6(){
 			        String sql = "select * from emp";
-			        List&lt;Emp&gt; list = template.query(sql, new RowMapper&lt;Emp&gt;() {
+			        Lis<Emp> list = template.query(sql, new RowMapper<Emp>() {
 			
 			            @Override
 			            public Emp mapRow(ResultSet rs, int i) throws SQLException {

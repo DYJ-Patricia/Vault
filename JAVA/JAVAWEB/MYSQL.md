@@ -1912,7 +1912,7 @@
 			    @Test
 			    public void test6_2(){
 			        String sql = "select * from emp";
-			        List&lt;Emp&gt; list = template.query(sql, new BeanPropertyRowMapper&lt;Emp&gt;(Emp.class));
+			        List<Emp> list = template.query(sql, new BeanPropertyRowMappe<Emp>(Emp.class));
 			        for (Emp emp : list) {
 			            System.out.println(emp);
 			        }

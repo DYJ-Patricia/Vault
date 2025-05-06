@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题心得/笔记.md",
+                "file": "JAVA/JAVAWEB/MYSQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "笔记"
+              "title": "MYSQL"
             }
           },
           {
@@ -190,9 +190,9 @@
   },
   "active": "f75e8ee9c5ed804d",
   "lastOpenFiles": [
+    "JAVA/JAVAWEB/MYSQL.md",
     "刷题心得/笔记.md",
     "JAVA/JAVAWEB/三件套.md",
-    "JAVA/JAVAWEB/MYSQL.md",
     "Tools/GIT.md",
     "JAVA/Base.md",
     "pictures/assets/1662625958924.png",

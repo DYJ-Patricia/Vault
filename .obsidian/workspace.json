@@ -35,7 +35,8 @@
               "title": "HTML&CSS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/JAVAWEB/JavaScript.md"
+                "file": "JAVA/JAVAWEB/HTML&CSS.md"
               },
               "icon": "lucide-list",
-              "title": "JavaScript 的大纲"
+              "title": "HTML&CSS 的大纲"
             }
           },
           {
@@ -187,10 +188,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "f75e8ee9c5ed804d",
+  "active": "050397f319ae9439",
   "lastOpenFiles": [
-    "JAVA/JAVAWEB/HTML&CSS.md",
     "JAVA/JAVAWEB/JavaScript.md",
+    "JAVA/JAVAWEB/HTML&CSS.md",
     "JAVA/JAVAWEB/MYSQL.md",
     "JAVA/JAVAWEB/SE.md",
     "pictures/Pasted image 20250506202335.png",

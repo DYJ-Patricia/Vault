@@ -165,7 +165,7 @@ html
 3. **属性**：`length`代表形参的个数。
 4. **特点**：
     - 方法定义时，形参的类型不用写，返回值类型也不写。
-    - 方法是一个对象，如果定义名称相同的方法，会覆盖。
+    - 方法是一个对象，如果定义名称相同的方法，会覆盖，不会报错。
     - 在 JS 中，方法的调用只与方法的名称有关，和参数列表无关。
     - 在方法声明中有一个隐藏的内置对象（数组），`arguments`，封装所有的实际参数。
 5. **调用**：`方法名称(实际参数列表);`
@@ -247,6 +247,277 @@ html
     - `eval()`：将 JavaScript 字符串，并把它作为脚本代码来执行。
 3. **URL 编码**：如传智播客 = % E4% BC% A0% E6%99% BA% E6%92% AD% E5% AE% A2
 
-## BOM（此处未展开，可后续补充相关内容，如 window 对象及其属性、方法等）
 
-## DOM（此处未展开，可后续补充相关内容，如文档对象模型的概念、操作节点的方法等）
+## ECMAScript
+
+（此处未详细内容，可根据实际补充）
+
+## BOM（Browser Object Model 浏览器对象模型）
+
+将浏览器的各个组成部分封装成对象。
+
+### 组成
+
+1. **Window**：窗口对象
+2. **Navigator**：浏览器对象
+3. **Screen**：显示器屏幕对象
+4. **History**：历史记录对象
+5. **Location**：地址栏对象
+
+### Window 窗口对象
+
+1. **创建**：不需要创建可直接使用，`window` 使用，`window.方法名()`，`window` 引用可省略，直接 `方法名()`
+2. **方法**
+    - **与弹出框有关的方法**
+        - `alert()`：显示带有一段消息和一个确认按钮的警告框。
+        - `confirm()`：显示带有一段消息以及确认按钮和取消按钮的对话框。用户点击确定按钮返回 `true`，点击取消按钮返回 `false`。
+        - `prompt()`：显示可提示用户输入的对话框，返回用户输入的值。
+    - **与打开关闭有关的方法**
+        - `close()`：关闭浏览器窗口，谁调用就关谁。
+        - `open()`：打开一个新的浏览器窗口，返回新的 `Window` 对象。
+    - **与定时器有关的方式**
+        - `setTimeout()`：在指定的毫秒数后调用函数或计算表达式，参数为 `js` 代码或者方法对象和毫秒值，返回唯一标识，用于取消定时器。
+        - `clearTimeout()`：取消由 `setTimeout()` 方法设置的 `timeout`。
+        - `setInterval()`：按照指定的周期（以毫秒计）来调用函数或计算表达式。
+        - `clearInterval()`：取消由 `setInterval()` 设置的 `timeout`。
+3. **属性**
+    - 获取其他 BOM 对象，如 `history`、`location`、`Navigator`、`Screen`。
+    - 获取 DOM 对象，如 `document`。
+
+### Location 地址栏对象
+
+1. **创建 (获取)**
+    - `window.location`
+    - `location`
+2. **方法**
+    - `reload()`：重新加载当前文档，即刷新。
+3. **属性**
+    - `href`：设置或返回完整的 URL。
+
+### History 历史记录对象
+
+1. **创建 (获取)**
+    - `window.history`
+    - `history`
+2. **方法**
+    - `back()`：加载 `history` 列表中的前一个 URL。
+    - `forward()`：加载 `history` 列表中的下一个 URL。
+    - `go(参数)`：加载 `history` 列表中的某个具体页面，参数正数为前进几个历史记录，负数为后退几个历史记录。
+3. **属性**
+    - `length`：返回当前窗口历史列表中的 URL 数量。
+
+## DOM（Document Object Model 文档对象模型）
+
+将标记语言文档的各个组成部分，封装为对象。可以使用这些对象，对标记语言文档进行 CRUD 的动态操作。
+
+### W3C DOM 标准被分为 3 个不同的部分
+
+1. **核心 DOM**：针对任何结构化文档的标准模型
+    - `Document`：文档对象
+    - `Element`：元素对象
+    - `Attribute`：属性对象
+    - `Text`：文本对象
+    - `Comment`：注释对象
+    - `Node`：节点对象，其他 5 个的父对象
+2. **XML DOM**：针对 XML 文档的标准模型
+3. **HTML DOM**：针对 HTML 文档的标准模型
+
+### 核心 DOM 模型
+
+1. **Document 文档对象**
+    - **创建 (获取)**：在 html dom 模型中可以使用 `window` 对象来获取
+        - `window.document`
+        - `document`
+    - **方法**
+        - 获取 `Element` 对象
+            - `getElementById()`：根据 `id` 属性值获取元素对象，`id` 属性值一般唯一。
+            - `getElementsByTagName()`：根据元素名称获取元素对象们，返回值是一个数组。
+            - `getElementsByClassName()`：根据 `Class` 属性值获取元素对象们，返回值是一个数组。
+            - `getElementsByName()`：根据 `name` 属性值获取元素对象们，返回值是一个数组。
+        - 创建其他 DOM 对象
+            - `createAttribute(name)`
+            - `createComment()`
+            - `createElement()`
+            - `createTextNode()`
+2. **Element 元素对象**
+    - **获取 / 创建**：通过 `document` 来获取和创建
+    - **方法**
+        - `removeAttribute()`：删除属性
+        - `setAttribute()`：设置属性
+3. **Node 节点对象**：其他 5 个的父对象
+    - **特点**：所有 dom 对象都可以被认为是一个节点
+    - **方法**
+        - CRUD dom 树
+            - `appendChild()`：向节点的子节点列表的结尾添加新的子节点。
+            - `removeChild()`：删除（并返回）当前节点的指定子节点。
+            - `replaceChild()`：用新节点替换一个子节点。
+    - **属性**
+        - `parentNode`：返回节点的父节点。
+
+### HTML DOM
+
+1. 标签体的设置和获取：`innerHTML`
+2. 使用 html 元素对象的属性
+3. 控制元素样式
+    - 使用元素的 `style` 属性来设置，示例：
+
+  
+
+javascript
+
+```javascript
+//修改样式方式1
+div1.style.border = "1px solid red";
+div1.style.width = "200px";
+//font-size--> fontSize
+div1.style.fontSize = "20px";
+```
+
+  
+
+- 提前定义好类选择器的样式，通过元素的 `className` 属性来设置其 `class` 属性值。
+
+## DOM 简单学习：为了满足案例要求
+
+1. **功能**：控制 html 文档的内容
+2. **获取页面标签 (元素) 对象**：`Element`
+    - `document.getElementById("id值")`：通过元素的 `id` 获取元素对象
+3. **操作 Element 对象**
+    - **修改属性值**
+        - 明确获取的对象是哪一个。
+        - 查看 API 文档，找其中有哪些属性可以设置。
+    - **修改标签体内容**
+        - 属性：`innerHTML`
+        - 操作步骤
+            1. 获取元素对象
+            2. 使用 `innerHTML` 属性修改标签体内容
+
+## 事件简单学习
+
+1. **功能**：某些组件被执行了某些操作后，触发某些代码的执行。造句示例：xxx 被 xxx，我就 xxx，如我方水晶被摧毁后，我就责备队友；敌方水晶被摧毁后，我就夸奖自己。
+2. **如何绑定事件**
+    - 直接在 html 标签上，指定事件的属性 (操作)，属性值就是 js 代码，事件如 `onclick`（单击事件）。
+    - 通过 js 获取元素对象，指定事件属性，设置一个函数。
+    - **代码示例**
+
+  
+
+html
+
+预览
+
+```html
+<body>
+    <img id="light" src="img/off.gif"  onclick="fun();">
+    <img id="light2" src="img/off.gif">
+    
+    <script>
+        function fun(){
+            alert('我被点了');
+            alert('我又被点了');
+        }
+    
+        function fun2(){
+            alert('咋老点我？');
+        }
+    
+        //1.获取light2对象
+        var light2 = document.getElementById("light2");
+        //2.绑定事件
+        light2.onclick = fun2;
+    </script>
+</body>
+```
+
+  
+
+3. **案例 1：电灯开关**
+
+  
+
+html
+
+预览
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电灯开关</title>
+
+</head>
+<body>
+
+<img id="light" src="img/off.gif">
+
+<script>
+    /*
+        分析：
+            1.获取图片对象
+            2.绑定单击事件
+            3.每次点击切换图片
+                * 规则：
+                    * 如果灯是开的 on,切换图片为 off
+                    * 如果灯是关的 off,切换图片为 on
+                * 使用标记flag来完成
+
+     */
+
+    //1.获取图片对象
+    var light = document.getElementById("light");
+
+    var flag = false;//代表灯是灭的。 off图片
+
+    //2.绑定单击事件
+    light.onclick = function(){
+        if(flag){//判断如果灯是开的，则灭掉
+            light.src = "img/off.gif";
+            flag = false;
+
+        }else{
+            //如果灯是灭的，则打开
+
+            light.src = "img/on.gif";
+            flag = true;
+        }
+
+
+    }
+</script>
+</body>
+</html>
+```
+
+## 事件监听机制
+
+1. **概念**：某些组件被执行了某些操作后，触发某些代码的执行。
+    - **事件**：某些操作，如单击，双击，键盘按下了，鼠标移动了。
+    - **事件源**：组件，如按钮、文本输入框等。
+    - **监听器**：代码。
+    - **注册监听**：将事件，事件源，监听器结合在一起。当事件源上发生了某个事件，则触发执行某个监听器代码。
+2. **常见的事件**
+    - **点击事件**
+        - `onclick`：单击事件
+        - `ondblclick`：双击事件
+    - **焦点事件**
+        - `onblur`：失去焦点
+        - `onfocus`：元素获得焦点
+    - **加载事件**
+        - `onload`：一张页面或一幅图像完成加载
+    - **鼠标事件**
+        - `onmousedown`：鼠标按钮被按下
+        - `onmouseup`：鼠标按键被松开
+        - `onmousemove`：鼠标被移动
+        - `onmouseover`：鼠标移到某元素之上
+        - `onmouseout`：鼠标从某元素移开
+    - **键盘事件**
+        - `onkeydown`：某个键盘按键被按下
+        - `onkeyup`：某个键盘按键被松开
+        - `onkeypress`：某个键盘按键被按下并松开
+    - **选择和改变**
+        - `onchange`：域的内容被改变
+        - `onselect`：文本被选中
+    - **表单事件**
+        - `onsubmit`：确认按钮被点击
+        - `onreset`：重置按钮被点击

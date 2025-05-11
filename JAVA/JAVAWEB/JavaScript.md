@@ -252,6 +252,8 @@ html
 
 （此处未详细内容，可根据实际补充）
 
+# JavaScript 进阶
+
 ## BOM（Browser Object Model 浏览器对象模型）
 
 将浏览器的各个组成部分封装成对象。

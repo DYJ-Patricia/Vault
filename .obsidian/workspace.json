@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "JAVA/JAVAWEB/Tomcat&Servlet.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -173,8 +173,9 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "9fe12927a22a26dd",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
+    "pictures/Pasted image 20250515153859.png",
     "JAVA/JAVAWEB/XML.md",
     "JAVA/JAVAWEB/Tomcat&Servlet.md",
     "JAVA/JAVAWEB/SE.md",
@@ -219,7 +220,6 @@
     "README.md",
     "Tools/learn obsidian/first.md",
     "2025-03-01.md",
-    "cs61b/Syntax.md",
-    "2025-01-15.md"
+    "cs61b/Syntax.md"
   ]
 }

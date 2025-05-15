@@ -331,6 +331,7 @@
 
 ![[Pasted image 20250515153859.png]]
 
+![[Pasted image 20250515161929.png]]
 1. request 对象和 response 对象的原理
     
     1. request 和 response 对象是由服务器创建的。我们来使用它们

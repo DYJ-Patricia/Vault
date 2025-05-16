@@ -719,3 +719,5 @@
             1. setProperty()
             2. getProperty()
             3. populate (Object obj , Map map): 将 map 集合的键值对信息，封装到对应的 JavaBean 对象中
+
+![[Pasted image 20250516215730.png]]

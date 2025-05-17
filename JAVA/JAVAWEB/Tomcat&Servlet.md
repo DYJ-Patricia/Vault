@@ -721,3 +721,183 @@
             3. populate (Object obj , Map map): 将 map 集合的键值对信息，封装到对应的 JavaBean 对象中
 
 ![[Pasted image 20250516215730.png]]
+
+
+## **今日学习内容**
+
+### **1. HTTP 协议：响应消息**
+
+#### **1.1 请求消息（客户端→服务器）**
+
+- **数据格式**：
+    1. **请求行**（请求方法、URL、协议版本）
+    2. **请求头**（键值对，如 `User-Agent`、`Content-Type`）
+    3. **请求空行**（分隔头与体）
+    4. **请求体**（POST 等方法携带的数据）
+
+#### **1.2 响应消息（服务器→客户端）**
+
+- **数据格式**：
+    
+    1. **响应行**
+        - 组成：`协议/版本 状态码 状态描述`（例：`HTTP/1.1 200 OK`）
+        - **状态码分类**：
+            - `1xx`：处理中（如 `100 Continue`）
+            - `2xx`：成功（如 `200 OK`）
+            - `3xx`：重定向（如 `302 Found`、`304 Not Modified`）
+            - `4xx`：客户端错误（如 `404 Not Found`、`405 Method Not Allowed`）
+            - `5xx`：服务器错误（如 `500 Internal Server Error`）
+    2. **响应头**
+        - 格式：`头名称: 值`（例：`Content-Type: text/html;charset=UTF-8`）
+        - 常见头：
+            - `Content-Type`：指定响应体格式及编码
+            - `Content-Disposition`：控制响应体打开方式（`in-line` 在线打开，`attachment;filename=xxx` 附件下载）
+    3. **响应空行**
+    4. **响应体**：实际传输的数据（如 HTML、JSON、文件字节等）
+- **示例响应**：
+    
+    http
+    
+    ```http
+    HTTP/1.1 200 OK  
+    Content-Type: text/html;charset=UTF-8  
+    Content-Length: 101  
+    Date: Wed, 06 Jun 2018 07:08:42 GMT  
+    
+    <html>  
+      <head><title>$Title$</title></head>  
+      <body>hello, response</body>  
+    </html>  
+    ```
+    
+      
+    
+
+### **2. Response 对象**
+
+#### **功能：构建响应消息**
+
+1. **设置响应行**
+    
+    - 方法：`setStatus(int sc)`（例：`response.setStatus(302)` 重定向）
+2. **设置响应头**
+    
+    - 方法：`setHeader(String name, String value)`（例：`response.setHeader("location", "/target")`）
+3. **设置响应体**
+    
+    - **获取输出流**：
+        - 字符流：`PrintWriter getWriter()`（用于文本数据，需注意编码）
+        - 字节流：`ServletOutputStream getOutputStream()`（用于二进制数据，如图像、文件）
+    - **案例：重定向**
+        
+        java
+        
+        ```java
+        // 方式1：手动设置状态码和头  
+        response.setStatus(302);  
+        response.setHeader("location", "/day15/responseDemo2");  
+        // 方式2：快捷方法（推荐）  
+        response.sendRedirect("/day15/responseDemo2");  
+        ```
+        
+          
+        
+    - **重定向特点**：
+        - 地址栏变化，可跨域访问，两次独立请求，不共享 `request` 数据。
+    - **转发（Forward）特点**：
+        - 地址栏不变，仅限当前服务器，一次请求，可通过 `request` 共享数据。
+    - **路径写法**：
+        - **相对路径**：以 `.` 开头（如 `./index.html`），需根据相对位置确定。
+        - **绝对路径**：
+            - 客户端用（如 `<a>`、重定向）：需加虚拟目录 `request.getContextPath()`。
+            - 服务器用（如转发）：直接写路径（如 `/servlet/ForwardServlet`）。
+4. **字符数据输出（防乱码）**
+    
+    java
+    
+    ```java
+    response.setContentType("text/html;charset=utf-8"); // 关键：设置响应头和流编码  
+    PrintWriter pw = response.getWriter();  
+    pw.write("你好，Response");  
+    ```
+    
+      
+    
+5. **字节数据输出（文件下载、验证码）**
+    
+    - 验证码：生成图片流，通过字节流输出防止恶意注册。
+
+### **3. ServletContext 对象**
+
+#### **概念**：代表整个 Web 应用，用于与服务器通信。
+##### **获取方式**：
+
+- `request.getServletContext();`
+- `this.getServletContext();`（在 HttpServlet 中）
+
+#### **核心功能**：
+
+1. **获取 MIME 类型**
+    
+    - 方法：`String getMimeType(String file)`（例：`image/jpeg`、`text/plain`）。
+2. **域对象（全局数据共享）**
+    
+    - `setAttribute(String name, Object value)`：存储数据
+    - `getAttribute(String name)`：获取数据
+    - `removeAttribute(String name)`：删除数据
+    - **作用域**：所有用户、所有请求共享。
+3. **获取文件真实路径**
+    
+    - 方法：`String getRealPath(String path)`
+        
+        java
+        
+        ```java
+        String webPath = context.getRealPath("/b.txt"); // WEB-INF 同级  
+        String infPath = context.getRealPath("/WEB-INF/c.txt"); // WEB-INF 目录内  
+        String classPath = context.getRealPath("/WEB-INF/classes/a.txt"); // src 编译后路径  
+        ```
+        
+          
+        
+
+#### **案例：文件下载**
+
+- **需求**：点击超链接弹出下载框，支持中文文件名。
+- **步骤**：
+    
+    1. 页面超链接：`href="/DownloadServlet?filename=图片.jpg"`
+    2. Servlet 处理：
+        
+        java
+        
+        ```java
+        String filename = request.getParameter("filename");  
+        String realPath = getServletContext().getRealPath("/download/" + filename);  
+        try (FileInputStream fis = new FileInputStream(realPath);  
+             ServletOutputStream sos = response.getOutputStream()) {  
+            // 设置响应头为附件下载  
+            response.setHeader("Content-Disposition", "attachment;filename=" + URLEncoder.encode(filename, "UTF-8"));  
+            // 读取文件并写出  
+            byte[] buffer = new byte[1024];  
+            int len;  
+            while ((len = fis.read(buffer)) > 0) {  
+                sos.write(buffer, 0, len);  
+            }  
+        }  
+        ```
+        
+          
+        
+    
+    - **中文文件名处理**：
+        - 使用 `URLEncoder.encode(filename, "UTF-8")` 编码，兼容不同浏览器。
+
+### **关键对比**
+
+|**功能**|**重定向（Redirect）**|**转发（Forward）**|
+|---|---|---|
+|地址栏|改变|不变|
+|跨域支持|支持（可访问其他服务器）|不支持（仅限当前服务器）|
+|请求次数|2 次|1 次|
+|request 共享数据|不支持|支持|

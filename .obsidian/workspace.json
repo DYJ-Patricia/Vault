@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/JAVAWEB/Tomcat&Servlet.md",
+                "file": "JAVA/JAVAWEB/Cookie&Session笔记.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tomcat&Servlet"
+              "title": "Cookie&Session笔记"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/JAVAWEB/Tomcat&Servlet.md"
+                "file": "JAVA/JAVAWEB/Cookie&Session笔记.md"
               },
               "icon": "lucide-list",
-              "title": "Tomcat&Servlet 的大纲"
+              "title": "Cookie&Session笔记 的大纲"
             }
           },
           {
@@ -175,10 +175,14 @@
   },
   "active": "9fe12927a22a26dd",
   "lastOpenFiles": [
+    "JAVA/JAVAWEB/EL&JSTL笔记.md",
+    "JAVA/JAVAWEB/Cookie&Session笔记.md",
+    "JAVA/JAVAWEB/EL&JSTL笔记.md.baiduyun.p.downloading",
+    "JAVA/JAVAWEB/Tomcat&Servlet.md",
+    "JAVA/JAVAWEB/Cookie&Session笔记.md.baiduyun.p.downloading",
     "JAVA/JAVAWEB/HTML&CSS.md",
     "JAVA/JAVAWEB/JavaScript.md",
     "JAVA/JAVAWEB/Pasted image 20250516215730.png",
-    "JAVA/JAVAWEB/Tomcat&Servlet.md",
     "Pasted image 20250516215722.png",
     "Pasted image 20250516215717.png",
     "Pasted image 20250516215647.png",
@@ -202,8 +206,6 @@
     "pictures/assets/1662645798025.png.baiduyun.p.downloading",
     "pictures/assets/1662645669483.png.baiduyun.p.downloading",
     "pictures/assets/1662645452619.png.baiduyun.p.downloading",
-    "pictures/assets/1662644255745.png.baiduyun.p.downloading",
-    "pictures/assets/1662643802111.png.baiduyun.p.downloading",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
     "Tools/learn obsidian/Obsidian Markdown.md",
     "未命名.md",
@@ -218,7 +220,6 @@
     "cs61b/Notes/Lists.md",
     "README.md",
     "Tools/learn obsidian/first.md",
-    "2025-03-01.md",
-    "cs61b/Syntax.md"
+    "2025-03-01.md"
   ]
 }

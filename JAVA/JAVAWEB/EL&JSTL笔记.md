@@ -42,7 +42,7 @@
 
 	3. 内置对象
 		* 在jsp页面中不需要创建，直接使用的对象
-		* 一共有9个：
+		* 一共有9个（前四个为域对象）：
 				变量名					真实类型						作用
 			* pageContext				PageContext					当前页面共享数据，还可以获取其他八个内置对象
 			* request					HttpServletRequest			一次请求访问的多个资源(转发)

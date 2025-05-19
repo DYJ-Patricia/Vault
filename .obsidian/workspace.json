@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/JAVAWEB/Cookie&Session笔记.md",
+                "file": "JAVA/JAVAWEB/EL&JSTL笔记.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cookie&Session笔记"
+              "title": "EL&JSTL笔记"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/JAVAWEB/Cookie&Session笔记.md"
+                "file": "JAVA/JAVAWEB/EL&JSTL笔记.md"
               },
               "icon": "lucide-list",
-              "title": "Cookie&Session笔记 的大纲"
+              "title": "EL&JSTL笔记 的大纲"
             }
           },
           {
@@ -175,8 +175,8 @@
   },
   "active": "9fe12927a22a26dd",
   "lastOpenFiles": [
-    "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "JAVA/JAVAWEB/Cookie&Session笔记.md",
+    "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "JAVA/JAVAWEB/Tomcat&Servlet.md",
     "JAVA/JAVAWEB/EL&JSTL笔记.md.baiduyun.p.downloading",
     "JAVA/JAVAWEB/Cookie&Session笔记.md.baiduyun.p.downloading",

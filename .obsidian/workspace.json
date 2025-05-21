@@ -35,8 +35,7 @@
               "title": "Tomcat&Servlet"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/JAVAWEB/Tomcat&Servlet.md"
+                "file": "JAVA/JAVAWEB/EL&JSTL笔记.md"
               },
               "icon": "lucide-list",
-              "title": "Tomcat&Servlet 的大纲"
+              "title": "EL&JSTL笔记 的大纲"
             }
           },
           {
@@ -188,11 +187,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "b09f2113a17ecd28",
+  "active": "9fe12927a22a26dd",
   "lastOpenFiles": [
+    "JAVA/JAVAWEB/Tomcat&Servlet.md",
     "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "JAVA/JAVAWEB/Cookie&Session笔记.md",
-    "JAVA/JAVAWEB/Tomcat&Servlet.md",
     "JAVA/JAVAWEB/EL&JSTL笔记.md.baiduyun.p.downloading",
     "JAVA/JAVAWEB/Cookie&Session笔记.md.baiduyun.p.downloading",
     "JAVA/JAVAWEB/HTML&CSS.md",

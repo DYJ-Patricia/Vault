@@ -58,6 +58,7 @@
 
 
 ## MVC：开发模式	
+
 	1. jsp演变历史
 		1. 早期只有servlet，只能使用response输出标签数据，非常麻烦
 		2. 后来又jsp，简化了Servlet的开发，如果过度使用jsp，在jsp中即写大量的java代码，有写html表，造成难于维护，难于分工协作

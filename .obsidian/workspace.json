@@ -49,8 +49,7 @@
               "title": "VIM"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,10 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/VIM.md"
+                "file": "JAVA/JAVAWEB/EL&JSTL笔记.md"
               },
               "icon": "lucide-list",
-              "title": "VIM 的大纲"
+              "title": "EL&JSTL笔记 的大纲"
             }
           },
           {
@@ -202,8 +201,9 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "b558eb4d0124ba37",
+  "active": "9fe12927a22a26dd",
   "lastOpenFiles": [
+    "Tools/VIM.md",
     "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "JAVA/JAVAWEB/Tomcat&Servlet.md",
     "JAVA/JAVAWEB/Cookie&Session笔记.md",
@@ -244,7 +244,6 @@
     "Textbook.md",
     "cs61b/Syntax/Basic/Data Structure.md",
     "cs61b/Syntax/Basic/Basic Syntax.md",
-    "Tools/VIM.md",
     "Tools/learn obsidian/我的第二篇笔记.md",
     "cs61b/Notes/Lists.md",
     "README.md",

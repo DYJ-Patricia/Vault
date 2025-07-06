@@ -34,6 +34,18 @@
               "icon": "lucide-file",
               "title": "Tomcat&Servlet"
             }
+          },
+          {
+            "id": "73ae405adb8a4fd4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "pictures/Pasted image 20250516215730.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250516215730"
+            }
           }
         ]
       }
@@ -189,16 +201,16 @@
   },
   "active": "9fe12927a22a26dd",
   "lastOpenFiles": [
+    "pictures/Pasted image 20250516215730.png",
+    "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "pictures/Pasted image 20250706212849.png",
     "Tools/VIM.md",
-    "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "JAVA/JAVAWEB/Tomcat&Servlet.md",
     "JAVA/JAVAWEB/Cookie&Session笔记.md",
     "JAVA/JAVAWEB/EL&JSTL笔记.md.baiduyun.p.downloading",
     "JAVA/JAVAWEB/Cookie&Session笔记.md.baiduyun.p.downloading",
     "JAVA/JAVAWEB/HTML&CSS.md",
     "JAVA/JAVAWEB/JavaScript.md",
-    "JAVA/JAVAWEB/Pasted image 20250516215730.png",
     "Pasted image 20250516215722.png",
     "Pasted image 20250516215717.png",
     "Pasted image 20250516215647.png",

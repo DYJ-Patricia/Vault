@@ -39,15 +39,18 @@
             "id": "73ae405adb8a4fd4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "pictures/Pasted image 20250516215730.png"
+                "file": "Tools/VIM.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250516215730"
+              "icon": "lucide-file",
+              "title": "VIM"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,11 +203,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "73ae405adb8a4fd4",
   "lastOpenFiles": [
-    "pictures/Pasted image 20250706225250.png",
-    "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "pictures/Pasted image 20250516215730.png",
+    "JAVA/JAVAWEB/EL&JSTL笔记.md",
+    "pictures/Pasted image 20250706225250.png",
     "pictures/Pasted image 20250706212849.png",
     "Tools/VIM.md",
     "JAVA/JAVAWEB/Tomcat&Servlet.md",

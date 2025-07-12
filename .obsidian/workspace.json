@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/VIM.md",
+                "file": "Tools/GIT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VIM"
+              "title": "GIT"
             }
           }
         ],
@@ -205,11 +205,11 @@
   },
   "active": "73ae405adb8a4fd4",
   "lastOpenFiles": [
+    "Tools/VIM.md",
     "pictures/Pasted image 20250516215730.png",
     "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "pictures/Pasted image 20250706225250.png",
     "pictures/Pasted image 20250706212849.png",
-    "Tools/VIM.md",
     "JAVA/JAVAWEB/Tomcat&Servlet.md",
     "JAVA/JAVAWEB/Cookie&Session笔记.md",
     "JAVA/JAVAWEB/EL&JSTL笔记.md.baiduyun.p.downloading",

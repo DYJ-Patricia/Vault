@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/GIT.md",
+                "file": "JAVA/JAVAWEB/Cookie&Session笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT"
+              "title": "Cookie&Session笔记"
             }
           }
         ],
@@ -205,8 +205,8 @@
   },
   "active": "73ae405adb8a4fd4",
   "lastOpenFiles": [
-    "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "Tools/GIT.md",
+    "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "Tools/VIM.md",
     "pictures/Pasted image 20250516215730.png",
     "pictures/Pasted image 20250706225250.png",

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/JAVAWEB/Cookie&Session笔记.md",
+                "file": "JAVA/JAVAWEB/EL&JSTL笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cookie&Session笔记"
+              "title": "EL&JSTL笔记"
             }
           }
         ],
@@ -205,6 +205,7 @@
   },
   "active": "73ae405adb8a4fd4",
   "lastOpenFiles": [
+    "JAVA/JAVAWEB/Cookie&Session笔记.md",
     "Tools/GIT.md",
     "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "Tools/VIM.md",
@@ -212,7 +213,6 @@
     "pictures/Pasted image 20250706225250.png",
     "pictures/Pasted image 20250706212849.png",
     "JAVA/JAVAWEB/Tomcat&Servlet.md",
-    "JAVA/JAVAWEB/Cookie&Session笔记.md",
     "JAVA/JAVAWEB/EL&JSTL笔记.md.baiduyun.p.downloading",
     "JAVA/JAVAWEB/Cookie&Session笔记.md.baiduyun.p.downloading",
     "JAVA/JAVAWEB/HTML&CSS.md",

@@ -20,3 +20,11 @@
 
 # 第二种解释
 
+![[Pasted image 20251013230427.png]]
+
+- ==filter里数值未知，需要gradient decent找出==
+![[Pasted image 20251013230823.png]]
+- 假设数值已知，逐步移动计算，如图。对角线刚好与Filter相同且数值最大的左上和左下角为需要监测的Feature
+- 每个Filter都做一遍操作
+- ==假设有64个filter，生成有64组数字的Feature Map==
+- Feature Map可以被看做

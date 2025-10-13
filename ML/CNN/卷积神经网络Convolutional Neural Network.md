@@ -55,3 +55,5 @@
 # 影像辨识全流程
 
 ![[Pasted image 20251013234533.png]]
+BTW，==CNN is not invarient to scaling and rotation(we need data augmentation)==
+special transformer layer架构可以解决

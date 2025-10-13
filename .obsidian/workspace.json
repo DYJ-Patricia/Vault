@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/CNN/卷积神经网络Convolutional Neural Network.md",
+                "file": "ML/CNN/Validation set.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "卷积神经网络Convolutional Neural Network"
-            }
-          },
-          {
-            "id": "d17c204bab66d49b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/learn obsidian/Obsidian Markdown.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian Markdown"
+              "title": "Validation set"
             }
           }
         ]
@@ -152,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/CNN/卷积神经网络Convolutional Neural Network.md"
+                "file": "ML/CNN/Validation set.md"
               },
               "icon": "lucide-list",
-              "title": "卷积神经网络Convolutional Neural Network 的大纲"
+              "title": "Validation set 的大纲"
             }
           },
           {
@@ -189,19 +175,20 @@
   },
   "active": "7860188cde985504",
   "lastOpenFiles": [
+    "ML/CNN/pics/Pasted image 20251014000144.png",
+    "ML/CNN/pics/Pasted image 20251013235952.png",
+    "ML/CNN/卷积神经网络Convolutional Neural Network.md",
+    "ML/CNN/Validation set.md",
     "ML/CNN/pics/Pasted image 20251013234533.png",
     "ML/CNN/pics/Pasted image 20251013234004.png",
     "ML/CNN/pics/Pasted image 20251013233550.png",
     "ML/CNN/pics/Pasted image 20251013233210.png",
     "ML/CNN/pics/Pasted image 20251013232503.png",
     "Tools/learn obsidian/Obsidian Markdown.md",
-    "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/CNN/pics/Pasted image 20251013230823.png",
     "ML/CNN/pics/Pasted image 20251013230427.png",
     "ML/CNN/pics/Pasted image 20251013225527.png",
     "ML/CNN/pics/Pasted image 20251013225008.png",
-    "ML/CNN/pics/Pasted image 20251013224753.png",
-    "ML/CNN/pics/Pasted image 20251013224009.png",
     "ML/CNN/pics",
     "ML/CNN",
     "ML",
@@ -233,7 +220,6 @@
     "cs61b/Syntax/Basic/Data Structure.md",
     "cs61b/Syntax/Basic/Basic Syntax.md",
     "Tools/learn obsidian/我的第二篇笔记.md",
-    "cs61b/Notes/Lists.md",
-    "README.md"
+    "cs61b/Notes/Lists.md"
   ]
 }

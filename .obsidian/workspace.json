@@ -173,8 +173,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "ead10b164158135c",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
+    "ML/CNN/pics",
+    "ML/CNN/pics/Pasted image 20251013223221.png",
     "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/CNN",
     "ML",
@@ -190,16 +192,15 @@
     "JAVA/JAVAWEB/EL&JSTL笔记.md.baiduyun.p.downloading",
     "JAVA/JAVAWEB/Cookie&Session笔记.md.baiduyun.p.downloading",
     "JAVA/JAVAWEB/JavaScript.md",
-    "Pasted image 20250516215722.png",
-    "Pasted image 20250516215717.png",
-    "Pasted image 20250516215647.png",
+    "JAVA/JAVAWEB/Pasted image 20250516215722.png",
+    "JAVA/JAVAWEB/Pasted image 20250516215717.png",
+    "JAVA/JAVAWEB/Pasted image 20250516215647.png",
     "pictures/Pasted image 20250515161929.png",
     "pictures/Pasted image 20250515153859.png",
     "JAVA/JAVAWEB/XML.md",
     "JAVA/JAVAWEB/SE.md",
     "JAVA/JAVAWEB/MYSQL.md",
     "pictures/Pasted image 20250506202335.png",
-    "pictures/Pasted image 20250506201308.png",
     "刷题心得/笔记.md",
     "JAVA/Base.md",
     "pictures/assets/1662792538291.png.baiduyun.p.downloading",
@@ -219,7 +220,6 @@
     "cs61b/Syntax/Basic/Basic Syntax.md",
     "Tools/learn obsidian/我的第二篇笔记.md",
     "cs61b/Notes/Lists.md",
-    "README.md",
-    "Tools/learn obsidian/first.md"
+    "README.md"
   ]
 }

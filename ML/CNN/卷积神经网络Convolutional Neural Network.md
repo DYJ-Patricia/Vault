@@ -24,11 +24,19 @@
 
 - ==filter里数值未知，需要gradient decent找出==
 ![[Pasted image 20251013230823.png]]
-## 在第一次layer中（假设channel为1）
+## 在第一层layer中（假设channel为1）
 - 假设数值已知，逐步移动计算，如图。对角线刚好与Filter相同且数值最大的左上和左下角为需要监测的Feature
 - 每个Filter都做一遍操作
-- ==假设有64个filter，生成有64组数字的Feature Map==
+- ==假设有64个filter，则生成有64组数字的Feature Map==
 - ==Feature Map可以被看做是一张包含64个channel的image==
-## 在第一次layer中
+## 在第二层layer中
 - 第一层convolution化后，第二层layer开始convolution
 - channel，即高度，由3变为64
+- ![[Pasted image 20251013232503.png]]
+- 不用担心filter 3-3的大小不够侦测比较大的pattern，相反，==layer深度越深，范围越大。==同样的大小，在原图上变成了5-5.
+
+# 共通
+
+不同区域的neural share parameter就相当于把filter扫过一张图片，而这组
+
+![[Pasted image 20251013233210.png]]

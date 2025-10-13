@@ -37,6 +37,16 @@
 
 # 共通
 
-不同区域的neural share parameter就相当于把filter扫过一张图片，而这组
+==不同区域的neural share parameter就相当于把filter扫(convolve)过一张图片，而这组共享的参数就是filter.==
 
 ![[Pasted image 20251013233210.png]]
+![[Pasted image 20251013233550.png]]
+# 第三种解释——Max Pooling
+
+![[Pasted image 20251013234004.png]]
+- filter convolution产生的数字先分割成小块，然后保留Max(Max Pooling中)
+- 相当于缩小图片，channel不变
+- 作用是subsampling，降低运算量
+
+## Flatten
+

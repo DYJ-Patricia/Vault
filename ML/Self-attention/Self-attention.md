@@ -64,4 +64,14 @@
 - k 倒置后做 inner product
 
 - ![[Pasted image 20251014134128.png]]
-- 
+- ![[Pasted image 20251014134359.png]]
+ ###  总流程
+ ![[Pasted image 20251014134625.png]]
+ ==只有W是未知的，需要从training data找出来==
+
+
+# Muti-Head Self-attention
+
+==相关性有多种，则q,k,v都可以不止一个==
+
+![[Pasted image 20251014135131.png]]

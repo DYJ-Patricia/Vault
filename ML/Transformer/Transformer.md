@@ -71,3 +71,19 @@ __Encoder+Decoder__
 ## Tips
 
 ### Copy Mechanism
+
+- chatbot
+- summarization
+- 有复制能力的模型Pointer Network
+
+### Guided Attention
+
+- ==可用于语音辨识、语音合成==
+
+![[Pasted image 20251014224146.png]]
+- 说话输出应该由左向右
+- 应强迫其由左向右
+
+### Beam Search
+
+

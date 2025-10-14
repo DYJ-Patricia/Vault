@@ -65,3 +65,9 @@ __Encoder+Decoder__
 
 ==刚刚讲的都是模型训练好后怎么做testing的==
 
+==把ground truth提前给出，作为decoder的输入，与decoder输出对比，计算cross entropy,越小越接近。以此训练。==
+![[Pasted image 20251014223156.png]]
+
+## Tips
+
+### Copy Mechanism

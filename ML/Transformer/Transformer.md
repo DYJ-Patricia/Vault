@@ -18,4 +18,11 @@ __Encoder+Decoder__
 - ![[Pasted image 20251014174231.png]]
 - Feed Forword为一种fully connected network
 - Block会重复多次
-- 
+
+### 原始架构不一定Optimum
+
+![[Pasted image 20251014174710.png]]
+
+
+## Decoder
+

@@ -53,8 +53,15 @@ __Encoder+Decoder__
 ![[Pasted image 20251014215028.png]]
 
 
-### Cross attention运作过程
-
-==Encoder提供k,Decoder
+### Cross attention运作过程（Encoder-Decoder互动）
+- 它在self-attention前就出来了
+- ==Encoder提供k,Decoder提供q==
 ![[Pasted image 20251014215309.png]]
+
+- 原始上看，encoder,decoder都有很多层，且decoder用encoder的最后一层
+- 然而，可以创新，随意用encoder的任意一层叠加
+
+## Training
+
+==刚刚讲的都是模型训练好后怎么做testing的==
 

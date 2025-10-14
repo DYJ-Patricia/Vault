@@ -57,3 +57,11 @@
 ![[Pasted image 20251014130446.png]]
 
 ## 矩阵角度的理解
+![[Pasted image 20251014133544.png]]
+==形成含四个column的matrix==
+
+![[Pasted image 20251014133906.png]]
+- k 倒置后做 inner product
+
+- ![[Pasted image 20251014134128.png]]
+- 

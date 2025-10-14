@@ -27,4 +27,12 @@ __Encoder+Decoder__
 ## Decoder
 
 - 把Encoder输出到Decoder
-- 
+
+### Autoregressive
+
+![[Pasted image 20251014212926.png]]
+可能一步错，步步错
+
+#### Masked Self-attention
+==不考虑右边的==
+![[Pasted image 20251014213322.png]]

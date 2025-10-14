@@ -100,3 +100,7 @@ Self-attention: CNN with learnable receptive field
 
 ![[Pasted image 20251014141906.png]]
 Self-attention加上某个东西就成了RNN
+
+# GNN
+
+![[Pasted image 20251014142336.png]]

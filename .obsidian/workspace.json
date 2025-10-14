@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Self-attention/Self-attention.md",
+                "file": "ML/Transformer/Transformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Self-attention"
+              "title": "Transformer"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Self-attention/Self-attention.md"
+                "file": "ML/Transformer/Transformer.md"
               },
               "icon": "lucide-list",
-              "title": "Self-attention 的大纲"
+              "title": "Transformer 的大纲"
             }
           },
           {
@@ -173,8 +173,13 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "d51881d2cf4e80d1",
   "lastOpenFiles": [
+    "ML/Self-attention/Self-attention.md",
+    "ML/Transformer/Transformer.md",
+    "ML/Transformer/pics",
+    "ML/Transformer",
+    "ML/Self-attention/pics/Pasted image 20251014142336.png",
     "ML/Self-attention/pics/Pasted image 20251014141906.png",
     "ML/Self-attention/pics/Pasted image 20251014135131.png",
     "ML/Self-attention/pics/Pasted image 20251014134625.png",
@@ -184,9 +189,6 @@
     "ML/Self-attention/pics/Pasted image 20251014133906.png",
     "ML/Self-attention/pics/Pasted image 20251014133544.png",
     "ML/Self-attention/pics/Pasted image 20251014133417.png",
-    "ML/Self-attention/pics/Pasted image 20251014130446.png",
-    "ML/Self-attention/pics/Pasted image 20251014125734.png",
-    "ML/Self-attention/Self-attention.md",
     "ML/Classification/鱼与熊掌可兼得.md",
     "ML/Self-attention/pics",
     "ML/Self-attention",
@@ -205,14 +207,12 @@
     "Tools/VIM.md",
     "JAVA/JAVAWEB/Tomcat&Servlet.md",
     "JAVA/JAVAWEB/EL&JSTL笔记.md.baiduyun.p.downloading",
-    "JAVA/JAVAWEB/Cookie&Session笔记.md.baiduyun.p.downloading",
     "JAVA/JAVAWEB/JavaScript.md",
     "JAVA/JAVAWEB/XML.md",
     "JAVA/JAVAWEB/SE.md",
     "JAVA/JAVAWEB/MYSQL.md",
     "刷题心得/笔记.md",
     "JAVA/Base.md",
-    "pictures/assets/1662792538291.png.baiduyun.p.downloading",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
     "未命名.md",
     "JAVAWEB.md",

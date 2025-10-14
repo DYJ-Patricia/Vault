@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Classification/鱼与熊掌可兼得.md",
+                "file": "ML/Self-attention/Self-attention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "鱼与熊掌可兼得"
+              "title": "Self-attention"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Classification/鱼与熊掌可兼得.md"
+                "file": "ML/Self-attention/Self-attention.md"
               },
               "icon": "lucide-list",
-              "title": "鱼与熊掌可兼得 的大纲"
+              "title": "Self-attention 的大纲"
             }
           },
           {
@@ -175,6 +175,10 @@
   },
   "active": "d51881d2cf4e80d1",
   "lastOpenFiles": [
+    "ML/Classification/鱼与熊掌可兼得.md",
+    "ML/Self-attention/Self-attention.md",
+    "ML/Self-attention/pics",
+    "ML/Self-attention",
     "Pasted image 20251014115955.png",
     "ML/Classification/pics/Pasted image 20251014115500.png",
     "ML/Classification/pics/Pasted image 20251014112636.png",
@@ -185,11 +189,9 @@
     "ML/Classification/pics/Pasted image 20251014103623.png",
     "ML/Classification/pics/Pasted image 20251014000947.png",
     "ML/CNN/Validation set.md",
-    "ML/Classification/鱼与熊掌可兼得.md",
     "ML/Classification",
     "ML/CNN/pics/Pasted image 20251014000528.png",
     "ML/CNN/pics/Pasted image 20251014000144.png",
-    "ML/CNN/pics/Pasted image 20251013235952.png",
     "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "Tools/learn obsidian/Obsidian Markdown.md",
     "ML/CNN/pics",
@@ -210,8 +212,6 @@
     "刷题心得/笔记.md",
     "JAVA/Base.md",
     "pictures/assets/1662792538291.png.baiduyun.p.downloading",
-    "pictures/assets/1662781272258.png.baiduyun.p.downloading",
-    "pictures/assets/1662780740132.png.baiduyun.p.downloading",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
     "未命名.md",
     "JAVAWEB.md",

@@ -31,3 +31,14 @@
 
 ## How Self-Attention Work
 
+![[Pasted image 20251014124328.png]]
+### 确定两个vector之间的relevant阿尔法
+
+#### ==Dot-product(点积) ==
+- 各自先乘两个矩阵
+![[Pasted image 20251014124816.png]]
+
+
+#### Additive
+- 把q,k相连后丢进一个activatation function
+![[Pasted image 20251014125030.png]]

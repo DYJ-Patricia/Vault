@@ -81,3 +81,13 @@
 - 但是可以再加一个each position has a uneque positional vector  ei
 - 这个vector是hand-craft的
 - 可以用function,network等方法训练出来
+
+# 在image上与CNN相比
+
+CNN: self-attention that can only attends in a receptive field
+ 
+- CNN is simplified self-attention.
+ 
+Self-attention: CNN with learnable receptive field
+ 
+- Self-attention is the complex version of CNN.

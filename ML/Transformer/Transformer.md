@@ -27,8 +27,10 @@ __Encoder+Decoder__
 ## Decoder
 
 - 把Encoder输出到Decoder
+- 输入时先添加一个BEGIN token
+- 运作后输出END,机器自己决定output length
 
-### Autoregressive
+### Autoregressive（AT）
 
 ![[Pasted image 20251014212926.png]]
 可能一步错，步步错
@@ -36,3 +38,9 @@ __Encoder+Decoder__
 #### Masked Self-attention
 ==不考虑右边的==
 ![[Pasted image 20251014213322.png]]
+**因为Decoder的output是一个一个产生的，只能考虑左边的东西**
+
+### Non-autoregressive(NAT)
+
+- NAT 速度比AT快
+

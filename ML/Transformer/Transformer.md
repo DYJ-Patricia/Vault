@@ -86,4 +86,7 @@ __Encoder+Decoder__
 
 ### Beam Search
 
+![[Pasted image 20251014224611.png]]
 
+- 用一种不算精确的估测，即用Beam Search来解决这个问题，来找出比较好的path
+- 有时候有用，有时候没用，有些创造性的任务不太能帮助

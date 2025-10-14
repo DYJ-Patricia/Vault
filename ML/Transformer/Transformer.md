@@ -26,3 +26,5 @@ __Encoder+Decoder__
 
 ## Decoder
 
+- 把Encoder输出到Decoder
+- 

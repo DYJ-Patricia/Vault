@@ -91,3 +91,12 @@ CNN: self-attention that can only attends in a receptive field
 Self-attention: CNN with learnable receptive field
  
 - Self-attention is the complex version of CNN.
+
+==self-attention弹性更大，需要更多训练资料==
+
+- 两个都可以一起用
+
+# RNN
+
+![[Pasted image 20251014141906.png]]
+Self-attention加上某个东西就成了RNN

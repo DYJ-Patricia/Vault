@@ -90,3 +90,14 @@ __Encoder+Decoder__
 
 - 用一种不算精确的估测，即用Beam Search来解决这个问题，来找出比较好的path
 - 有时候有用，有时候没用，有些创造性的任务不太能帮助
+- 在里面加点随机性，结果更好
+
+### 作业tip
+![[Pasted image 20251014225721.png]]
+
+### Schedule Sampling
+- 很早就有了，但会伤害transformer
+![[Pasted image 20251014225825.png]]
+==训练时不要一直给正确答案，偶尔给错误答案会训练得更好==
+
+![[Pasted image 20251014230324.png]]

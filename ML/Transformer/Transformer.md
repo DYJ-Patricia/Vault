@@ -43,4 +43,18 @@ __Encoder+Decoder__
 ### Non-autoregressive(NAT)
 
 - NAT 速度比AT快
+- NAT is usually worth than AT
+- ![[Pasted image 20251014214603.png]]
+
+
+
+ ## Encoder-Decoder
+
+![[Pasted image 20251014215028.png]]
+
+
+### Cross attention运作过程
+
+==Encoder提供k,Decoder
+![[Pasted image 20251014215309.png]]
 

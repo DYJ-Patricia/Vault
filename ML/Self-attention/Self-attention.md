@@ -75,3 +75,9 @@
 ==相关性有多种，则q,k,v都可以不止一个==
 
 ![[Pasted image 20251014135131.png]]
+# Positional Encoding
+
+- self-attention内无位置信息
+- 但是可以再加一个each position has a uneque positional vector  ei
+- 这个vector是hand-craft的
+- 可以用function,network等方法训练出来

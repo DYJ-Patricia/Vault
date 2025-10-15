@@ -80,4 +80,21 @@
 
 
 ### Realization(怎么拆分q,k)
+![[Pasted image 20251015223026.png]]
 
+
+### Synthesizer
+
+- 不用q,k计算attention
+- 把原本attention matrix的N乘N当作network中的N乘N个参数
+- 则network中出了原本的weight,bias,又多加了attention weight
+- 成了参数之后，输入不同的sequence,attention weight 都一样，performance不会变太差
+- ![[Pasted image 20251015223542.png]]
+
+### Attention free?
+
+![[Pasted image 20251015223829.png]]
+
+# Summary
+
+Self attention有个benchmark 的corpus叫 long-range arena

@@ -35,3 +35,10 @@
 - 在attention matrix上，当query和key在同一个cluster时，才计算attention weight
 - 其它直接设为0
 
+==目前为止以上方法都是人为决定是否计算attention==
+
+## Learnable Patterns(Sinkhorn Sorting Network)
+
+- 另外learn一个network来决定要不要计算
+- ![[Pasted image 20251015121553.png]]
+- 先输出，后转化为

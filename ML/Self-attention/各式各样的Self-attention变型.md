@@ -41,4 +41,13 @@
 
 - 另外learn一个network来决定要不要计算
 - ![[Pasted image 20251015121553.png]]
-- 先输出，后转化为
+- 先输出，后转化为所需的binary matrix
+- 假设input为10乘10,100个vector1进NN里，有共用vector的情况1，变成了只要是10种vector，解析度变低
+
+
+## Do we need full attention matrix?
+
+- 在图中会有很多column出现redundant的情况，也许我们可以把图变成跟简练的形式
+
+
+

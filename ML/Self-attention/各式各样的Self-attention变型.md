@@ -21,3 +21,17 @@
 - 前两个column代表出了special token标定的其它query，也会attend不是special token的位置
 
 ==可以全都用，multi-attention有多个head,每个head use different pattern==
+
+- Longformer:三个都用
+- Big Bird：Longformer基础上加了Random Attention
+
+## Clustering
+
+- 为了focus重点,可以把attention value 小的直接设为0
+- 那如何分辨呢？按照相似度用clustering分组
+
+![[Pasted image 20251015120304.png]]
+
+- 在attention matrix上，当query和key在同一个cluster时，才计算attention weight
+- 其它直接设为0
+

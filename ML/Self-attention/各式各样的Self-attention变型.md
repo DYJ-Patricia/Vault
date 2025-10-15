@@ -48,6 +48,14 @@
 ## Do we need full attention matrix?
 
 - 在图中会有很多column出现redundant的情况，也许我们可以把图变成跟简练的形式
+- 选择有代表性的key，数目由N变为K
+- ==但是== ，可以改变query数量吗？Case by Case
+- ![[Pasted image 20251015123037.png]]
 
+### 怎么选出有代表性的key
+
+- Compressed Attention:将一连串key sequence,用CNN扫过它，长的变短的，选出有代表性的key
+- Linformer:![[Pasted image 20251015215528.png]]
+- 
 
 

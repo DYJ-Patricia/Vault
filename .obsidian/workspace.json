@@ -173,8 +173,9 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "a019e8d404112bba",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
+    "ML/Self-attention/pics/Pasted image 20251015114543.png",
     "ML/Self-attention/各式各样的Self-attention变型.md",
     "ML/Transformer/Transformer.md",
     "ML/Transformer/pics/Pasted image 20251014230324.png",
@@ -219,7 +220,6 @@
     "JAVAWEB.md",
     "cs61b/Notes/Inheritance and Implements.md",
     "cs61b/Textbook.md",
-    "Textbook.md",
-    "cs61b/Syntax/Basic/Data Structure.md"
+    "Textbook.md"
   ]
 }

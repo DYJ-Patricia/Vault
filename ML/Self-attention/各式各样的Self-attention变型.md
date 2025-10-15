@@ -61,13 +61,23 @@
 
 ![[Pasted image 20251015220102.png]]
 - 两者结果一样，但运算量不一样
-- 从数学角度看：
+### 从数学角度看：
 - ![[Pasted image 20251015221129.png]]
 - ![[Pasted image 20251015221459.png]]
 - ![[Pasted image 20251015221649.png]]
 
 - 图中b1之和query的vector有关
+- 蓝色和黄色的vector再求出来后，可以直接使用，再求b2,b3等时就不用重复运算
 - ![[Pasted image 20251015222002.png]]
-- 
+### 简化版流程
+![[Pasted image 20251015222510.png]]
 
+上图得到了b1分子的一项，分母类似
+
+==接下来M个vector就不需要重算了==
+
+![[Pasted image 20251015222831.png]]
+
+
+### Realization(怎么拆分q,k)
 

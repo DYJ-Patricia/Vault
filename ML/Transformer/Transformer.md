@@ -96,7 +96,7 @@ __Encoder+Decoder__
 ![[Pasted image 20251014225721.png]]
 
 ### Schedule Sampling
-- 很早就有了，但会伤害transformer
+- 很早就有了，但会伤害transformer的图形能力
 ![[Pasted image 20251014225825.png]]
 ==训练时不要一直给正确答案，偶尔给错误答案会训练得更好==
 

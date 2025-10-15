@@ -98,3 +98,5 @@
 # Summary
 
 Self attention有个benchmark 的corpus叫 long-range arena
+
+![[Pasted image 20251015224028.png]]

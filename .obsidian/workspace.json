@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "759ec5416fff7042",
+        "id": "30bfb8ab4f599677",
         "type": "tabs",
         "children": [
           {
-            "id": "a019e8d404112bba",
+            "id": "26190566fbd07f9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Self-attention/各式各样的Self-attention变型.md",
+                "file": "ML/GAN/生成式对抗网络1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "各式各样的Self-attention变型"
+              "title": "生成式对抗网络1"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Self-attention/各式各样的Self-attention变型.md"
+                "file": "ML/GAN/生成式对抗网络1.md"
               },
               "icon": "lucide-list",
-              "title": "各式各样的Self-attention变型 的大纲"
+              "title": "生成式对抗网络1 的大纲"
             }
           },
           {
@@ -173,8 +173,13 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "26190566fbd07f9f",
   "lastOpenFiles": [
+    "ML/Self-attention/各式各样的Self-attention变型.md",
+    "ML/GAN/生成式对抗网络1.md",
+    "ML/GAN/pics",
+    "ML/GAN",
+    "ML/Self-attention/pics/Pasted image 20251015224028.png",
     "ML/Self-attention/pics/Pasted image 20251015223829.png",
     "ML/Self-attention/pics/Pasted image 20251015223542.png",
     "ML/Self-attention/pics/Pasted image 20251015223026.png",
@@ -184,9 +189,6 @@
     "ML/Self-attention/pics/Pasted image 20251015222002.png",
     "ML/Self-attention/pics/Pasted image 20251015221649.png",
     "ML/Self-attention/pics/Pasted image 20251015221459.png",
-    "ML/Self-attention/pics/Pasted image 20251015221129.png",
-    "ML/Self-attention/pics/Pasted image 20251015220102.png",
-    "ML/Self-attention/各式各样的Self-attention变型.md",
     "ML/Transformer/Transformer.md",
     "Tools/GIT.md",
     "ML/Self-attention/Self-attention.md",
@@ -202,13 +204,11 @@
     "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/CNN/pics",
     "ML/CNN",
-    "ML",
     "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "JAVA/JAVAWEB/HTML&CSS.md",
     "JAVA/JAVAWEB/Cookie&Session笔记.md",
     "Tools/VIM.md",
     "JAVA/JAVAWEB/Tomcat&Servlet.md",
-    "JAVA/JAVAWEB/EL&JSTL笔记.md.baiduyun.p.downloading",
     "JAVA/JAVAWEB/JavaScript.md",
     "JAVA/JAVAWEB/XML.md",
     "JAVA/JAVAWEB/SE.md",

@@ -16,5 +16,8 @@
 
 - ![[Pasted image 20251015114543.png]]
 
-- 假设y轴是query,x轴为key
-- 前两row标红，代表
+- 假设y轴是query,每一个row代表一个query,x轴为key,每一个column代表一个key
+- 前两row标红，代表input sequence头两个位置是special token。前两个query要attend到其它的key。则前两个row都是有值的，都要计算attention
+- 前两个column代表出了special token标定的其它query，也会attend不是special token的位置
+
+==可以全都用，multi-attention有多个head,每个head use different pattern==

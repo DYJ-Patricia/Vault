@@ -57,9 +57,17 @@
 - Compressed Attention:将一连串key sequence,用CNN扫过它，长的变短的，选出有代表性的key
 - Linformer:![[Pasted image 20251015215528.png]]
 
-## Attention机制
+## Attention机制的运算简化
 
 ![[Pasted image 20251015220102.png]]
 - 两者结果一样，但运算量不一样
+- 从数学角度看：
+- ![[Pasted image 20251015221129.png]]
+- ![[Pasted image 20251015221459.png]]
+- ![[Pasted image 20251015221649.png]]
+
+- 图中b1之和query的vector有关
+- ![[Pasted image 20251015222002.png]]
+- 
 
 

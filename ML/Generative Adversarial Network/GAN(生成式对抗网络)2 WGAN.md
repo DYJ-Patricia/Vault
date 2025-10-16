@@ -44,3 +44,11 @@
 ## WGAN
 
 - 用了Wasserstein Distance的GAN
+
+- D必须得足够平缓，否则会发生没有重叠部分无限大的现象
+- ![[Pasted image 20251016172221.png]]
+### 怎么限制
+
+到底怎么限制Discriminator让它更平滑呢？
+![[Pasted image 20251016172614.png]]
+## 

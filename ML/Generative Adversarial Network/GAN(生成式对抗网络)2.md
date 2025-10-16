@@ -27,4 +27,13 @@
 
 - 第一个理由： P(data),P(G) are low-dim manifold in high-dim space(高维空间中的低维流形)，两者的overlap can be ignored.
 - 第二个理由：就算重叠多，如果sampling is not enough也不行
-- JS divergence弱点：如果两个distribution没有
+- JS divergence弱点：如果两个distribution没有重合，那么结果永远都是log2
+- 换个intuition的角度：如果不overlap,那么很容易分辨得出来，binary classifier achieves 100% accuracy
+
+### Wasserstein Distance
+
+- 要想出更好的计算方法
+![[Pasted image 20251016170604.png]]
+- 可是moving plan不一样，走的距离不一样
+- 则该方法定义为：穷举所有推图方法，选出距离最短的plan
+

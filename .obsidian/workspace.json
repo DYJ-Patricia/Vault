@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
+                "file": "ML/CNN/卷积神经网络Convolutional Neural Network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GAN(生成式对抗网络)2 WGAN"
+              "title": "卷积神经网络Convolutional Neural Network"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "GAN(生成式对抗网络)3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +87,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md"
+                "file": "ML/CNN/卷积神经网络Convolutional Neural Network.md"
               },
               "icon": "lucide-list",
-              "title": "GAN(生成式对抗网络)3 的大纲"
+              "title": "卷积神经网络Convolutional Neural Network 的大纲"
             }
           },
           {
@@ -188,11 +188,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "58e9e640057dc7ac",
+  "active": "26190566fbd07f9f",
   "lastOpenFiles": [
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
+    "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
     "ML/Generative Adversarial Network/pics/未命名.md",
     "ML/Generative Adversarial Network/pics/Pasted image 20251016172614.png",
     "ML/Generative Adversarial Network/pics/Pasted image 20251016172221.png",
@@ -219,7 +220,6 @@
     "ML/Classification/pics",
     "ML/CNN/Validation set.md",
     "ML/Classification",
-    "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/CNN/pics",
     "ML/CNN",
     "JAVA/JAVAWEB/EL&JSTL笔记.md",

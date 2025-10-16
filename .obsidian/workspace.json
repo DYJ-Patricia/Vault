@@ -35,7 +35,8 @@
               "title": "GAN(生成式对抗网络)3"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,8 +88,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/CNN/卷积神经网络Convolutional Neural Network.md"
+                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md"
               },
               "icon": "lucide-list",
-              "title": "卷积神经网络Convolutional Neural Network 的大纲"
+              "title": "GAN(生成式对抗网络)3 的大纲"
             }
           },
           {
@@ -188,10 +188,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "26190566fbd07f9f",
+  "active": "58e9e640057dc7ac",
   "lastOpenFiles": [
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
     "ML/CNN/卷积神经网络Convolutional Neural Network.md",
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
+    "ML/Generative Adversarial Network/pics/Pasted image 20251016180713.png",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
     "ML/Generative Adversarial Network/pics/未命名.md",
@@ -204,7 +205,6 @@
     "ML/Generative Adversarial Network/pics/Pasted image 20251016152956.png",
     "ML/Generative Adversarial Network/pics/Pasted image 20251016131838.png",
     "ML/Generative Adversarial Network/pics/Pasted image 20251016130420.png",
-    "ML/Generative Adversarial Network/pics/Pasted image 20251016130126.png",
     "ML/Self-attention/各式各样的Self-attention变型.md",
     "ML/Generative Adversarial Network/pics",
     "ML/Generative Adversarial Network",
@@ -234,7 +234,6 @@
     "刷题心得/笔记.md",
     "JAVA/Base.md",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
-    "未命名.md",
-    "JAVAWEB.md"
+    "未命名.md"
   ]
 }

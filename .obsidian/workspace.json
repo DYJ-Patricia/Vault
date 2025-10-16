@@ -11,10 +11,14 @@
             "id": "9f6582709525efa8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "JAVA/SSM/Spring.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Spring"
             }
           }
         ]
@@ -133,9 +137,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "JAVA/SSM/Spring.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Spring 的大纲"
             }
           },
           {
@@ -169,23 +175,27 @@
   },
   "active": "9f6582709525efa8",
   "lastOpenFiles": [
+    "JAVA/SSM/assets/image-20210911133112602.png",
+    "JAVA/SSM/assets/image-20210911132335452.png",
+    "JAVA/SSM/Spring.md",
+    "JAVA/SSM/assets/image-20210918232904623.png",
+    "JAVA/SSM/assets/image-20210918232512707.png",
+    "JAVA/SSM/assets/image-20210918222607469.png",
+    "JAVA/SSM/assets/image-20210918222321402.png",
+    "JAVA/SSM/assets/image-20210918221942453.png",
+    "JAVA/SSM/assets/image-20210918221511249.png",
+    "JAVA/SSM/assets/image-20210918221042947.png",
+    "JAVA/SSM/assets/image-20210918220855024.png",
+    "JAVA/SSM/assets/image-20210918220338109.png",
+    "JAVA/SSM/assets",
+    "JAVA/SSM",
     "JAVA/Base.md",
     "JAVA/JAVAWEB/pics",
     "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
-    "ML/Generative Adversarial Network/pics/Pasted image 20251016180713.png",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
     "ML/Generative Adversarial Network/pics/未命名.md",
-    "ML/Generative Adversarial Network/pics/Pasted image 20251016172614.png",
-    "ML/Generative Adversarial Network/pics/Pasted image 20251016172221.png",
-    "ML/Generative Adversarial Network/pics/Pasted image 20251016170945.png",
-    "ML/Generative Adversarial Network/pics/Pasted image 20251016170604.png",
-    "ML/Generative Adversarial Network/pics/Pasted image 20251016155702.png",
-    "ML/Generative Adversarial Network/pics/Pasted image 20251016154600.png",
-    "ML/Generative Adversarial Network/pics/Pasted image 20251016152956.png",
-    "ML/Generative Adversarial Network/pics/Pasted image 20251016131838.png",
-    "ML/Generative Adversarial Network/pics/Pasted image 20251016130420.png",
     "ML/Self-attention/各式各样的Self-attention变型.md",
     "ML/Generative Adversarial Network/pics",
     "ML/Generative Adversarial Network",
@@ -200,8 +210,6 @@
     "ML/Self-attention",
     "ML/Classification/pics",
     "ML/CNN/Validation set.md",
-    "ML/Classification",
-    "ML/CNN/pics",
     "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "JAVA/JAVAWEB/HTML&CSS.md",
     "JAVA/JAVAWEB/Cookie&Session笔记.md",
@@ -212,7 +220,6 @@
     "JAVA/JAVAWEB/SE.md",
     "JAVA/JAVAWEB/MYSQL.md",
     "刷题心得/笔记.md",
-    "cs61b/Syntax/Pick-up/Trivial Keywords.md",
-    "未命名.md"
+    "cs61b/Syntax/Pick-up/Trivial Keywords.md"
   ]
 }

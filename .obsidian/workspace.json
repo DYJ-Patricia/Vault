@@ -35,7 +35,8 @@
               "title": "GAN(生成式对抗网络)3"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md"
+                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md"
               },
               "icon": "lucide-list",
-              "title": "GAN(生成式对抗网络)2 WGAN 的大纲"
+              "title": "GAN(生成式对抗网络)3 的大纲"
             }
           },
           {
@@ -187,11 +188,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "26190566fbd07f9f",
+  "active": "58e9e640057dc7ac",
   "lastOpenFiles": [
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
     "ML/Generative Adversarial Network/pics/未命名.md",
     "ML/Generative Adversarial Network/pics/Pasted image 20251016172614.png",
     "ML/Generative Adversarial Network/pics/Pasted image 20251016172221.png",

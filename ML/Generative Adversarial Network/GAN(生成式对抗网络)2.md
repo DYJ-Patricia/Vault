@@ -9,3 +9,6 @@
 
 - 虽然不知道两者的distribution,但是可以sample from them
 - 要依靠Discriminator来计算
+![[Pasted image 20251016154600.png]]
+- Objective Function是求最大，Loss Function是求最小
+- 很像train 一个二元classifier这个Function类似于negative cross entropy

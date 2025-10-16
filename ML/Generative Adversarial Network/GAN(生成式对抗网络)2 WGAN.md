@@ -51,4 +51,6 @@
 
 到底怎么限制Discriminator让它更平滑呢？
 ![[Pasted image 20251016172614.png]]
-## 
+## 实践与理论的歧义
+
+- 一般discriminator的train的次数很少，还会直接从上一个iteration出来的结果拿来用

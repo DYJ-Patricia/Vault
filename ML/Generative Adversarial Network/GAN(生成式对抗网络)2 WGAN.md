@@ -37,3 +37,10 @@
 - 可是moving plan不一样，走的距离不一样
 - 则该方法定义为：穷举所有推图方法，选出距离最短的plan
 
+![[Pasted image 20251016170945.png]]
+- 该方法改变一点，从第一步到第二步就可以有明显的结果改变
+- 而JS divergence需要更大的改变才能使结果改变
+
+## WGAN
+
+- 用了Wasserstein Distance的GAN

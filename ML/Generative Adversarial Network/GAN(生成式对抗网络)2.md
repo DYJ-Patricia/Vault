@@ -1,5 +1,7 @@
 # Theory
 
+==GAN不好train==
+
 ![[Pasted image 20251016152956.png]]
 - Div 相当于network中的loss function
 - Divergence就是P(G)和P(data)两者之间的差异
@@ -20,3 +22,9 @@
 - 于是可以用objective function替换原本的DIV(P(G),P(data))
 - 红框里是给定generator,利用discriminator求使V最大的D
 - 外面是求使红框框最小的G
+
+## JS divergence is not suitable
+
+- 第一个理由： P(data),P(G) are low-dim manifold in high-dim space(高维空间中的低维流形)，两者的overlap can be ignored.
+- 第二个理由：就算重叠多，如果sampling is not enough也不行
+- JS divergence弱点：如果两个distribution没有

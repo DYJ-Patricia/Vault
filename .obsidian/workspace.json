@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/GAN/Generative Adversarial Network(生成式对抗网络)1.md",
+                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Generative Adversarial Network(生成式对抗网络)1"
+              "title": "GAN(生成式对抗网络)2"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/GAN/Generative Adversarial Network(生成式对抗网络)1.md"
+                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)2.md"
               },
               "icon": "lucide-list",
-              "title": "Generative Adversarial Network(生成式对抗网络)1 的大纲"
+              "title": "GAN(生成式对抗网络)2 的大纲"
             }
           },
           {
@@ -175,13 +175,14 @@
   },
   "active": "7860188cde985504",
   "lastOpenFiles": [
-    "ML/GAN/pics/Pasted image 20251016131838.png",
-    "ML/GAN/pics/Pasted image 20251016130420.png",
-    "ML/GAN/pics/Pasted image 20251016130126.png",
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)2.md",
+    "ML/Generative Adversarial Network/pics/Pasted image 20251016131838.png",
+    "ML/Generative Adversarial Network/pics/Pasted image 20251016130420.png",
+    "ML/Generative Adversarial Network/pics/Pasted image 20251016130126.png",
     "ML/Self-attention/各式各样的Self-attention变型.md",
-    "ML/GAN/Generative Adversarial Network(生成式对抗网络)1.md",
-    "ML/GAN/pics",
-    "ML/GAN",
+    "ML/Generative Adversarial Network/pics",
+    "ML/Generative Adversarial Network",
     "ML/Self-attention/pics/Pasted image 20251015224028.png",
     "ML/Self-attention/pics/Pasted image 20251015223829.png",
     "ML/Self-attention/pics/Pasted image 20251015223542.png",
@@ -189,7 +190,6 @@
     "ML/Self-attention/pics/Pasted image 20251015222952.png",
     "ML/Self-attention/pics/Pasted image 20251015222831.png",
     "ML/Self-attention/pics/Pasted image 20251015222510.png",
-    "ML/Self-attention/pics/Pasted image 20251015222002.png",
     "ML/Transformer/Transformer.md",
     "Tools/GIT.md",
     "ML/Self-attention/Self-attention.md",

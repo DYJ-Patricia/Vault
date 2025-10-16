@@ -23,4 +23,15 @@
 - 输入一张图片，输出scalar(数值)，large means real,smaller value means fake
 - 架构由自己设置，CNN或transformer等都可以用
 
+## Basic Idea of GAN
 
+- ![[Pasted image 20251016130126.png]]
+
+
+- ![[Pasted image 20251016130420.png]]
+
+## Algorithm
+
+- 都是network,先初始化G,D
+- ==step1,update descriminantor==
+- 先随机sample出z,generator便输出很不像动画人物的图.从真实图

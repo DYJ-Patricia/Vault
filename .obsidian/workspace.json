@@ -173,8 +173,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "26190566fbd07f9f",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
+    "ML/GAN/pics/Pasted image 20251016130420.png",
+    "ML/GAN/pics/Pasted image 20251016130126.png",
     "ML/Self-attention/各式各样的Self-attention变型.md",
     "ML/GAN/Generative Adversarial Network(生成式对抗网络)1.md",
     "ML/GAN/pics",
@@ -188,7 +190,6 @@
     "ML/Self-attention/pics/Pasted image 20251015222510.png",
     "ML/Self-attention/pics/Pasted image 20251015222002.png",
     "ML/Self-attention/pics/Pasted image 20251015221649.png",
-    "ML/Self-attention/pics/Pasted image 20251015221459.png",
     "ML/Transformer/Transformer.md",
     "Tools/GIT.md",
     "ML/Self-attention/Self-attention.md",
@@ -219,7 +220,6 @@
     "未命名.md",
     "JAVAWEB.md",
     "cs61b/Notes/Inheritance and Implements.md",
-    "cs61b/Textbook.md",
-    "Textbook.md"
+    "cs61b/Textbook.md"
   ]
 }

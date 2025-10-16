@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "30bfb8ab4f599677",
+        "id": "5bc631d4fe3316c2",
         "type": "tabs",
         "children": [
           {
-            "id": "26190566fbd07f9f",
+            "id": "9f6582709525efa8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/CNN/卷积神经网络Convolutional Neural Network.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "卷积神经网络Convolutional Neural Network"
-            }
-          },
-          {
-            "id": "58e9e640057dc7ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GAN(生成式对抗网络)3"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,11 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "GAN(生成式对抗网络)3 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -188,8 +167,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "9f6582709525efa8",
   "lastOpenFiles": [
+    "JAVA/Base.md",
+    "JAVA/JAVAWEB/pics",
     "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
     "ML/Generative Adversarial Network/pics/Pasted image 20251016180713.png",
@@ -221,7 +202,6 @@
     "ML/CNN/Validation set.md",
     "ML/Classification",
     "ML/CNN/pics",
-    "ML/CNN",
     "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "JAVA/JAVAWEB/HTML&CSS.md",
     "JAVA/JAVAWEB/Cookie&Session笔记.md",
@@ -232,7 +212,6 @@
     "JAVA/JAVAWEB/SE.md",
     "JAVA/JAVAWEB/MYSQL.md",
     "刷题心得/笔记.md",
-    "JAVA/Base.md",
     "cs61b/Syntax/Pick-up/Trivial Keywords.md",
     "未命名.md"
   ]

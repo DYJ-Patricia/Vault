@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/GAN/生成式对抗网络1.md",
+                "file": "ML/GAN/Generative Adversarial Network(生成式对抗网络)1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "生成式对抗网络1"
+              "title": "Generative Adversarial Network(生成式对抗网络)1"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/GAN/生成式对抗网络1.md"
+                "file": "ML/GAN/Generative Adversarial Network(生成式对抗网络)1.md"
               },
               "icon": "lucide-list",
-              "title": "生成式对抗网络1 的大纲"
+              "title": "Generative Adversarial Network(生成式对抗网络)1 的大纲"
             }
           },
           {
@@ -176,7 +176,7 @@
   "active": "26190566fbd07f9f",
   "lastOpenFiles": [
     "ML/Self-attention/各式各样的Self-attention变型.md",
-    "ML/GAN/生成式对抗网络1.md",
+    "ML/GAN/Generative Adversarial Network(生成式对抗网络)1.md",
     "ML/GAN/pics",
     "ML/GAN",
     "ML/Self-attention/pics/Pasted image 20251015224028.png",

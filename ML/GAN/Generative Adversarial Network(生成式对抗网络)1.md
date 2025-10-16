@@ -33,5 +33,11 @@
 ## Algorithm
 
 - 都是network,先初始化G,D
-- ==step1,update descriminantor==
-- 先随机sample出z,generator便输出很不像动画人物的图.从真实图
+- ==step1,fix generator , update descriminantor==
+- 先随机sample出z,generator便输出很不像动画人物的图.从真实图像的database里sample出头像来，和generated images一起用于训练discriminator.
+- 可以real image标1，generated image标0，用classifier分类，或者用regression的问题来解决输出1或0
+- ==step2,fix descriminantor , update generator==
+- ![[Pasted image 20251016131838.png]]
+- 在训练generator时可以把bias调大，从而让结果更大
+- 或者把最后discriminator输出的结果乘个负号当作loss,训练目标就是让loss越小越好
+- 如果要让

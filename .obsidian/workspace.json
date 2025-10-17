@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5bc631d4fe3316c2",
+        "id": "23c5b2df1c8abce4",
         "type": "tabs",
         "children": [
           {
-            "id": "9f6582709525efa8",
+            "id": "9e89537855bf37c6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVA/SSM/Spring.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Spring"
+              "title": "新标签页"
             }
           }
         ]
@@ -137,11 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JAVA/SSM/Spring.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Spring 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -173,20 +167,21 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "9f6582709525efa8",
+  "active": "9e89537855bf37c6",
   "lastOpenFiles": [
-    "JAVA/SSM/assets/image-20210911133112602.png",
-    "JAVA/SSM/assets/image-20210911132335452.png",
-    "JAVA/SSM/Spring.md",
-    "JAVA/SSM/assets/image-20210918232904623.png",
-    "JAVA/SSM/assets/image-20210918232512707.png",
-    "JAVA/SSM/assets/image-20210918222607469.png",
-    "JAVA/SSM/assets/image-20210918222321402.png",
-    "JAVA/SSM/assets/image-20210918221942453.png",
-    "JAVA/SSM/assets/image-20210918221511249.png",
-    "JAVA/SSM/assets/image-20210918221042947.png",
-    "JAVA/SSM/assets/image-20210918220855024.png",
-    "JAVA/SSM/assets/image-20210918220338109.png",
+    "JAVA/SSM/Spring3.md",
+    "JAVA/SSM/Spring2.md",
+    "JAVA/SSM/Spring1.md",
+    "JAVA/SSM/assets/1630254257628.png",
+    "JAVA/SSM/assets/1630253779575.png",
+    "JAVA/SSM/assets/1630250069844.png",
+    "JAVA/SSM/assets/1630249111055.png",
+    "JAVA/SSM/assets/1630248794837.png",
+    "JAVA/SSM/assets/1630247220645.png",
+    "JAVA/SSM/assets/1630243993380.png",
+    "JAVA/SSM/assets/1630243651541.png",
+    "JAVA/SSM/assets/1630242491831.png",
+    "JAVA/SSM/assets/1630241681697.png",
     "JAVA/SSM/assets",
     "JAVA/SSM",
     "JAVA/Base.md",
@@ -218,8 +213,6 @@
     "JAVA/JAVAWEB/JavaScript.md",
     "JAVA/JAVAWEB/XML.md",
     "JAVA/JAVAWEB/SE.md",
-    "JAVA/JAVAWEB/MYSQL.md",
-    "刷题心得/笔记.md",
-    "cs61b/Syntax/Pick-up/Trivial Keywords.md"
+    "JAVA/JAVAWEB/MYSQL.md"
   ]
 }

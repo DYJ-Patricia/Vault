@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/CNN/卷积神经网络Convolutional Neural Network.md",
+                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "卷积神经网络Convolutional Neural Network"
+              "title": "GAN(生成式对抗网络)3"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/CNN/卷积神经网络Convolutional Neural Network.md"
+                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md"
               },
               "icon": "lucide-list",
-              "title": "卷积神经网络Convolutional Neural Network 的大纲"
+              "title": "GAN(生成式对抗网络)3 的大纲"
             }
           },
           {
@@ -175,13 +175,13 @@
   },
   "active": "9e89537855bf37c6",
   "lastOpenFiles": [
+    "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
     "ML/Transformer/Transformer.md",
     "ML/Self-attention/Self-attention.md",
     "ML/Self-attention/各式各样的Self-attention变型.md",
-    "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/Classification/鱼与熊掌可兼得.md",
     "ML/Generative Adversarial Network/pics/Pasted image 20251017105329.png",
     "ML/Generative Adversarial Network/pics/Pasted image 20251017104406.png",

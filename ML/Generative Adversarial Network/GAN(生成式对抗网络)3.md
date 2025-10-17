@@ -57,3 +57,8 @@
 
 #### Frechet Inception Distance(FID)
 
+![[Pasted image 20251017105329.png]]
+- 把图片放入Inception Network后不要softmax输出后得到的图片
+- 取出softmax之前的hidden layer产生的高维向量
+- real image 与 generated image都丢进去，然后都拿出测量FID
+- FID取值越小越好

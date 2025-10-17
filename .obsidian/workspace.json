@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
+                "file": "ML/CNN/卷积神经网络Convolutional Neural Network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GAN(生成式对抗网络)3"
+              "title": "卷积神经网络Convolutional Neural Network"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md"
+                "file": "ML/CNN/卷积神经网络Convolutional Neural Network.md"
               },
               "icon": "lucide-list",
-              "title": "GAN(生成式对抗网络)3 的大纲"
+              "title": "卷积神经网络Convolutional Neural Network 的大纲"
             }
           },
           {
@@ -173,8 +173,17 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "9e89537855bf37c6",
   "lastOpenFiles": [
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
+    "ML/Transformer/Transformer.md",
+    "ML/Self-attention/Self-attention.md",
+    "ML/Self-attention/各式各样的Self-attention变型.md",
+    "ML/CNN/卷积神经网络Convolutional Neural Network.md",
+    "ML/Classification/鱼与熊掌可兼得.md",
+    "ML/Generative Adversarial Network/pics/Pasted image 20251017105329.png",
     "ML/Generative Adversarial Network/pics/Pasted image 20251017104406.png",
     "ML/Generative Adversarial Network/pics/Pasted image 20251017104231.png",
     "ML/Generative Adversarial Network/pics/Pasted image 20251017104154.png",
@@ -187,27 +196,17 @@
     "JAVA/SSM/assets/1630253779575.png",
     "JAVA/SSM/assets/1630250069844.png",
     "JAVA/SSM/assets/1630249111055.png",
-    "JAVA/SSM/assets/1630248794837.png",
-    "JAVA/SSM/assets/1630247220645.png",
     "JAVA/SSM/assets",
     "JAVA/SSM",
     "JAVA/Base.md",
     "JAVA/JAVAWEB/pics",
-    "ML/CNN/卷积神经网络Convolutional Neural Network.md",
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
     "ML/Generative Adversarial Network/pics/未命名.md",
-    "ML/Self-attention/各式各样的Self-attention变型.md",
     "ML/Generative Adversarial Network/pics",
     "ML/Generative Adversarial Network",
-    "ML/Transformer/Transformer.md",
     "Tools/GIT.md",
-    "ML/Self-attention/Self-attention.md",
     "Tools/learn obsidian/Obsidian Markdown.md",
     "ML/Transformer/pics",
     "ML/Transformer",
-    "ML/Classification/鱼与熊掌可兼得.md",
     "ML/Self-attention/pics",
     "ML/Self-attention",
     "ML/Classification/pics",

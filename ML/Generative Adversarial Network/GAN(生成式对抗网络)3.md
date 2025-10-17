@@ -25,5 +25,20 @@
 - 一：作业上用人脸识别，数识别到的人脸数
 - 二（most cases）:影像辨识系统。但是该方法不够，会遇到Mode collapse的问题。
 
-## Mode Collapse
+## Diversity
+### Mode Collapse
+
+- 产生出来的来来去去是同一张图
+- 因为generated data找到了一个舒适区，可以总是避过discriminator
+- 解决：在训练Generator时一直都有checkpoint,在遇到mode collapse前调用之前的model
+
+### Mode Dropping
+
+- 它是指生成器只能生成训练集中的数据，难以生成非训练集的数据，即生成器完全忽略了真实数据中的某些模式，导致生成分布严重不完整。
+- 例如，在生成人脸时，可能永远不会生成有胡须的人脸；在生成手写数字时，可能只生成数字 0、1、2，完全不生成 3~9。这是因为生成器不关心覆盖所有可能的样本，只专注于准确生成部分示例，类似于过拟合于训练集。
+- 与 “Mode Collapse（模式坍塌）” 不同，“Mode Collapse” 是指生成器生成的样本多样性不足，倾向于生成几种高度相似的样本，但可能仍覆盖多个模式，而 “Mode Dropping” 则是生成器对某些模式完全不生成。
+
+### Image Classifier 评估Diversity
+
+
 

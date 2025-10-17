@@ -16,5 +16,14 @@
 - ==既然是不能用gradient descent train的问题，那可以用reinforcement learnig(RL)硬train==
 - 但是，两个都超级难train！！！
 
+# Evaluation of Generation
 
+## Quality of Image
+
+![[Pasted image 20251017102747.png]]
+- 怎么判断Generator的好坏
+- 一：作业上用人脸识别，数识别到的人脸数
+- 二（most cases）:影像辨识系统。但是该方法不够，会遇到Mode collapse的问题。
+
+## Mode Collapse
 

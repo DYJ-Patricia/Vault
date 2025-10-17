@@ -11,10 +11,14 @@
             "id": "9e89537855bf37c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "GAN(生成式对抗网络)3"
             }
           }
         ]
@@ -133,9 +137,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "GAN(生成式对抗网络)3 的大纲"
             }
           },
           {
@@ -169,6 +175,7 @@
   },
   "active": "9e89537855bf37c6",
   "lastOpenFiles": [
+    "ML/Generative Adversarial Network/pics/Pasted image 20251017102747.png",
     "JAVA/SSM/Spring3.md",
     "JAVA/SSM/Spring2.md",
     "JAVA/SSM/Spring1.md",

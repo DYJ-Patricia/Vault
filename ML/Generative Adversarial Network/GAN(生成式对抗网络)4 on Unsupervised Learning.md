@@ -2,11 +2,16 @@
 - 目前为止，讲的都是用的supervised learning
 
 # Learning from Unpaired Data
-
+- 之前在unconditional generation上，输入为高斯distribution sample 出来的，输出为复杂的distribution
+- 现在的conditional generation输入输出为 DomainX,DomainY
+- ==但是套用真的可以吗？==
+- 不可以，因为要与x输入有关系
 ![[Pasted image 20251017212416.png]]
 ## Problems
 
-
+- 影像风格转化，没有成对资料
+- 在3中讲的conditional generation中是用的成对资料训练，而在这里只有unpaired data
+- 那就用Cycle GAN
 
 ## Cycle GAN
 

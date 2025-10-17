@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Self-Supervised Learning/BERT.md",
+                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BERT"
+              "title": "GAN(生成式对抗网络)3"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Self-Supervised Learning/BERT.md"
+                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md"
               },
               "icon": "lucide-list",
-              "title": "BERT 的大纲"
+              "title": "GAN(生成式对抗网络)3 的大纲"
             }
           },
           {
@@ -175,8 +175,8 @@
   },
   "active": "08922fed2db7c215",
   "lastOpenFiles": [
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)4 on Unsupervised Learning.md",
     "ML/Self-Supervised Learning/BERT.md",
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)4 on Unsupervised Learning.md",
     "ML/Self-Supervised Learning/pics",
     "ML/Self-Supervised Learning",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",

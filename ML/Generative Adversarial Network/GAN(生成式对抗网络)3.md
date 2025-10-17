@@ -25,6 +25,9 @@
 - 一：作业上用人脸识别，数识别到的人脸数
 - 二（most cases）:影像辨识系统。但是该方法不够，会遇到Mode collapse的问题。
 
+![[Pasted image 20251017104406.png]]
+
+
 ## Diversity
 ### Mode Collapse
 
@@ -40,5 +43,17 @@
 
 ### Image Classifier 评估Diversity
 
+![[Pasted image 20251017104154.png]]
 
+- 过于集中，多样性不足
+
+![[Pasted image 20251017104231.png]]
+
+
+### Evaluation Measure
+
+####  Inception Score
+- Inception Score（IS， inception 分数）是评估生成对抗网络（GAN）等生成模型生成样本质量的常用指标之一，由谷歌团队在 2016 年提出，其核心思想是利用预训练的 Inception-v3 图像分类模型来衡量生成样本的 “质量” 和 “多样性”。
+
+#### Frechet Inception Distance(FID)
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
+                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)4 on Unsupervised Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GAN(生成式对抗网络)3"
+              "title": "GAN(生成式对抗网络)4 on Unsupervised Learning"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md"
+                "file": "ML/Generative Adversarial Network/GAN(生成式对抗网络)4 on Unsupervised Learning.md"
               },
               "icon": "lucide-list",
-              "title": "GAN(生成式对抗网络)3 的大纲"
+              "title": "GAN(生成式对抗网络)4 on Unsupervised Learning 的大纲"
             }
           },
           {
@@ -173,14 +173,15 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "9e89537855bf37c6",
   "lastOpenFiles": [
-    "ML/Generative Adversarial Network/pics/Pasted image 20251017210920.png",
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)4.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)4 on Unsupervised Learning.md",
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
+    "ML/Generative Adversarial Network/pics/Pasted image 20251017211555.png",
+    "ML/Generative Adversarial Network/pics/Pasted image 20251017210920.png",
     "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
     "ML/Transformer/Transformer.md",
     "ML/Self-attention/Self-attention.md",
     "ML/Self-attention/各式各样的Self-attention变型.md",
@@ -196,8 +197,6 @@
     "JAVA/SSM/Spring1.md",
     "JAVA/SSM/assets/1630254257628.png",
     "JAVA/SSM/assets/1630253779575.png",
-    "JAVA/SSM/assets/1630250069844.png",
-    "JAVA/SSM/assets/1630249111055.png",
     "JAVA/SSM/assets",
     "JAVA/SSM",
     "JAVA/Base.md",

@@ -69,4 +69,9 @@
 - 在text-to-image里面常用，比如输入red hair,green eyes，生成带有相应特征的图片
 - Discriminator的输入除了y，也要有x（文字叙述），即text-image pairs
 - ![[Pasted image 20251017210920.png]]
-- 之前unconditional GAN的discriminator输出的scalar
+- 之前unconditional GAN的discriminator输出的scalar只有0/1,但是无法结合x判断生成图片是否符合描述
+
+- 也可以应用于影像产生影像，pix2pix
+- ![[Pasted image 20251017211555.png]]
+- 也可以声音生成影像sound-to-image
+- 也可以生成会动的图片

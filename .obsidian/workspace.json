@@ -173,10 +173,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "9e89537855bf37c6",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
-    "ML/CNN/卷积神经网络Convolutional Neural Network.md",
+    "ML/Generative Adversarial Network/pics/Pasted image 20251017210920.png",
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)4.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
+    "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
     "ML/Transformer/Transformer.md",
@@ -218,7 +220,6 @@
     "JAVA/JAVAWEB/Tomcat&Servlet.md",
     "JAVA/JAVAWEB/JavaScript.md",
     "JAVA/JAVAWEB/XML.md",
-    "JAVA/JAVAWEB/SE.md",
-    "JAVA/JAVAWEB/MYSQL.md"
+    "JAVA/JAVAWEB/SE.md"
   ]
 }

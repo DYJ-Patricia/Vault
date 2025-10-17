@@ -63,5 +63,10 @@
 - real image 与 generated image都丢进去，然后都拿出测量FID
 - FID取值越小越好
 
+# Conditional GAN
 
-# Conditio
+- 输入不仅用z，也有x
+- 在text-to-image里面常用，比如输入red hair,green eyes，生成带有相应特征的图片
+- Discriminator的输入除了y，也要有x（文字叙述），即text-image pairs
+- ![[Pasted image 20251017210920.png]]
+- 之前unconditional GAN的discriminator输出的scalar

@@ -23,11 +23,12 @@
 ![[Pasted image 20251013230427.png]]
 
 - ==filter里数值未知，需要gradient decent找出==
+- 每个channel(通道)对应一个独立的Filter(卷积核)
 ![[Pasted image 20251013230823.png]]
 ## 在第一层layer中（假设channel为1）
 - 假设数值已知，逐步移动计算，如图。对角线刚好与Filter相同且数值最大的左上和左下角为需要监测的Feature
 - 每个Filter都做一遍操作
-- ==假设有64个filter，则生成有64组数字的Feature Map==
+- ==假设有64个filter，则生成有64组数字的Feature Map（特征图）==
 - ==Feature Map可以被看做是一张包含64个channel的image==
 ## 在第二层layer中
 - 第一层convolution化后，第二层layer开始convolution

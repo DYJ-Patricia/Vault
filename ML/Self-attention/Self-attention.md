@@ -51,7 +51,7 @@
 - a1自己也要算自己的key
 - 然后投入soft-max(Softmax是一种激活函数，核心作用是将神经网络输出的任意实数（logits），转化为总和为1的概率分布，让结果可直接用于多分类任务的判断。)
 - ![[Pasted image 20251014125734.png]]
--后面的normalization中 ==soft max==最常见，但是投入任何activation function都行，有人试过ReLU
+- 后面的normalization中 ==soft max==最常见，但是投入任何activation function都行，有人试过ReLU
 #### 抽取信息b1
 
 ![[Pasted image 20251014130446.png]]

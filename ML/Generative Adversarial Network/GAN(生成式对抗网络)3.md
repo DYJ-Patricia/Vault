@@ -73,5 +73,5 @@
 
 - 也可以应用于影像产生影像，pix2pix
 - ![[Pasted image 20251017211555.png]]
-- 也可以声音生成影像sound-to-image
+- 可以声音生成影像sound-to-image,GAN和supervised联用效果更好
 - 也可以生成会动的图片

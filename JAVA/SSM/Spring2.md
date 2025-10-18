@@ -139,10 +139,10 @@ public class App {
 }
 
 ##### 步骤4:运行程序
-
+![[1629887733081.png]]
 打印如下结果: 说明第三方bean对象已经被spring的IOC容器进行管理
 
-![1629887733081](file://D:/user/%E4%B8%8B%E8%BD%BD/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B68%E7%AC%94%E8%AE%B0/Spring%E7%AC%94%E8%AE%B0/spring_day02/assets/1629887733081.png?lastModify=1760614367)
+![1629887733081]()
 
 做完案例后，我们可以将刚才思考的两个问题答案说下:
 
@@ -179,7 +179,7 @@ pom.xml中添加依赖
     
 - 从mvn的仓库`https://mvnrepository.com/`中进行搜索
     
-    ![1629888540286](file://D:/user/%E4%B8%8B%E8%BD%BD/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B68%E7%AC%94%E8%AE%B0/Spring%E7%AC%94%E8%AE%B0/spring_day02/assets/1629888540286.png?lastModify=1760614367)
+    
     
 
 ##### 步骤2:配置第三方bean

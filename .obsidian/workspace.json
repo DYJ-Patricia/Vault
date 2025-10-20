@@ -11,13 +11,30 @@
             "id": "5116fb4603240e75",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.9.14"
+            }
+          },
+          {
+            "id": "7f508cdea65a986a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Self-Supervised Learning/如何有效使用自督导式模型.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "如何有效使用自督导式模型"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -36,7 +53,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -133,9 +151,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "ML/Self-Supervised Learning/如何有效使用自督导式模型.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "如何有效使用自督导式模型 的大纲"
             }
           },
           {
@@ -157,6 +180,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "github-sync:Sync with Remote": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -167,10 +191,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5116fb4603240e75",
+  "active": "7f508cdea65a986a",
   "lastOpenFiles": [
+    "ML/Self-Supervised Learning/pics2/Pasted image 20251020221321.png",
+    "ML/Self-Supervised Learning/pics2",
+    "ML/Self-Supervised Learning/pics/Pasted image 20251019161057.png",
+    "ML/Self-Supervised Learning/如何有效使用自督导式模型.md",
     "ML/Self-Supervised Learning/GPT Series.md",
-    "Pasted image 20251019161057.png",
     "ML/Self-Supervised Learning/pics/Pasted image 20251019160355.png",
     "ML/Self-Supervised Learning/pics/Pasted image 20251019160213.png",
     "ML/Self-Supervised Learning/pics/Pasted image 20251019155618.png",
@@ -207,12 +234,10 @@
     "Tools/learn obsidian/Obsidian Markdown.md",
     "ML/Transformer/pics",
     "ML/Transformer",
-    "ML/Self-attention/pics",
     "ML/CNN/Validation set.md",
     "JAVA/JAVAWEB/EL&JSTL笔记.md",
     "JAVA/JAVAWEB/HTML&CSS.md",
     "JAVA/JAVAWEB/Cookie&Session笔记.md",
-    "Tools/VIM.md",
-    "JAVA/JAVAWEB/Tomcat&Servlet.md"
+    "Tools/VIM.md"
   ]
 }

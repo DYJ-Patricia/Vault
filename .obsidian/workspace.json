@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Self-Supervised Learning/Self-supervised Learning for Speech and Image.md",
+                "file": "ML/Self-Supervised Learning/Auto-encoder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Self-supervised Learning for Speech and Image"
+              "title": "Auto-encoder"
             }
           }
         ],
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Self-Supervised Learning/Self-supervised Learning for Speech and Image.md",
+                "file": "ML/Self-Supervised Learning/Auto-encoder.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Self-supervised Learning for Speech and Image 的大纲"
+              "title": "Auto-encoder 的大纲"
             }
           },
           {
@@ -191,10 +191,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7f508cdea65a986a",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
-    "ML/Self-Supervised Learning/如何有效使用自督导式模型.md",
+    "ML/Self-Supervised Learning/pics3/Pasted image 20251021135014.png",
+    "ML/Self-Supervised Learning/pics3/Pasted image 20251021134909.png",
+    "ML/Self-Supervised Learning/pics3/Pasted image 20251021134833.png",
+    "ML/Self-Supervised Learning/pics3",
+    "ML/Self-Supervised Learning/pics3/Pasted image 20251021134028.png",
     "ML/Self-Supervised Learning/Self-supervised Learning for Speech and Image.md",
+    "ML/Self-Supervised Learning/Auto-encoder.md",
+    "ML/Self-Supervised Learning/如何有效使用自督导式模型.md",
     "ML/Self-Supervised Learning/pics2/Pasted image 20251021132308.png",
     "ML/Self-Supervised Learning/pics2/Pasted image 20251021131913.png",
     "ML/Self-Supervised Learning/pics2/Pasted image 20251021131707.png",
@@ -202,9 +208,6 @@
     "ML/Self-Supervised Learning/pics2/Pasted image 20251021131226.png",
     "ML/Self-Supervised Learning/pics2/Pasted image 20251021130932.png",
     "ML/Self-Supervised Learning/pics2/Pasted image 20251021130730.png",
-    "ML/Self-Supervised Learning/pics2/Pasted image 20251021125733.png",
-    "ML/Self-Supervised Learning/pics2/Pasted image 20251021125612.png",
-    "ML/Self-Supervised Learning/pics2/Pasted image 20251021125103.png",
     "ML/Self-Supervised Learning/pics2",
     "ML/Self-Supervised Learning/GPT Series.md",
     "ML/Self-Supervised Learning/Why does BERT Work.md",
@@ -233,11 +236,8 @@
     "Tools/GIT.md",
     "Tools/learn obsidian/Obsidian Markdown.md",
     "ML/Transformer/pics",
-    "ML/Transformer",
     "ML/CNN/Validation set.md",
     "JAVA/JAVAWEB/EL&JSTL笔记.md",
-    "JAVA/JAVAWEB/HTML&CSS.md",
-    "JAVA/JAVAWEB/Cookie&Session笔记.md",
-    "Tools/VIM.md"
+    "JAVA/JAVAWEB/HTML&CSS.md"
   ]
 }

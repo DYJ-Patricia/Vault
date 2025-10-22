@@ -37,7 +37,7 @@
 ![[Pasted image 20251022221256.png]]
 - 表现更好的计算信心分数的方法
 
-# Anomaly Detection 3
+# Anomaly Detection 3（Case 1:With Labels）
 
 ## Dev Set(Validation Set)
 
@@ -47,4 +47,15 @@
 
 ## Example Framework
 ![[Pasted image 20251022222650.png]]
-## 如何评估一个系统的好坏
+## 如何评估一个系统的好坏？
+
+- Accuracy 并不是一个好的衡量方法
+- 一个系统可以有高正确率，但是do nothing
+- 因为normal和anomaly的图片比例非常悬殊
+
+![[Pasted image 20251022223853.png]]
+- 可以设定threshold,然后统计false alarm和missing的资料数
+- 不同情境下，对两个数值的关注度不同，则cost table也不同
+
+# Anomaly Detection 4（Case 2:Without Labels）
+

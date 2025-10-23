@@ -59,3 +59,15 @@
 
 # Anomaly Detection 4（Case 2:Without Labels）
 
+- 用几率模型代替信心分数
+- 但是需要数值化的分析来比对
+
+# Anomaly Detection 5（Likelihood）
+
+- 选择不同的theta，就是不同的probability density function，算出来的likelihood不同
+- 我们要找出能使likelihood最大的theta
+
+
+- ![[Pasted image 20251023223333.png]]
+
+- ![[Pasted image 20251023222529.png]]

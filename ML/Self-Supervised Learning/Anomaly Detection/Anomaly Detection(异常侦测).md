@@ -71,3 +71,6 @@
 - ![[Pasted image 20251023223333.png]]
 
 - ![[Pasted image 20251023222529.png]]
+# Concluding Remarks
+
+![[Pasted image 20251023224029.png]]

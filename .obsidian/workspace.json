@@ -11,12 +11,14 @@
             "id": "5116fb4603240e75",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "ML/Self-Supervised Learning/BERT.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.9.14"
+              "icon": "lucide-file",
+              "title": "BERT"
             }
           }
         ]
@@ -137,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Self-Supervised Learning/Anomaly Detection/Anomaly Detection(异常侦测).md",
+                "file": "ML/Self-Supervised Learning/BERT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Anomaly Detection(异常侦测) 的大纲"
+              "title": "BERT 的大纲"
             }
           },
           {
@@ -176,8 +178,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "5116fb4603240e75",
   "lastOpenFiles": [
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)4 on Unsupervised Learning.md",
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
+    "ML/Explainable ML/pics",
+    "ML/Explainable ML",
     "ML/Self-Supervised Learning/Anomaly Detection/pics/Pasted image 20251023224029.png",
     "ML/Self-Supervised Learning/Anomaly Detection/pics/Pasted image 20251023223333.png",
     "ML/Self-Supervised Learning/Anomaly Detection/pics/Pasted image 20251023222529.png",
@@ -197,7 +204,6 @@
     "JAVA/SSM/assets/1630031808947.png",
     "Untitled.md",
     "ML/Self-Supervised Learning/Auto-encoder.md",
-    "ML/Self-Supervised Learning/pics3/Pasted image 20251021135014.png",
     "ML/Self-Supervised Learning/pics3",
     "ML/Self-Supervised Learning/Self-supervised Learning for Speech and Image.md",
     "ML/Self-Supervised Learning/如何有效使用自督导式模型.md",
@@ -206,10 +212,7 @@
     "ML/Self-Supervised Learning/Why does BERT Work.md",
     "ML/Self-Supervised Learning/BERT.md",
     "ML/Transformer/Transformer.md",
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)4 on Unsupervised Learning.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
     "ML/Self-attention/各式各样的Self-attention变型.md",
     "ML/Self-attention/Self-attention.md",
     "ML/Classification/鱼与熊掌可兼得.md",
@@ -219,8 +222,6 @@
     "ML/Self-Supervised Learning/pics",
     "ML/Self-Supervised Learning",
     "JAVA/SSM/Spring3.md",
-    "JAVA/SSM/assets",
-    "JAVA/SSM",
     "JAVA/Base.md",
     "ML/Generative Adversarial Network/pics/未命名.md",
     "Tools/GIT.md"

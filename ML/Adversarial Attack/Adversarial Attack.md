@@ -56,3 +56,27 @@
 - 如果有该模型的训练资料，可以输入资料训练一个network proxy ，按其参数来攻击，成功率很高
 - 但一般没有训练资料，那么可以输给模型一些图片，它生成相应的，按成对的资料来训练proxy
 - 黑箱攻击时target attack比较难成功，但non-target attack可以
+
+
+- 可以从训练阶段攻击
+- ![[Pasted image 20251026000313.png]]
+
+# Defense
+
+## Passive Defense(被动防御)
+
+![[Pasted image 20251026000811.png]]
+- 在模型前加一层Filter
+- 简单来说，可以做点模糊化
+- 也可以压缩再解压缩，失真后减小attack的威力
+- 也可以用Generator
+- ![[Pasted image 20251026001327.png]]
+- 如果别人知道你用了模糊化，那就没用了
+- ![[Pasted image 20251026001549.png]]
+- 随机化可以改进这一点
+
+## Proactive Defense
+
+![[Pasted image 20251026002027.png]]
+- 在training中拿一个algorithm攻击自己，产生attacked image,后面与其各自的原y关联
+- adversarial很吃运算资源

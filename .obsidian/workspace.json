@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Adversarial Attack/Adversarial Attack.md",
+                "file": "ML/Domain Adaption/领域自适应.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adversarial Attack"
+              "title": "领域自适应"
             }
           }
         ]
@@ -139,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Adversarial Attack/Adversarial Attack.md",
+                "file": "ML/Domain Adaption/领域自适应.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Adversarial Attack 的大纲"
+              "title": "领域自适应 的大纲"
             }
           },
           {
@@ -180,7 +180,13 @@
   },
   "active": "7860188cde985504",
   "lastOpenFiles": [
-    "Pasted image 20251026002027.png",
+    "ML/Domain Adaption/pics/Pasted image 20251026090222.png",
+    "ML/Adversarial Attack/Adversarial Attack.md",
+    "ML/Domain Adaption/领域自适应.md",
+    "ML/Domain Adaption/pics",
+    "ML/未命名",
+    "ML/Domain Adaption",
+    "ML/Domain Adaption/pics/Pasted image 20251026002027.png",
     "ML/Adversarial Attack/pics/Pasted image 20251026002012.png",
     "ML/Adversarial Attack/pics/Pasted image 20251026001549.png",
     "ML/Adversarial Attack/pics/Pasted image 20251026001327.png",
@@ -190,9 +196,7 @@
     "ML/Adversarial Attack/pics/Pasted image 20251024222918.png",
     "ML/Adversarial Attack/pics/Pasted image 20251024222722.png",
     "ML/Adversarial Attack/pics/Pasted image 20251024222242.png",
-    "ML/Adversarial Attack/pics/Pasted image 20251024222125.png",
     "ML/Explainable ML/可解释性.md",
-    "ML/Adversarial Attack/Adversarial Attack.md",
     "ML/Adversarial Attack/pics",
     "ML/Adversarial Attack",
     "ML/Self-Supervised Learning/BERT.md",
@@ -207,13 +211,10 @@
     "ML/Self-Supervised Learning/Anomaly Detection",
     "ML/Anomaly Detection",
     "cs61b/Syntax/Basic/Basic Syntax.md",
-    "未命名.base",
     "Untitled.md",
     "ML/Self-Supervised Learning/Auto-encoder.md",
-    "ML/Self-Supervised Learning/pics3",
     "ML/Self-Supervised Learning/Self-supervised Learning for Speech and Image.md",
     "ML/Self-Supervised Learning/如何有效使用自督导式模型.md",
-    "ML/Self-Supervised Learning/pics2",
     "ML/Self-Supervised Learning/GPT Series.md",
     "ML/Self-Supervised Learning/Why does BERT Work.md",
     "ML/Transformer/Transformer.md",
@@ -224,7 +225,6 @@
     "ML/CNN/卷积神经网络Convolutional Neural Network.md",
     "JAVA/SSM/Spring2.md",
     "JAVA/SSM/Spring1.md",
-    "JAVA/SSM/Spring3.md",
-    "JAVA/Base.md"
+    "JAVA/SSM/Spring3.md"
   ]
 }

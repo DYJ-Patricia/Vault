@@ -1,6 +1,7 @@
 - 之前讲的基本都基于supervised learning，包括self-supervised learning(只是是机器自己给label罢了)
 - RL和之前的machine learning是一样的框架，都是三个步骤
 - 这次偏浅显地讲
+- RL随机性非常非常大
 
 # 概述
 ![[Pasted image 20251028093304.png]]

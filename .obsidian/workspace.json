@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ACM/基础/第一章 排序/快速排序.md",
+                "file": "ML/Deep Reinforcement Learning/RL 3 (Actor-Critic).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "快速排序"
+              "title": "RL 3 (Actor-Critic)"
             }
           }
         ]
@@ -139,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ACM/基础/第一章 排序/快速排序.md",
+                "file": "ML/Deep Reinforcement Learning/RL 3 (Actor-Critic).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "快速排序 的大纲"
+              "title": "RL 3 (Actor-Critic) 的大纲"
             }
           },
           {
@@ -180,29 +180,29 @@
   },
   "active": "98b365d002df3041",
   "lastOpenFiles": [
-    "Untitled.md",
-    "ACM/基础/第一章 排序/快速排序.md",
     "ML/Deep Reinforcement Learning/RL 2 (Policy Gradient).md",
+    "ML/Deep Reinforcement Learning/pics/Pasted image 20251101104635.png",
+    "ML/Deep Reinforcement Learning/pics/Pasted image 20251101104408.png",
+    "ML/Deep Reinforcement Learning/pics/Pasted image 20251101104249.png",
+    "ML/Deep Reinforcement Learning/pics/Pasted image 20251101103436.png",
+    "ML/Deep Reinforcement Learning/pics/Pasted image 20251101103242.png",
+    "ML/Deep Reinforcement Learning/pics/Pasted image 20251101102611.png",
+    "ML/Deep Reinforcement Learning/pics/Pasted image 20251101102030.png",
+    "ML/Deep Reinforcement Learning/pics/Pasted image 20251101100356.png",
+    "ML/Deep Reinforcement Learning/RL 1 (What is RL).md",
+    "ACM/基础/第一章 排序/快速排序.md",
+    "Untitled.md",
     "ACM/基础/第一章 排序",
     "ACM/基础",
     "ACM",
     "ML/Deep Reinforcement Learning/pics/Pasted image 20251028103735.png",
     "ML/Deep Reinforcement Learning/pics/Pasted image 20251028103400.png",
-    "ML/Deep Reinforcement Learning/pics/Pasted image 20251028102923.png",
-    "ML/Deep Reinforcement Learning/RL 1 (What is RL).md",
-    "ML/Deep Reinforcement Learning/pics/Pasted image 20251028101853.png",
-    "ML/Deep Reinforcement Learning/pics/Pasted image 20251028100517.png",
-    "ML/Deep Reinforcement Learning/pics/Pasted image 20251028095048.png",
-    "ML/Deep Reinforcement Learning/pics/Pasted image 20251028094125.png",
-    "ML/Deep Reinforcement Learning/pics/Pasted image 20251028093304.png",
     "ML/Deep Reinforcement Learning/RL 5 (No Reward-Learning from Demonstration).md",
     "ML/Deep Reinforcement Learning/RL 4 (Reward shaping).md",
     "ML/Deep Reinforcement Learning/RL 3 (Actor-Critic).md",
     "ML/Domain Adaption/领域自适应.md",
     "ML/Deep Reinforcement Learning/pics",
     "ML/Deep Reinforcement Learning",
-    "ML/Domain Adaption/pics/Pasted image 20251026205247.png",
-    "ML/Domain Adaption/pics/Pasted image 20251026204851.png",
     "ML/Adversarial Attack/Adversarial Attack.md",
     "ML/Explainable ML/可解释性.md",
     "ML/Domain Adaption/pics",
@@ -224,7 +224,6 @@
     "ML/Self-Supervised Learning/Why does BERT Work.md",
     "ML/Transformer/Transformer.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)3.md",
-    "ML/Self-attention/各式各样的Self-attention变型.md",
-    "ML/Self-attention/Self-attention.md"
+    "ML/Self-attention/各式各样的Self-attention变型.md"
   ]
 }

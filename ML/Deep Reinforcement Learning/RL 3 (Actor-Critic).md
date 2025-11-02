@@ -58,14 +58,19 @@
 
 # Version 4(平均减去平均)
 
-![[Pasted image 20251102224537.png]]
+![[Pasted image 20251102225008.png]]
 - ==这个版本就变成了：==
 - 采取a_t这个action得到的期望reward(下面)减掉不采取a_t而是根据某个distribution sample出来的reward
-- 得到
+- 得到两者reward之差就能对比出actor的优异
+
+# Tip of Actor-Critic
+
+![[Pasted image 20251102225239.png]]
+- Actor和Critic都是network，两者的输入都是画面
+- 所以可以参数共享
+- 即一部分network是相同的，后面一部分不同，输出也不同
 
 
-
-
-
-
+# 直接用Critic决定用什么Action:Rainbow
+![[Pasted image 20251102225512.png]]
 

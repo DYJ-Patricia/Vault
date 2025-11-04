@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Network Compression/Knowledge Distillation.md",
+                "file": "ML/Network Compression/Architecture Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Knowledge Distillation"
+              "title": "Architecture Design"
+            }
+          },
+          {
+            "id": "1c786ae7ec470ed3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Network Compression/Network Pruning(类神经网络剪枝).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Network Pruning(类神经网络剪枝)"
             }
           }
         ]
@@ -139,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Network Compression/Knowledge Distillation.md",
+                "file": "ML/Network Compression/Architecture Design.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Knowledge Distillation 的大纲"
+              "title": "Architecture Design 的大纲"
             }
           },
           {
@@ -181,22 +195,25 @@
   "active": "c914cafe0a6c0b7c",
   "lastOpenFiles": [
     "ML/Network Compression/Network Pruning(类神经网络剪枝).md",
+    "ML/Network Compression/Parameter Quantization.md",
+    "ML/Network Compression/pics/Pasted image 20251104222432.png",
+    "ML/Network Compression/pics/Pasted image 20251104221935.png",
+    "ML/Network Compression/pics/Pasted image 20251104221508.png",
+    "ML/Network Compression/Dynamic Computation.md",
+    "ML/Network Compression/Architecture Design.md",
     "ML/Network Compression/Knowledge Distillation.md",
+    "ML/Network Compression/pics/Pasted image 20251104220219.png",
+    "ML/Network Compression/pics/Pasted image 20251104214123.png",
     "ML/Network Compression/pics/Pasted image 20251104212658.png",
     "ML/Network Compression/pics/Pasted image 20251104212357.png",
     "ML/Network Compression/pics/Pasted image 20251104211415.png",
     "ML/Network Compression/pics/Pasted image 20251104210316.png",
     "ML/Network Compression/pics/Pasted image 20251104204802.png",
-    "ML/Network Compression/pics/Pasted image 20251104204400.png",
-    "ML/Network Compression/pics/Pasted image 20251104203603.png",
     "ACM/基础/第一章 排序/模版1.md",
     "ML/Network Compression/pics",
     "Tools/learn obsidian/Obsidian Markdown.md",
     "ML/Deep Reinforcement Learning/RL 5 (No Reward-Learning from Demonstration).md",
     "ML/Network Compression",
-    "ML/Deep Reinforcement Learning/pics/Pasted image 20251103222320.png",
-    "ML/Deep Reinforcement Learning/pics/Pasted image 20251103221732.png",
-    "ML/Deep Reinforcement Learning/pics/Pasted image 20251103221546.png",
     "ML/Deep Reinforcement Learning/RL 4 (Reward shaping).md",
     "ML/Deep Reinforcement Learning/RL 2 (Policy Gradient).md",
     "ML/Deep Reinforcement Learning/RL 3 (Actor-Critic).md",
@@ -221,10 +238,6 @@
     "ML/CNN/Validation set.md",
     "ML/Self-Supervised Learning/Anomaly Detection/Anomaly Detection(异常侦测).md",
     "cs61b/Syntax/Basic/Basic Syntax.md",
-    "ML/Self-Supervised Learning/Auto-encoder.md",
-    "ML/Self-Supervised Learning/Self-supervised Learning for Speech and Image.md",
-    "ML/Self-Supervised Learning/如何有效使用自督导式模型.md",
-    "ML/Self-Supervised Learning/GPT Series.md",
-    "ML/Self-Supervised Learning/Why does BERT Work.md"
+    "ML/Self-Supervised Learning/Auto-encoder.md"
   ]
 }

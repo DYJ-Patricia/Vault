@@ -57,3 +57,10 @@
 ![[Pasted image 20251106205933.png]]
 
 ## Memory Reply
+![[Pasted image 20251106210244.png]]
+- Generating Data方法非常有效，几乎可以逼近upper bound
+
+#### 不同每个任务的class数量不同
+
+![[Pasted image 20251106210428.png]]
+- 另外两种更有挑战性的情景本课没讲，可以看上图的论文

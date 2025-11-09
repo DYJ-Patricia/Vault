@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "39a6f4063f84e195",
+        "id": "eac166974111a401",
         "type": "tabs",
         "children": [
           {
-            "id": "ba860450f0952a5d",
+            "id": "b51ac66da9ee9274",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -178,21 +178,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ba860450f0952a5d",
+  "active": "b51ac66da9ee9274",
   "lastOpenFiles": [
-    "ML/Meta Learning/万物皆可Meta.md",
-    "ML/Meta Learning/More about Meta Learning.md",
-    "ML/Meta Learning/pics/Pasted image 20251108214759.png",
-    "ML/Meta Learning/pics/Pasted image 20251108214413.png",
-    "ML/Meta Learning/pics/Pasted image 20251108214200.png",
-    "ML/Meta Learning/pics/Pasted image 20251108214011.png",
-    "ML/Meta Learning/pics/Pasted image 20251108213807.png",
-    "ML/Meta Learning/pics/Pasted image 20251108213702.png",
-    "ML/Meta Learning/pics/Pasted image 20251108213617.png",
-    "ML/Meta Learning/pics/Pasted image 20251108213517.png",
-    "ML/Meta Learning/pics/Pasted image 20251108213205.png",
-    "ML/Meta Learning/pics/Pasted image 20251108212501.png",
+    "Pasted image 20251109180109.png",
+    "ML/Meta Learning/pics/Pasted image 20251109175958.png",
+    "ML/Meta Learning/pics/Pasted image 20251109175748.png",
+    "ML/Meta Learning/pics/Pasted image 20251109175517.png",
+    "ML/Meta Learning/pics/Pasted image 20251109175050.png",
+    "ML/Meta Learning/pics/Pasted image 20251109174941.png",
+    "ML/Meta Learning/pics/Pasted image 20251109174607.png",
+    "ML/Meta Learning/pics/Pasted image 20251109174501.png",
+    "ML/Meta Learning/pics/Pasted image 20251109173848.png",
+    "ML/Meta Learning/pics/Pasted image 20251109173605.png",
+    "ML/Meta Learning/pics/Pasted image 20251109173023.png",
+    "Algorithm/基础/第一章 排序/快速排序.md",
     "Algorithm/基础/第一章 排序/模版1.md",
+    "ML/Meta Learning/More about Meta Learning.md",
+    "ML/Meta Learning/万物皆可Meta.md",
     "ML/Meta Learning/和机器学习一样是三个步骤.md",
     "ML/Meta Learning/pics",
     "ML/Meta Learning",
@@ -213,7 +215,6 @@
     "ML/Deep Reinforcement Learning/RL 2 (Policy Gradient).md",
     "ML/Deep Reinforcement Learning/RL 3 (Actor-Critic).md",
     "ML/Deep Reinforcement Learning/RL 1 (What is RL).md",
-    "Algorithm/基础/第一章 排序/快速排序.md",
     "Untitled.md",
     "Algorithm/基础/第一章 排序",
     "Algorithm/基础",
@@ -224,7 +225,6 @@
     "ML/Self-Supervised Learning/BERT.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)4 on Unsupervised Learning.md",
     "ML/Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
-    "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md",
-    "ML/CNN/Validation set.md"
+    "ML/Generative Adversarial Network/GAN(生成式对抗网络)1.md"
   ]
 }

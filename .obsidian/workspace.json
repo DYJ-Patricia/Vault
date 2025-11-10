@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "797c43b78f27d413",
+        "id": "99c68845412c176c",
         "type": "tabs",
         "children": [
           {
-            "id": "d4f1b188c2216b65",
+            "id": "a63bb5ca562e3887",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Meta Learning/和机器学习一样是三个步骤.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "和机器学习一样是三个步骤"
+              "title": "新标签页"
             }
           }
         ]
@@ -139,13 +135,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Meta Learning/和机器学习一样是三个步骤.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "和机器学习一样是三个步骤 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -178,8 +173,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d4f1b188c2216b65",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
+    "李沐深度学习",
+    "ML/Meta Learning/和机器学习一样是三个步骤.md",
     "Algorithm/基础/第一章 排序/快速排序.md",
     "Algorithm/基础/第一章 排序/模版1.md",
     "ML/Meta Learning/pics/Pasted image 20251109180109.png",
@@ -194,7 +191,6 @@
     "ML/Meta Learning/pics/Pasted image 20251109173605.png",
     "ML/Meta Learning/More about Meta Learning.md",
     "ML/Meta Learning/万物皆可Meta.md",
-    "ML/Meta Learning/和机器学习一样是三个步骤.md",
     "ML/Meta Learning/pics",
     "ML/Meta Learning",
     "ML/Life Long Learning/LLL-Catastrophic Forgetting.md",

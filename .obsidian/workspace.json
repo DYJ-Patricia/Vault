@@ -207,8 +207,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3bc65c53d81098a4",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
+    "李沐深度学习/Softmax/pics/Pasted image 20251122205812.png",
     "李沐深度学习/Softmax/图片分类数据集.md",
     "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
     "Algorithm/基础/第一章/模版1.md",
@@ -253,7 +254,6 @@
     "ML/Network Compression/Parameter Quantization.md",
     "ML/Network Compression/Knowledge Distillation.md",
     "Tools/learn obsidian/Obsidian Markdown.md",
-    "ML/Deep Reinforcement Learning/RL 5 (No Reward-Learning from Demonstration).md",
-    "ML/Deep Reinforcement Learning/RL 2 (Policy Gradient).md"
+    "ML/Deep Reinforcement Learning/RL 5 (No Reward-Learning from Demonstration).md"
   ]
 }

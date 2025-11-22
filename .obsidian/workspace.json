@@ -36,17 +36,17 @@
             }
           },
           {
-            "id": "dafb1f234922663c",
+            "id": "3bc65c53d81098a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李沐深度学习/Softmax/pics/图片分类数据集.md",
+                "file": "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "图片分类数据集"
+              "title": "Softmax回归-多类分类模型"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "valida",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/Softmax/pics/图片分类数据集.md",
+                "file": "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "图片分类数据集 的大纲"
+              "title": "Softmax回归-多类分类模型 的大纲"
             }
           },
           {
@@ -207,17 +207,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dafb1f234922663c",
+  "active": "3bc65c53d81098a4",
   "lastOpenFiles": [
+    "李沐深度学习/Softmax/图片分类数据集.md",
+    "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
+    "Algorithm/基础/第一章/模版1.md",
     "李沐深度学习/常用损失函数.md",
-    "李沐深度学习/Softmax/pics/图片分类数据集.md",
     "李沐深度学习/Softmax/pics",
     "李沐深度学习/Softmax",
     "李沐深度学习/pics1/Pasted image 20251122173458.png",
     "李沐深度学习/pics1/Pasted image 20251122173414.png",
     "李沐深度学习/pics1/Pasted image 20251122173218.png",
     "李沐深度学习/pics1/Pasted image 20251122172214.png",
-    "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
     "李沐深度学习/pics1/Pasted image 20251122164108.png",
     "李沐深度学习/pics1/Pasted image 20251122164000.png",
     "李沐深度学习/线性回归.md",
@@ -227,7 +228,6 @@
     "Algorithm/基础/第一章/第三课.md",
     "Algorithm/基础/第一章/pics/Pasted image 20251117220122.png",
     "Algorithm/基础/第一章/pics/Pasted image 20251117220107.png",
-    "Algorithm/基础/第一章/模版1.md",
     "李沐深度学习/前置知识.md",
     "Algorithm/基础/第一章/前缀和与差分.md",
     "Algorithm/基础/第一章/高精度.md",

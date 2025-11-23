@@ -11,10 +11,14 @@
             "id": "695af180b304eaf3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "0-常学常新：《Attention Is All You Need》万字解读！"
             }
           }
         ]
@@ -135,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SimpRead/0-一个异性这样对你，其实就是嫌弃你@annote.md",
+                "file": "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "0-一个异性这样对你，其实就是嫌弃你@annote 的大纲"
+              "title": "0-常学常新：《Attention Is All You Need》万字解读！ 的大纲"
             }
           },
           {
@@ -175,10 +179,16 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "695af180b304eaf3",
   "lastOpenFiles": [
-    "SimpRead/0-一个异性这样对你，其实就是嫌弃你/0-一个异性这样对你，其实就是嫌弃你@annote.md",
+    "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！@annote.md",
+    "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
+    "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！",
+    "SimpRead/0-本地存储 + 线上获取：我的个人数据库建构路径/0-本地存储 + 线上获取：我的个人数据库建构路径@annote.md",
+    "SimpRead/0-本地存储 + 线上获取：我的个人数据库建构路径/0-本地存储 + 线上获取：我的个人数据库建构路径.md",
     "SimpRead/0-一个异性这样对你，其实就是嫌弃你@annote.md",
+    "SimpRead/0-本地存储 + 线上获取：我的个人数据库建构路径",
+    "SimpRead/0-一个异性这样对你，其实就是嫌弃你/0-一个异性这样对你，其实就是嫌弃你@annote.md",
     "SimpRead/0-一个异性这样对你，其实就是嫌弃你/0-一个异性这样对你，其实就是嫌弃你.md",
     "SimpRead/0-一个异性这样对你，其实就是嫌弃你",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效/0-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
@@ -209,19 +219,13 @@
     "李沐深度学习/Softmax/图片分类数据集.md",
     "李沐深度学习/前置/常用损失函数.md",
     "李沐深度学习/Softmax/pics",
-    "李沐深度学习/Softmax",
     "李沐深度学习/前置/线性回归.md",
-    "李沐深度学习/前置/pics1",
     "李沐深度学习/前置/前置知识.md",
     "Algorithm/基础/第一章/前缀和与差分.md",
     "Algorithm/基础/第一章/高精度.md",
     "Algorithm/基础/第一章/快速排序.md",
     "ML/Deep Reinforcement Learning/RL 3 (Actor-Critic).md",
     "ML/Deep Reinforcement Learning/RL 4 (Reward shaping).md",
-    "ML/Domain Adaption/领域自适应.md",
-    "ML/Deep Reinforcement Learning/RL 1 (What is RL).md",
-    "ML/Meta Learning/和机器学习一样是三个步骤.md",
-    "ML/Meta Learning/More about Meta Learning.md",
-    "ML/Meta Learning/万物皆可Meta.md"
+    "ML/Domain Adaption/领域自适应.md"
   ]
 }

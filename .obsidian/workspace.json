@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "多层感知机"
             }
-          },
-          {
-            "id": "1f2a002a014ad14a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVA/JAVAWEB/Filter&Listener笔记.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Filter&Listener笔记"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "李沐深度学习/感知机/多层感知机.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "多层感知机 的出链列表"
             }
           },
           {
@@ -156,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/JAVAWEB/Filter&Listener笔记.md",
+                "file": "李沐深度学习/感知机/多层感知机.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Filter&Listener笔记 的大纲"
+              "title": "多层感知机 的大纲"
             }
           },
           {
@@ -176,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -199,8 +185,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1f2a002a014ad14a",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
+    "李沐深度学习/感知机/mlp-scratch.ipynb",
+    "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
     "李沐深度学习/感知机/多层感知机.md",
     "JAVA/JAVAWEB/Filter&Listener笔记.md",
     "cs61b/Notes/Lists.md",
@@ -244,8 +232,6 @@
     "README.md",
     "pictures/Pasted image 20250706225250.png",
     "pictures/Pasted image 20250706212849.png",
-    "pictures/Pasted image 20250515161929.png",
-    "李沐深度学习/感知机/感知机.md",
-    "Algorithm/刷题心得/笔记.md"
+    "pictures/Pasted image 20250515161929.png"
   ]
 }

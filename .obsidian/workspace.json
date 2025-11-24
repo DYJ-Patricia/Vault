@@ -22,22 +22,21 @@
             }
           },
           {
-            "id": "143cac862c6117d8",
+            "id": "1f2a002a014ad14a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ML/0-Regression/regression (v16).pdf",
-                "page": 26,
-                "left": -14,
-                "top": 126,
-                "zoom": 1.053125
+                "file": "JAVA/JAVAWEB/Filter&Listener笔记.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "regression (v16)"
+              "icon": "lucide-file",
+              "title": "Filter&Listener笔记"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Lists",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,7 +142,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -155,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/感知机/多层感知机.md",
+                "file": "JAVA/JAVAWEB/Filter&Listener笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "多层感知机 的大纲"
+              "title": "Filter&Listener笔记 的大纲"
             }
           },
           {
@@ -175,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -198,10 +199,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ce4371478193e6ff",
+  "active": "1f2a002a014ad14a",
   "lastOpenFiles": [
-    "ML/0-Regression/regression (v16).pdf",
     "李沐深度学习/感知机/多层感知机.md",
+    "JAVA/JAVAWEB/Filter&Listener笔记.md",
+    "cs61b/Notes/Lists.md",
+    "cs61b/Syntax/Basic/Basic Syntax.md",
+    "李沐深度学习/感知机/pics/Pasted image 20251124202009.png",
+    "JAVA/JAVAWEB/HTML&CSS.md",
+    "李沐深度学习/感知机/pics/Pasted image 20251124201409.png",
+    "李沐深度学习/感知机/pics/Pasted image 20251124201028.png",
+    "ML/0-Regression/regression (v16).pdf",
     "李沐深度学习/感知机/pics/Pasted image 20251124200331.png",
     "李沐深度学习/感知机/pics/Pasted image 20251124195603.png",
     "ML/1-Classification/鱼与熊掌可兼得.md",
@@ -217,7 +225,6 @@
     "李沐深度学习/感知机/pics/Pasted image 20251124193623.png",
     "未命名.md",
     "0-PDFs/141 Fool’s Gold.pdf",
-    "JAVA/JAVAWEB/Filter&Listener笔记.md",
     "1-摘录笔记",
     "SimpRead/1-大一计算机新生怎么合理利用 github？/1-大一计算机新生怎么合理利用 github？@annote.md",
     "Tools/GIT.md",
@@ -238,12 +245,7 @@
     "pictures/Pasted image 20250706225250.png",
     "pictures/Pasted image 20250706212849.png",
     "pictures/Pasted image 20250515161929.png",
-    "pictures/Pasted image 20250506201308.png",
-    "pictures/Pasted image 20250313124550.png",
-    "pictures/Pasted image 20250313124504.png",
     "李沐深度学习/感知机/感知机.md",
-    "Algorithm/刷题心得/笔记.md",
-    "Algorithm/基础/第一章/第三课.md",
-    "李沐深度学习/Softmax/Softmax回归-多类分类模型.md"
+    "Algorithm/刷题心得/笔记.md"
   ]
 }

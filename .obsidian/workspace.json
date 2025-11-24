@@ -4,21 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "7f89e818d2900af9",
+        "id": "29eba18d72d72bbd",
         "type": "tabs",
         "children": [
           {
-            "id": "ce4371478193e6ff",
+            "id": "9f8304234007b7c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "李沐深度学习/感知机/多层感知机.md",
-                "mode": "source",
-                "source": false
+                "file": "0-PDFs/141 Fool’s Gold.pdf",
+                "page": 3,
+                "left": 316,
+                "top": 305,
+                "zoom": 1.6553030303030305
               },
-              "icon": "lucide-file",
-              "title": "多层感知机"
+              "icon": "lucide-file-text",
+              "title": "141 Fool’s Gold"
             }
           }
         ]
@@ -78,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a1e421f7f943583a",
@@ -113,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "李沐深度学习/感知机/多层感知机.md",
+                "file": "0-PDFs/141 Fool’s Gold.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "多层感知机 的出链列表"
+              "title": "141 Fool’s Gold 的出链列表"
             }
           },
           {
@@ -142,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/感知机/多层感知机.md",
+                "file": "0-PDFs/141 Fool’s Gold.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "多层感知机 的大纲"
+              "title": "141 Fool’s Gold 的大纲"
             }
           },
           {
@@ -185,11 +188,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "9f8304234007b7c9",
   "lastOpenFiles": [
+    "0-PDFs/141 Fool’s Gold.pdf",
+    "李沐深度学习/感知机/多层感知机.md",
     "李沐深度学习/感知机/mlp-scratch.ipynb",
     "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
-    "李沐深度学习/感知机/多层感知机.md",
     "JAVA/JAVAWEB/Filter&Listener笔记.md",
     "cs61b/Notes/Lists.md",
     "cs61b/Syntax/Basic/Basic Syntax.md",
@@ -212,8 +216,6 @@
     "ML/0-Regression",
     "李沐深度学习/感知机/pics/Pasted image 20251124193623.png",
     "未命名.md",
-    "0-PDFs/141 Fool’s Gold.pdf",
-    "1-摘录笔记",
     "SimpRead/1-大一计算机新生怎么合理利用 github？/1-大一计算机新生怎么合理利用 github？@annote.md",
     "Tools/GIT.md",
     "JAVA/JAVAWEB/Filter&Listener.md",

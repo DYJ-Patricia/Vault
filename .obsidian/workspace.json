@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "99c68845412c176c",
+        "id": "7f89e818d2900af9",
         "type": "tabs",
         "children": [
           {
-            "id": "695af180b304eaf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0-常学常新：《Attention Is All You Need》万字解读！"
-            }
-          },
-          {
-            "id": "19cc47d950684a83",
+            "id": "ce4371478193e6ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,37 +20,8 @@
               "icon": "lucide-file",
               "title": "多层感知机"
             }
-          },
-          {
-            "id": "b7799c6360c37d72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SimpRead/1-大一计算机新生怎么合理利用 github？/1-大一计算机新生怎么合理利用 github？@annote.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1-大一计算机新生怎么合理利用 github？@annote"
-            }
-          },
-          {
-            "id": "e2eac5c4ae3128aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/GIT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GIT"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/GIT.md",
+                "file": "李沐深度学习/感知机/多层感知机.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GIT 的大纲"
+              "title": "多层感知机 的大纲"
             }
           },
           {
@@ -219,33 +176,46 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e2eac5c4ae3128aa",
+  "active": "ce4371478193e6ff",
   "lastOpenFiles": [
+    "ML/1-Classification/鱼与熊掌可兼得.md",
+    "ML/1-Deep Learning/classification_v2.pdf",
+    "ML/1-Deep Learning/small-gradient-v7.pdf",
+    "ML/1-Deep Learning/overfit-v6.pdf",
+    "ML/1-Deep Learning/optimizer-v4.pdf",
+    "ML/1-Deep Learning",
+    "ML/0-Regression/regression (v16).pdf",
+    "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
+    "ML/Introduction/Neutral.md",
+    "李沐深度学习/感知机/多层感知机.md",
+    "ML/Introduction/pics",
+    "ML/0-Regression",
+    "李沐深度学习/感知机/pics/Pasted image 20251124193623.png",
+    "未命名.md",
+    "0-PDFs/141 Fool’s Gold.pdf",
+    "JAVA/JAVAWEB/Filter&Listener笔记.md",
+    "1-摘录笔记",
     "SimpRead/1-大一计算机新生怎么合理利用 github？/1-大一计算机新生怎么合理利用 github？@annote.md",
+    "Tools/GIT.md",
+    "JAVA/JAVAWEB/Filter&Listener.md",
     "SimpRead/1-大一计算机新生怎么合理利用 github？/1-大一计算机新生怎么合理利用 github？.md",
     "Tools/VIM.md",
-    "SimpRead/1-大一计算机新生怎么合理利用 github？",
-    "Tools/GIT.md",
-    "李沐深度学习/感知机/多层感知机.md",
     "李沐深度学习/感知机/pics/Pasted image 20251124000408.png",
-    "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
     "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！@annote.md",
-    "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！",
     "SimpRead/0-本地存储 + 线上获取：我的个人数据库建构路径/0-本地存储 + 线上获取：我的个人数据库建构路径@annote.md",
     "SimpRead/0-本地存储 + 线上获取：我的个人数据库建构路径/0-本地存储 + 线上获取：我的个人数据库建构路径.md",
     "SimpRead/0-一个异性这样对你，其实就是嫌弃你@annote.md",
-    "SimpRead/0-本地存储 + 线上获取：我的个人数据库建构路径",
     "SimpRead/0-一个异性这样对你，其实就是嫌弃你/0-一个异性这样对你，其实就是嫌弃你@annote.md",
     "SimpRead/0-一个异性这样对你，其实就是嫌弃你/0-一个异性这样对你，其实就是嫌弃你.md",
-    "SimpRead/0-一个异性这样对你，其实就是嫌弃你",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效/0-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效/0-放弃纠结、拥抱妥协，重器轻用就是高效.md",
     "Algorithm/基础/第一章/模版1.md",
-    "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效",
-    "SimpRead",
     "README.md",
     "pictures/Pasted image 20250706225250.png",
     "pictures/Pasted image 20250706212849.png",
@@ -258,17 +228,7 @@
     "Algorithm/基础/第一章/第三课.md",
     "李沐深度学习/感知机/pics/Pasted image 20251122225724.png",
     "李沐深度学习/感知机/pics/Pasted image 20251122225614.png",
-    "李沐深度学习/感知机/pics/Pasted image 20251122225149.png",
-    "李沐深度学习/感知机/pics",
-    "李沐深度学习/感知机",
-    "李沐深度学习/前置",
     "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
-    "李沐深度学习/未命名.base",
-    "李沐深度学习/未命名.md",
-    "李沐深度学习/Softmax/图片分类数据集.md",
-    "李沐深度学习/前置/常用损失函数.md",
-    "李沐深度学习/前置/线性回归.md",
-    "李沐深度学习/前置/前置知识.md",
-    "Algorithm/基础/第一章/前缀和与差分.md"
+    "李沐深度学习/未命名.md"
   ]
 }

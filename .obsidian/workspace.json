@@ -20,6 +20,22 @@
               "icon": "lucide-file",
               "title": "多层感知机"
             }
+          },
+          {
+            "id": "143cac862c6117d8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ML/0-Regression/regression (v16).pdf",
+                "page": 26,
+                "left": -14,
+                "top": 126,
+                "zoom": 1.053125
+              },
+              "icon": "lucide-file-text",
+              "title": "regression (v16)"
+            }
           }
         ]
       }
@@ -184,16 +200,18 @@
   },
   "active": "ce4371478193e6ff",
   "lastOpenFiles": [
+    "ML/0-Regression/regression (v16).pdf",
+    "李沐深度学习/感知机/多层感知机.md",
+    "李沐深度学习/感知机/pics/Pasted image 20251124200331.png",
+    "李沐深度学习/感知机/pics/Pasted image 20251124195603.png",
     "ML/1-Classification/鱼与熊掌可兼得.md",
     "ML/1-Deep Learning/classification_v2.pdf",
     "ML/1-Deep Learning/small-gradient-v7.pdf",
     "ML/1-Deep Learning/overfit-v6.pdf",
     "ML/1-Deep Learning/optimizer-v4.pdf",
     "ML/1-Deep Learning",
-    "ML/0-Regression/regression (v16).pdf",
     "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
     "ML/Introduction/Neutral.md",
-    "李沐深度学习/感知机/多层感知机.md",
     "ML/Introduction/pics",
     "ML/0-Regression",
     "李沐深度学习/感知机/pics/Pasted image 20251124193623.png",
@@ -226,9 +244,6 @@
     "李沐深度学习/感知机/感知机.md",
     "Algorithm/刷题心得/笔记.md",
     "Algorithm/基础/第一章/第三课.md",
-    "李沐深度学习/感知机/pics/Pasted image 20251122225724.png",
-    "李沐深度学习/感知机/pics/Pasted image 20251122225614.png",
-    "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
-    "李沐深度学习/未命名.md"
+    "李沐深度学习/Softmax/Softmax回归-多类分类模型.md"
   ]
 }

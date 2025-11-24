@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "0-PDFs/141 Fool’s Gold.pdf",
-                "page": 3,
-                "left": 316,
-                "top": 305,
-                "zoom": 1.6553030303030305
+                "page": 5,
+                "left": -67,
+                "top": 72,
+                "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "141 Fool’s Gold"
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a1e421f7f943583a",
@@ -116,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-PDFs/141 Fool’s Gold.pdf",
+                "file": "李沐深度学习/模型选择/pics/Pasted image 20251124231905.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "141 Fool’s Gold 的出链列表"
+              "title": "Pasted image 20251124231905 的出链列表"
             }
           },
           {
@@ -145,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-PDFs/141 Fool’s Gold.pdf",
+                "file": "李沐深度学习/模型选择/pics/Pasted image 20251124231905.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "141 Fool’s Gold 的大纲"
+              "title": "Pasted image 20251124231905 的大纲"
             }
           },
           {
@@ -188,8 +187,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9f8304234007b7c9",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
+    "李沐深度学习/模型选择/一些基础知识.md",
+    "李沐深度学习/模型选择/pics",
+    "李沐深度学习/模型选择/pics/Pasted image 20251124231905.png",
+    "李沐深度学习/模型选择",
     "0-PDFs/141 Fool’s Gold.pdf",
     "李沐深度学习/感知机/多层感知机.md",
     "李沐深度学习/感知机/mlp-scratch.ipynb",
@@ -212,8 +215,6 @@
     "ML/1-Deep Learning",
     "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
     "ML/Introduction/Neutral.md",
-    "ML/Introduction/pics",
-    "ML/0-Regression",
     "李沐深度学习/感知机/pics/Pasted image 20251124193623.png",
     "未命名.md",
     "SimpRead/1-大一计算机新生怎么合理利用 github？/1-大一计算机新生怎么合理利用 github？@annote.md",
@@ -231,9 +232,7 @@
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效/0-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效/0-放弃纠结、拥抱妥协，重器轻用就是高效.md",
     "Algorithm/基础/第一章/模版1.md",
-    "README.md",
     "pictures/Pasted image 20250706225250.png",
-    "pictures/Pasted image 20250706212849.png",
-    "pictures/Pasted image 20250515161929.png"
+    "pictures/Pasted image 20250706212849.png"
   ]
 }

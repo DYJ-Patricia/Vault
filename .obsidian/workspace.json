@@ -4,23 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "29eba18d72d72bbd",
+        "id": "49eb14eca2bfc06a",
         "type": "tabs",
         "children": [
           {
-            "id": "9f8304234007b7c9",
+            "id": "79584273cfbd4b75",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "0-PDFs/141 Fool’s Gold.pdf",
-                "page": 5,
-                "left": -67,
-                "top": 72,
-                "zoom": 1
-              },
-              "icon": "lucide-file-text",
-              "title": "141 Fool’s Gold"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -144,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/模型选择/pics/Pasted image 20251124231905.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20251124231905 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -189,11 +182,13 @@
   },
   "active": "7860188cde985504",
   "lastOpenFiles": [
+    "SimpRead/4_2_ 多层感知机的从零开始实现 — 动手学深度学习 2_0_0 documentation/4_2_ 多层感知机的从零开始实现 — 动手学深度学习 2_0_0 documentation.md",
+    "0-PDFs/141 Fool’s Gold.pdf",
+    "SimpRead/4_2_ 多层感知机的从零开始实现 — 动手学深度学习 2_0_0 documentation",
     "李沐深度学习/模型选择/一些基础知识.md",
     "李沐深度学习/模型选择/pics",
     "李沐深度学习/模型选择/pics/Pasted image 20251124231905.png",
     "李沐深度学习/模型选择",
-    "0-PDFs/141 Fool’s Gold.pdf",
     "李沐深度学习/感知机/多层感知机.md",
     "李沐深度学习/感知机/mlp-scratch.ipynb",
     "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
@@ -212,7 +207,6 @@
     "ML/1-Deep Learning/small-gradient-v7.pdf",
     "ML/1-Deep Learning/overfit-v6.pdf",
     "ML/1-Deep Learning/optimizer-v4.pdf",
-    "ML/1-Deep Learning",
     "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
     "ML/Introduction/Neutral.md",
     "李沐深度学习/感知机/pics/Pasted image 20251124193623.png",
@@ -231,7 +225,6 @@
     "SimpRead/0-一个异性这样对你，其实就是嫌弃你/0-一个异性这样对你，其实就是嫌弃你.md",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效/0-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
     "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效/0-放弃纠结、拥抱妥协，重器轻用就是高效.md",
-    "Algorithm/基础/第一章/模版1.md",
     "pictures/Pasted image 20250706225250.png",
     "pictures/Pasted image 20250706212849.png"
   ]

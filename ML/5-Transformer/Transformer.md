@@ -50,6 +50,9 @@ __Encoder+Decoder__
 
  ## Encoder-Decoder
 
+[[0-常学常新：《Attention Is All You Need》万字解读！#Model Architecture 模型架构]]
+
+
 ![[Pasted image 20251014215028.png]]
 
 

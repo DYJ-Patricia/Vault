@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "49eb14eca2bfc06a",
+        "id": "5a95bf876429b073",
         "type": "tabs",
         "children": [
           {
-            "id": "79584273cfbd4b75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "李沐深度学习/模型选择/一些基础知识.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "一些基础知识"
-            }
-          },
-          {
-            "id": "cba5de6f57fe12fa",
+            "id": "ab42f5751f192e52",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ML/1-Deep Learning/small-gradient-v7.pdf",
-                "page": 15,
-                "left": -14,
-                "top": 58,
-                "zoom": 1.053125
+                "file": "0-PDFs/141 Fool’s Gold.pdf",
+                "page": 7,
+                "left": -6,
+                "top": 68,
+                "zoom": 1.2905943627450982
               },
               "icon": "lucide-file-text",
-              "title": "small-gradient-v7"
+              "title": "141 Fool’s Gold"
             }
           }
         ]
@@ -110,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs61b/Syntax/Basic/Basic Syntax.md",
+                "file": "0-PDFs/141 Fool’s Gold.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Basic Syntax 的反向链接列表"
+              "title": "141 Fool’s Gold 的反向链接列表"
             }
           },
           {
@@ -129,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "李沐深度学习/模型选择/pics/Pasted image 20251124231905.png",
+                "file": "0-PDFs/141 Fool’s Gold.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Pasted image 20251124231905 的出链列表"
+              "title": "141 Fool’s Gold 的出链列表"
             }
           },
           {
@@ -158,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/模型选择/一些基础知识.md",
+                "file": "0-PDFs/141 Fool’s Gold.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "一些基础知识 的大纲"
+              "title": "141 Fool’s Gold 的大纲"
             }
           },
           {
@@ -201,29 +187,39 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "79584273cfbd4b75",
+  "active": "ab42f5751f192e52",
   "lastOpenFiles": [
+    "李沐深度学习/感知机/多层感知机.md",
+    "ML/1-Classification/鱼与熊掌可兼得.md",
+    "李沐深度学习/感知机/感知机.md",
+    "李沐深度学习/前置/前置知识.md",
+    "李沐深度学习/前置/线性回归.md",
+    "李沐深度学习/前置/常用损失函数.md",
+    "ML/0-Regression/regression (v16).pdf",
+    "Tools/learn obsidian/Obsidian Markdown.md",
+    "0-PDFs/141 Fool’s Gold.pdf",
+    "ML/5-Transformer/Transformer.md",
+    "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
     "ML/1-Deep Learning/small-gradient-v7.pdf",
+    "ML/4-Self-attention/Self-attention.md",
+    "ML/4-Self-attention/各式各样的Self-attention变型.md",
+    "李沐深度学习/模型选择/优化函数.md",
+    "Algorithm/刷题心得/笔记.md",
+    "2,2,2,2.md",
+    "-2,-1,1,2],[-2,0,0,2],[-1,0,0,1.md",
     "ML/1-Deep Learning/overfit-v6.pdf",
     "ML/1-Deep Learning/optimizer-v4.pdf",
-    "李沐深度学习/模型选择/一些基础知识.md",
-    "李沐深度学习/前置/常用损失函数.md",
     "Tools/learn obsidian/我的第二篇笔记.md",
     "李沐深度学习/模型选择/pics/Pasted image 20251125221706.png",
-    "Tools/learn obsidian/Obsidian Markdown.md",
-    "李沐深度学习/前置/线性回归.md",
-    "李沐深度学习/前置/前置知识.md",
     "李沐深度学习/模型选择/pics/Pasted image 20251125220524.png",
     "李沐深度学习/模型选择/pics/Pasted image 20251125215143.png",
     "李沐深度学习/模型选择/pics/Pasted image 20251125212012.png",
     "李沐深度学习/模型选择/pics/Pasted image 20251125205422.png",
     "SimpRead/4_2_ 多层感知机的从零开始实现 — 动手学深度学习 2_0_0 documentation/4_2_ 多层感知机的从零开始实现 — 动手学深度学习 2_0_0 documentation.md",
-    "0-PDFs/141 Fool’s Gold.pdf",
     "SimpRead/4_2_ 多层感知机的从零开始实现 — 动手学深度学习 2_0_0 documentation",
     "李沐深度学习/模型选择/pics",
     "李沐深度学习/模型选择/pics/Pasted image 20251124231905.png",
     "李沐深度学习/模型选择",
-    "李沐深度学习/感知机/多层感知机.md",
     "李沐深度学习/感知机/mlp-scratch.ipynb",
     "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
     "JAVA/JAVAWEB/Filter&Listener笔记.md",
@@ -233,20 +229,11 @@
     "JAVA/JAVAWEB/HTML&CSS.md",
     "李沐深度学习/感知机/pics/Pasted image 20251124201409.png",
     "李沐深度学习/感知机/pics/Pasted image 20251124201028.png",
-    "ML/0-Regression/regression (v16).pdf",
     "李沐深度学习/感知机/pics/Pasted image 20251124200331.png",
-    "ML/1-Classification/鱼与熊掌可兼得.md",
     "ML/1-Deep Learning/classification_v2.pdf",
-    "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
     "ML/Introduction/Neutral.md",
     "未命名.md",
     "SimpRead/1-大一计算机新生怎么合理利用 github？/1-大一计算机新生怎么合理利用 github？@annote.md",
-    "Tools/GIT.md",
-    "JAVA/JAVAWEB/Filter&Listener.md",
-    "SimpRead/1-大一计算机新生怎么合理利用 github？/1-大一计算机新生怎么合理利用 github？.md",
-    "Tools/VIM.md",
-    "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！@annote.md",
-    "SimpRead/0-本地存储 + 线上获取：我的个人数据库建构路径/0-本地存储 + 线上获取：我的个人数据库建构路径@annote.md",
-    "SimpRead/0-本地存储 + 线上获取：我的个人数据库建构路径/0-本地存储 + 线上获取：我的个人数据库建构路径.md"
+    "Tools/GIT.md"
   ]
 }

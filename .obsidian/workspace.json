@@ -27,24 +27,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ML/1-Deep Learning/overfit-v6.pdf",
-                "page": 9,
+                "file": "ML/1-Deep Learning/small-gradient-v7.pdf",
+                "page": 15,
                 "left": -14,
-                "top": 87,
+                "top": 58,
                 "zoom": 1.053125
               },
               "icon": "lucide-file-text",
-              "title": "overfit-v6"
-            }
-          },
-          {
-            "id": "9d7ec16c5fd372c3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "small-gradient-v7"
             }
           }
         ]
@@ -213,9 +203,18 @@
   },
   "active": "79584273cfbd4b75",
   "lastOpenFiles": [
-    "李沐深度学习/模型选择/pics/Pasted image 20251125215143.png",
-    "李沐深度学习/模型选择/一些基础知识.md",
+    "ML/1-Deep Learning/small-gradient-v7.pdf",
     "ML/1-Deep Learning/overfit-v6.pdf",
+    "ML/1-Deep Learning/optimizer-v4.pdf",
+    "李沐深度学习/模型选择/一些基础知识.md",
+    "李沐深度学习/前置/常用损失函数.md",
+    "Tools/learn obsidian/我的第二篇笔记.md",
+    "李沐深度学习/模型选择/pics/Pasted image 20251125221706.png",
+    "Tools/learn obsidian/Obsidian Markdown.md",
+    "李沐深度学习/前置/线性回归.md",
+    "李沐深度学习/前置/前置知识.md",
+    "李沐深度学习/模型选择/pics/Pasted image 20251125220524.png",
+    "李沐深度学习/模型选择/pics/Pasted image 20251125215143.png",
     "李沐深度学习/模型选择/pics/Pasted image 20251125212012.png",
     "李沐深度学习/模型选择/pics/Pasted image 20251125205422.png",
     "SimpRead/4_2_ 多层感知机的从零开始实现 — 动手学深度学习 2_0_0 documentation/4_2_ 多层感知机的从零开始实现 — 动手学深度学习 2_0_0 documentation.md",
@@ -236,28 +235,18 @@
     "李沐深度学习/感知机/pics/Pasted image 20251124201028.png",
     "ML/0-Regression/regression (v16).pdf",
     "李沐深度学习/感知机/pics/Pasted image 20251124200331.png",
-    "李沐深度学习/感知机/pics/Pasted image 20251124195603.png",
     "ML/1-Classification/鱼与熊掌可兼得.md",
     "ML/1-Deep Learning/classification_v2.pdf",
-    "ML/1-Deep Learning/small-gradient-v7.pdf",
-    "ML/1-Deep Learning/optimizer-v4.pdf",
     "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
     "ML/Introduction/Neutral.md",
-    "李沐深度学习/感知机/pics/Pasted image 20251124193623.png",
     "未命名.md",
     "SimpRead/1-大一计算机新生怎么合理利用 github？/1-大一计算机新生怎么合理利用 github？@annote.md",
     "Tools/GIT.md",
     "JAVA/JAVAWEB/Filter&Listener.md",
     "SimpRead/1-大一计算机新生怎么合理利用 github？/1-大一计算机新生怎么合理利用 github？.md",
     "Tools/VIM.md",
-    "李沐深度学习/感知机/pics/Pasted image 20251124000408.png",
     "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！@annote.md",
     "SimpRead/0-本地存储 + 线上获取：我的个人数据库建构路径/0-本地存储 + 线上获取：我的个人数据库建构路径@annote.md",
-    "SimpRead/0-本地存储 + 线上获取：我的个人数据库建构路径/0-本地存储 + 线上获取：我的个人数据库建构路径.md",
-    "SimpRead/0-一个异性这样对你，其实就是嫌弃你@annote.md",
-    "SimpRead/0-一个异性这样对你，其实就是嫌弃你/0-一个异性这样对你，其实就是嫌弃你@annote.md",
-    "SimpRead/0-一个异性这样对你，其实就是嫌弃你/0-一个异性这样对你，其实就是嫌弃你.md",
-    "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效/0-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
-    "SimpRead/0-放弃纠结、拥抱妥协，重器轻用就是高效/0-放弃纠结、拥抱妥协，重器轻用就是高效.md"
+    "SimpRead/0-本地存储 + 线上获取：我的个人数据库建构路径/0-本地存储 + 线上获取：我的个人数据库建构路径.md"
   ]
 }

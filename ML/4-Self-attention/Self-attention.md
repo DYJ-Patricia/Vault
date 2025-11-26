@@ -104,3 +104,7 @@ Self-attention加上某个东西就成了RNN
 # GNN
 
 ![[Pasted image 20251014142336.png]]
+
+# 还有多种变型
+
+[[各式各样的Self-attention变型]]

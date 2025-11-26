@@ -1,3 +1,8 @@
+[[RL 2 (Policy Gradient)]]
+[[RL 3 (Actor-Critic)]]
+[[RL 4 (Reward shaping)]]
+[[RL 5 (No Reward-Learning from Demonstration)]]
+
 - 之前讲的基本都基于supervised learning，包括self-supervised learning(只是是机器自己给label罢了)
 - RL和之前的machine learning是一样的框架，都是三个步骤
 - 这次偏浅显地讲

@@ -1,3 +1,9 @@
+[[Why does BERT Work]]
+[[GPT Series]]
+[[Self-supervised Learning for Speech and Image]]
+[[Auto-encoder]]
+[[如何有效使用自督导式模型]]
+
 -  之前有label的训练是supervised learning
 - 现在没了，self-supervised learning可以看作一种unsupervised learning
 - BERT的network架构和transformer encoder一模一样

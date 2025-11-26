@@ -41,3 +41,7 @@
 - 在训练generator时可以把bias调大，从而让结果更大
 - 或者把最后discriminator输出的结果乘个负号当作loss,训练目标就是让loss越小越好
 - 如果要让数值越大越好，那就用gradient ascend,而不是descend
+
+[[GAN(生成式对抗网络)2 WGAN]]
+[[GAN(生成式对抗网络)3]]
+[[GAN(生成式对抗网络)4 on Unsupervised Learning]]

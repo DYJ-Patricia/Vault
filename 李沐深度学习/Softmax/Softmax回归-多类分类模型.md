@@ -326,3 +326,7 @@ train_ch3(net, train_iter, test_iter, loss, num_epochs, trainer)
 ```
 
 ![[Pasted image 20251122215221.png]]
+
+# 图片分类数据集
+
+[[图片分类数据集]]

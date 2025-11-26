@@ -1,3 +1,5 @@
+[[Self-attention]]是transformer的核心组件
+
 # Seq2Seq Module
 
 __Encoder+Decoder__

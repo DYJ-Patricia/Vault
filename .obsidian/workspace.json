@@ -14,14 +14,29 @@
               "type": "markdown",
               "state": {
                 "file": "李沐深度学习/模型选择/优化函数.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "优化函数"
             }
+          },
+          {
+            "id": "a67fbe2f8ae9f25e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "李沐深度学习/模型选择/优化函数.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "优化函数 的反向链接列表"
+              "title": "README 的反向链接列表"
             }
           },
           {
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "李沐深度学习/模型选择/优化函数.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "优化函数 的出链列表"
+              "title": "README 的出链列表"
             }
           },
           {
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/模型选择/优化函数.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "优化函数 的大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -185,11 +200,19 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c6f7491f1a88617a",
+  "active": "a67fbe2f8ae9f25e",
   "lastOpenFiles": [
+    "Algorithm/Algorithm.md",
+    "Algorithm/基础/第一章/第三课.md",
+    "李沐深度学习/模型选择/优化函数.md",
+    "Algorithm/刷题心得/代码随想录笔记.md",
+    "李沐深度学习/前置/线性回归.md",
+    "ML/0-Regression/regression (v16).pdf",
+    "Tools/Tools.md",
+    "李沐深度学习/模型选择/pics/Pasted image 20251127001332.png",
+    "ML/1-Deep Learning/overfit-v6.pdf",
     "ML/ML.md",
     "ML/1-Deep Learning/优化技巧.md",
-    "ML/1-Deep Learning/overfit-v6.pdf",
     "ML/1-Classification/classification_v2.pdf",
     "ML/3-CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/12-Network Compression/Network Compression.md",
@@ -202,7 +225,6 @@
     "ML/1-Classification/鱼与熊掌可兼得.md",
     "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
     "李沐深度学习/Softmax/图片分类数据集.md",
-    "李沐深度学习/前置/线性回归.md",
     "ML/4-Self-attention/各式各样的Self-attention变型.md",
     "0-PDFs/141 Fool’s Gold.pdf",
     "李沐深度学习/感知机/感知机.md",
@@ -211,13 +233,8 @@
     "cs61b/Syntax/Basic/Java 语法.md",
     "cs61b/Syntax/Basic/Data Structure.md",
     "cs61b/Notes/Lists.md",
-    "cs61b/Notes/Inheritance and Implements.md",
-    "cs61b/Syntax/Basic/Basic Syntax.md",
-    "cs61b/Textbook.md",
-    "JAVA/SSM/SSM.md",
     "ML/1-Deep Learning/optimizer-v4.pdf",
     "ML/1-Deep Learning/small-gradient-v7.pdf",
-    "ML/0-Regression/regression (v16).pdf",
     "李沐深度学习/模型选择/pics/Pasted image 20251125221706.png",
     "李沐深度学习/模型选择/pics/Pasted image 20251125220524.png",
     "李沐深度学习/模型选择/pics/Pasted image 20251125215143.png",
@@ -230,7 +247,6 @@
     "李沐深度学习/感知机/mlp-scratch.ipynb",
     "李沐深度学习/感知机/pics/Pasted image 20251124202009.png",
     "李沐深度学习/感知机/pics/Pasted image 20251124201409.png",
-    "李沐深度学习/感知机/pics/Pasted image 20251124201028.png",
-    "李沐深度学习/感知机/pics/Pasted image 20251124200331.png"
+    "李沐深度学习/感知机/pics/Pasted image 20251124201028.png"
   ]
 }

@@ -1,6 +1,8 @@
+[[前置知识]]
+
 [[regression (v16).pdf]]
 
-[[classification_v2.pdf]]
+[[Classification]]
 
 [[优化技巧]]
 

@@ -1,3 +1,5 @@
+
+[[classification_v2.pdf#search=Soft-max|classification_v2, p.7]]
 # 原理
 - 做分类问题时用
 - 把输出的数据做处理，输出的所有概率和为1且非负
@@ -5,6 +7,7 @@
 ![[Pasted image 20251122164000.png]]
 
 # Cross-entropy(交叉熵)
+[[classification_v2.pdf#search=Cross-entropy|classification_v2, p.8]]
 - 有了两个概率，用其计算loss
 - 真实类别只有一个概率唯一，所以y_i直接为1
 

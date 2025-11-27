@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "李沐深度学习/前置/常用损失函数.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "常用损失函数"
+            }
+          },
+          {
+            "id": "423d83c576e8b244",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "李沐深度学习/模型选择/优化函数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "优化函数"
-            }
-          },
-          {
-            "id": "a67fbe2f8ae9f25e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Lists",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -128,12 +127,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -157,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "李沐深度学习/模型选择/优化函数.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "优化函数 的大纲"
             }
           },
           {
@@ -200,39 +198,41 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a67fbe2f8ae9f25e",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
+    "李沐深度学习/前置/常用损失函数.md",
+    "李沐深度学习/模型选择/优化函数.md",
+    "李沐深度学习/Softmax/图片分类数据集.md",
+    "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
+    "李沐深度学习/感知机/感知机.md",
+    "李沐深度学习/感知机/多层感知机.md",
+    "ML/ML.md",
+    "ML/1-Classification/Classification.md",
+    "ML/1-Classification/鱼与熊掌可兼得.md",
+    "李沐深度学习/前置/前置知识.md",
+    "李沐深度学习/前置/线性回归.md",
+    "ML/1-Classification/classification_v2.pdf",
+    "ML/1-Deep Learning/overfit-v6.pdf",
+    "ML/3-CNN/Validation set.md",
+    "ML/3-CNN/卷积神经网络Convolutional Neural Network.md",
+    "ML/1-Deep Learning/优化技巧.md",
+    "李沐深度学习/模型选择/pics/Pasted image 20251127003435.png",
+    "李沐深度学习/模型选择/pics/Pasted image 20251127002844.png",
+    "README.md",
     "Algorithm/Algorithm.md",
     "Algorithm/基础/第一章/第三课.md",
-    "李沐深度学习/模型选择/优化函数.md",
     "Algorithm/刷题心得/代码随想录笔记.md",
-    "李沐深度学习/前置/线性回归.md",
     "ML/0-Regression/regression (v16).pdf",
     "Tools/Tools.md",
     "李沐深度学习/模型选择/pics/Pasted image 20251127001332.png",
-    "ML/1-Deep Learning/overfit-v6.pdf",
-    "ML/ML.md",
-    "ML/1-Deep Learning/优化技巧.md",
-    "ML/1-Classification/classification_v2.pdf",
-    "ML/3-CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/12-Network Compression/Network Compression.md",
     "JAVA/JAVAWEB/JavaWeb.md",
     "ML/7-Self-Supervised Learning/BERT(Self-supervised).md",
     "ML/7-Self-Supervised Learning/如何有效使用自督导式模型.md",
     "ML/12-Network Compression/Network Pruning(类神经网络剪枝).md",
     "ML/4-Self-attention/Self-attention.md",
-    "ML/3-CNN/Validation set.md",
-    "ML/1-Classification/鱼与熊掌可兼得.md",
-    "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
-    "李沐深度学习/Softmax/图片分类数据集.md",
     "ML/4-Self-attention/各式各样的Self-attention变型.md",
     "0-PDFs/141 Fool’s Gold.pdf",
-    "李沐深度学习/感知机/感知机.md",
-    "JAVA/JAVA.md",
-    "JAVA/JAVAWEB/XML.md",
-    "cs61b/Syntax/Basic/Java 语法.md",
-    "cs61b/Syntax/Basic/Data Structure.md",
-    "cs61b/Notes/Lists.md",
     "ML/1-Deep Learning/optimizer-v4.pdf",
     "ML/1-Deep Learning/small-gradient-v7.pdf",
     "李沐深度学习/模型选择/pics/Pasted image 20251125221706.png",
@@ -245,8 +245,6 @@
     "李沐深度学习/模型选择/pics/Pasted image 20251124231905.png",
     "李沐深度学习/模型选择",
     "李沐深度学习/感知机/mlp-scratch.ipynb",
-    "李沐深度学习/感知机/pics/Pasted image 20251124202009.png",
-    "李沐深度学习/感知机/pics/Pasted image 20251124201409.png",
-    "李沐深度学习/感知机/pics/Pasted image 20251124201028.png"
+    "李沐深度学习/感知机/pics/Pasted image 20251124202009.png"
   ]
 }

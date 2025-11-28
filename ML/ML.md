@@ -4,6 +4,8 @@
 
 [[Classification]]
 
+[[Deep Learning]]
+
 [[优化技巧]]
 
 [[卷积神经网络Convolutional Neural Network]]

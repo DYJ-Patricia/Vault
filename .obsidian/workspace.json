@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李沐深度学习/卷积/多输入输出通道.md",
+                "file": "李沐深度学习/卷积/池化层(pooling layer).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多输入输出通道"
+              "title": "池化层(pooling layer)"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李沐深度学习/卷积/卷积层.md",
+                "file": "李沐深度学习/卷积/多输入输出通道.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "卷积层"
+              "title": "多输入输出通道"
             }
           }
         ]
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/卷积/多输入输出通道.md",
+                "file": "李沐深度学习/卷积/池化层(pooling layer).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "多输入输出通道 的大纲"
+              "title": "池化层(pooling layer) 的大纲"
             }
           },
           {
@@ -200,9 +200,11 @@
   },
   "active": "7860188cde985504",
   "lastOpenFiles": [
-    "李沐深度学习/卷积/pics/Pasted image 20260124180914.png",
-    "李沐深度学习/卷积/卷积层.md",
+    "李沐深度学习/卷积/pics/Pasted image 20260124202002.png",
     "李沐深度学习/卷积/多输入输出通道.md",
+    "李沐深度学习/卷积/卷积层.md",
+    "李沐深度学习/卷积/池化层(pooling layer).md",
+    "李沐深度学习/卷积/pics/Pasted image 20260124180914.png",
     "李沐深度学习/卷积/pics/Pasted image 20260124172621.png",
     "李沐深度学习/卷积/pics/Pasted image 20260124171452.png",
     "李沐深度学习/卷积/pics/Pasted image 20260124171155.png",
@@ -218,7 +220,6 @@
     "李沐深度学习/模型选择/优化函数.md",
     "ML/1-Deep Learning/overfit-v6.pdf",
     "李沐深度学习/模型选择/让训练更加稳定.md",
-    "李沐深度学习/卷积/pics/Pasted image 20260124154430.png",
     "李沐深度学习/卷积/从全连接层到卷积.md",
     "李沐深度学习/卷积/pics",
     "李沐深度学习/卷积",
@@ -239,7 +240,6 @@
     "李沐深度学习/前置/前置知识.md",
     "李沐深度学习/前置/线性回归.md",
     "ML/1-Classification/classification_v2.pdf",
-    "ML/3-CNN/卷积神经网络Convolutional Neural Network.md",
     "ML/0-Regression/regression (v16).pdf",
     "0-PDFs/141 Fool’s Gold.pdf",
     "ML/1-Deep Learning/optimizer-v4.pdf",

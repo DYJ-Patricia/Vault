@@ -8,16 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "863e5ea820db6886",
+            "id": "51b125fdcca794b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "李沐深度学习/卷积/填充和步幅.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "填充和步幅"
+            }
+          },
+          {
+            "id": "6be306f520bcec4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "李沐深度学习/卷积/VGG.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VGG"
+            }
+          },
+          {
+            "id": "5df71125cb97ada8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "李沐深度学习/卷积/LeNet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LeNet"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "李沐深度学习/模型选择/让训练更加稳定.md",
+                "file": "李沐深度学习/卷积/VGG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "让训练更加稳定 的反向链接列表"
+              "title": "VGG 的反向链接列表"
             }
           },
           {
@@ -109,11 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "李沐深度学习/卷积/AlexNet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "AlexNet 的出链列表"
             }
           },
           {
@@ -137,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/感知机/数值稳定性.md",
+                "file": "李沐深度学习/卷积/VGG.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "数值稳定性 的大纲"
+              "title": "VGG 的大纲"
             }
           },
           {
@@ -180,47 +214,47 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "6be306f520bcec4c",
   "lastOpenFiles": [
+    "李沐深度学习/卷积/LeNet.md",
+    "李沐深度学习/卷积/VGG.md",
+    "李沐深度学习/卷积/pics/Pasted image 20260127213340.png",
+    "李沐深度学习/卷积/pics/Pasted image 20260127213157.png",
+    "李沐深度学习/卷积/pics/Pasted image 20260127212959.png",
+    "李沐深度学习/卷积/填充和步幅.md",
+    "李沐深度学习/Softmax/图片分类数据集.md",
+    "李沐深度学习/卷积/AlexNet.md",
+    "李沐深度学习/前置/线性回归.md",
+    "李沐深度学习/前置/前置知识.md",
+    "李沐深度学习/前置/常用损失函数.md",
+    "李沐深度学习/模型选择/优化函数.md",
+    "李沐深度学习/模型选择/让训练更加稳定.md",
+    "李沐深度学习/感知机/数值稳定性.md",
     "李沐深度学习/感知机/感知机.md",
     "李沐深度学习/感知机/多层感知机.md",
+    "ML/1-Deep Learning/优化技巧.md",
+    "ML/ML.md",
+    "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
+    "李沐深度学习/卷积/pics/Pasted image 20260125230818.png",
+    "李沐深度学习/卷积/池化层(pooling layer).md",
+    "李沐深度学习/卷积/pics/Pasted image 20260125230624.png",
+    "李沐深度学习/卷积/pics/Pasted image 20260125225915.png",
+    "李沐深度学习/卷积/pics/Pasted image 20260125225323.png",
+    "李沐深度学习/卷积/pics/Pasted image 20260125195502.png",
+    "李沐深度学习/卷积/pics/Pasted image 20260125193837.png",
+    "李沐深度学习/卷积/卷积层.md",
+    "李沐深度学习/卷积/多输入输出通道.md",
+    "李沐深度学习/卷积/从全连接层到卷积.md",
     "HiMCM/练习一.md",
     "HiMCM/pics",
     "HiMCM/pics/Pasted image 20260124210914.png",
-    "李沐深度学习/卷积/池化层(pooling layer).md",
-    "李沐深度学习/卷积/pics/Pasted image 20260124202002.png",
-    "李沐深度学习/卷积/多输入输出通道.md",
-    "李沐深度学习/卷积/卷积层.md",
-    "李沐深度学习/卷积/pics/Pasted image 20260124180914.png",
-    "李沐深度学习/卷积/pics/Pasted image 20260124172621.png",
-    "李沐深度学习/卷积/pics/Pasted image 20260124171452.png",
-    "李沐深度学习/卷积/pics/Pasted image 20260124171155.png",
-    "李沐深度学习/卷积/pics/Pasted image 20260124170939.png",
-    "李沐深度学习/卷积/填充和步幅.md",
-    "李沐深度学习/卷积/pics/Pasted image 20260124165212.png",
-    "李沐深度学习/卷积/pics/Pasted image 20260124164851.png",
-    "李沐深度学习/卷积/pics/Pasted image 20260124164433.png",
-    "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
-    "李沐深度学习/Softmax/图片分类数据集.md",
-    "李沐深度学习/模型选择/优化函数.md",
     "ML/1-Deep Learning/overfit-v6.pdf",
-    "李沐深度学习/模型选择/让训练更加稳定.md",
-    "李沐深度学习/卷积/从全连接层到卷积.md",
     "李沐深度学习/卷积/pics",
     "李沐深度学习/卷积",
     "Algorithm/基础/第一章/模版1.md",
     "Algorithm/基础/第一章/快速排序.md",
     "Algorithm/基础/第一章/前缀和与差分.md",
     "ML/1-Classification/Classification.md",
-    "ML/ML.md",
-    "ML/1-Deep Learning/优化技巧.md",
-    "ML/1-Deep Learning/Deep Learning.md",
-    "李沐深度学习/感知机/数值稳定性.md",
-    "ML/3-CNN/Validation set.md",
-    "李沐深度学习/前置/常用损失函数.md",
-    "Tools/GIT.md",
-    "ML/1-Classification/鱼与熊掌可兼得.md",
-    "李沐深度学习/前置/前置知识.md",
     "ML/1-Classification/classification_v2.pdf",
     "ML/0-Regression/regression (v16).pdf",
     "0-PDFs/141 Fool’s Gold.pdf",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李沐深度学习/卷积/填充和步幅.md",
+                "file": "李沐深度学习/卷积/NiN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "填充和步幅"
+              "title": "NiN"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "LeNet"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "李沐深度学习/卷积/VGG.md",
+                "file": "李沐深度学习/卷积/NiN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "VGG 的反向链接列表"
+              "title": "NiN 的反向链接列表"
             }
           },
           {
@@ -171,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/卷积/VGG.md",
+                "file": "李沐深度学习/卷积/NiN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VGG 的大纲"
+              "title": "NiN 的大纲"
             }
           },
           {
@@ -214,14 +213,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6be306f520bcec4c",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
+    "李沐深度学习/卷积/pics/Pasted image 20260127221713.png",
+    "李沐深度学习/卷积/填充和步幅.md",
+    "李沐深度学习/卷积/NiN.md",
     "李沐深度学习/卷积/LeNet.md",
     "李沐深度学习/卷积/VGG.md",
+    "李沐深度学习/卷积/pics/Pasted image 20260127215319.png",
     "李沐深度学习/卷积/pics/Pasted image 20260127213340.png",
     "李沐深度学习/卷积/pics/Pasted image 20260127213157.png",
     "李沐深度学习/卷积/pics/Pasted image 20260127212959.png",
-    "李沐深度学习/卷积/填充和步幅.md",
     "李沐深度学习/Softmax/图片分类数据集.md",
     "李沐深度学习/卷积/AlexNet.md",
     "李沐深度学习/前置/线性回归.md",
@@ -247,14 +249,12 @@
     "李沐深度学习/卷积/从全连接层到卷积.md",
     "HiMCM/练习一.md",
     "HiMCM/pics",
-    "HiMCM/pics/Pasted image 20260124210914.png",
     "ML/1-Deep Learning/overfit-v6.pdf",
     "李沐深度学习/卷积/pics",
     "李沐深度学习/卷积",
     "Algorithm/基础/第一章/模版1.md",
     "Algorithm/基础/第一章/快速排序.md",
     "Algorithm/基础/第一章/前缀和与差分.md",
-    "ML/1-Classification/Classification.md",
     "ML/1-Classification/classification_v2.pdf",
     "ML/0-Regression/regression (v16).pdf",
     "0-PDFs/141 Fool’s Gold.pdf",

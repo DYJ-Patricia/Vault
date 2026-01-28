@@ -77,7 +77,8 @@
               "title": "卷积神经网络Convolutional Neural Network"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/GIT.md",
+                "file": "李沐深度学习/卷积/4-NiN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GIT 的大纲"
+              "title": "4-NiN 的大纲"
             }
           },
           {
@@ -241,8 +242,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "51b125fdcca794b8",
+  "active": "5df71125cb97ada8",
   "lastOpenFiles": [
+    "Tools/GIT.md",
     "Tools/VIM.md",
     "李沐深度学习/卷积/4-NiN.md",
     "ML/3-CNN/卷积神经网络Convolutional Neural Network.md",
@@ -280,7 +282,6 @@
     "李沐深度学习/卷积/前置知识/卷积层.md",
     "李沐深度学习/卷积/前置知识/多输入输出通道.md",
     "李沐深度学习/卷积/前置知识/从全连接层到卷积.md",
-    "HiMCM/练习一.md",
     "HiMCM/pics",
     "ML/1-Deep Learning/overfit-v6.pdf",
     "李沐深度学习/卷积/pics",

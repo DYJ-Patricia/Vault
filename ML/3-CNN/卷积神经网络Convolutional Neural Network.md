@@ -58,3 +58,23 @@
 ![[Pasted image 20251013234533.png]]
 BTW，==CNN is not invarient to scaling and rotation(we need data augmentation)==
 special transformer layer架构可以解决
+
+
+# CNN的模型
+## 前置知识(李沐)
+
+[[从全连接层到卷积]]
+[[卷积层]]
+[[填充和步幅]]
+[[多输入输出通道]]
+[[池化层(pooling layer)]]
+
+[[1-LeNet]]
+
+[[2-AlexNet]]
+
+[[3-VGG]]
+
+[[4-NiN]]
+
+[[5-GoogLeNet]]

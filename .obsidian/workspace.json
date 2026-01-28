@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李沐深度学习/卷积/NiN.md",
+                "file": "李沐深度学习/卷积/4-NiN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NiN"
+              "title": "4-NiN"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李沐深度学习/卷积/VGG.md",
+                "file": "李沐深度学习/卷积/3-VGG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VGG"
+              "title": "3-VGG"
             }
           },
           {
@@ -41,15 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李沐深度学习/卷积/LeNet.md",
+                "file": "李沐深度学习/卷积/1-LeNet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LeNet"
+              "title": "1-LeNet"
+            }
+          },
+          {
+            "id": "1d88bbe1b3034e00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "李沐深度学习/卷积/5-GoogLeNet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5-GoogLeNet"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -170,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/卷积/NiN.md",
+                "file": "李沐深度学习/卷积/5-GoogLeNet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "NiN 的大纲"
+              "title": "5-GoogLeNet 的大纲"
             }
           },
           {
@@ -213,21 +228,27 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "1d88bbe1b3034e00",
   "lastOpenFiles": [
+    "Pasted image 20260128145009.png",
+    "李沐深度学习/卷积/5-GoogLeNet.md",
+    "Pasted image 20260128143525.png",
+    "李沐深度学习/卷积/1-LeNet.md",
+    "李沐深度学习/卷积/pics/Pasted image 20260128143407.png",
+    "李沐深度学习/卷积/pics/Pasted image 20260128141633.png",
+    "googlenet.ipynb",
+    "李沐深度学习/卷积/3-VGG.md",
+    "李沐深度学习/卷积/4-NiN.md",
+    "李沐深度学习/卷积/2-AlexNet.md",
     "李沐深度学习/卷积/pics/Pasted image 20260127225108.png",
     "李沐深度学习/卷积/pics/Pasted image 20260127222207.png",
-    "李沐深度学习/卷积/VGG.md",
-    "李沐深度学习/卷积/NiN.md",
     "李沐深度学习/卷积/pics/Pasted image 20260127221713.png",
     "李沐深度学习/卷积/填充和步幅.md",
-    "李沐深度学习/卷积/LeNet.md",
     "李沐深度学习/卷积/pics/Pasted image 20260127215319.png",
     "李沐深度学习/卷积/pics/Pasted image 20260127213340.png",
     "李沐深度学习/卷积/pics/Pasted image 20260127213157.png",
     "李沐深度学习/卷积/pics/Pasted image 20260127212959.png",
     "李沐深度学习/Softmax/图片分类数据集.md",
-    "李沐深度学习/卷积/AlexNet.md",
     "李沐深度学习/前置/线性回归.md",
     "李沐深度学习/前置/前置知识.md",
     "李沐深度学习/前置/常用损失函数.md",
@@ -239,11 +260,7 @@
     "ML/1-Deep Learning/优化技巧.md",
     "ML/ML.md",
     "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
-    "李沐深度学习/卷积/pics/Pasted image 20260125230818.png",
     "李沐深度学习/卷积/池化层(pooling layer).md",
-    "李沐深度学习/卷积/pics/Pasted image 20260125230624.png",
-    "李沐深度学习/卷积/pics/Pasted image 20260125225915.png",
-    "李沐深度学习/卷积/pics/Pasted image 20260125225323.png",
     "李沐深度学习/卷积/卷积层.md",
     "李沐深度学习/卷积/多输入输出通道.md",
     "李沐深度学习/卷积/从全连接层到卷积.md",
@@ -254,12 +271,10 @@
     "李沐深度学习/卷积",
     "Algorithm/基础/第一章/模版1.md",
     "Algorithm/基础/第一章/快速排序.md",
-    "Algorithm/基础/第一章/前缀和与差分.md",
     "ML/1-Classification/classification_v2.pdf",
     "ML/0-Regression/regression (v16).pdf",
     "0-PDFs/141 Fool’s Gold.pdf",
     "ML/1-Deep Learning/optimizer-v4.pdf",
-    "ML/1-Deep Learning/small-gradient-v7.pdf",
-    "SimpRead/4_2_ 多层感知机的从零开始实现 — 动手学深度学习 2_0_0 documentation"
+    "ML/1-Deep Learning/small-gradient-v7.pdf"
   ]
 }

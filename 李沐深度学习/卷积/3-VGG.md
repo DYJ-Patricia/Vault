@@ -83,3 +83,5 @@ def vgg(conv_arch):
 net = vgg(conv_arch)
 ```
 ![[Pasted image 20260127215319.png]]
+
+![[Pasted image 20260206202633.png]]

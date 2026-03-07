@@ -78,5 +78,8 @@ special transformer layer架构可以解决
 [[4-NiN]]
 
 [[5-GoogLeNet]]
+<<<<<<< HEAD
 
 [[7-ResNet]]
+=======
+>>>>>>> b810ef9d5cbe93bfb9e62a276cca142700c317ff

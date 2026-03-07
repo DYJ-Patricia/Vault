@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "16b78cd7543d6c71",
+        "id": "5b2eae5a70bc970e",
         "type": "tabs",
         "children": [
           {
-            "id": "94108285862603a9",
+            "id": "f7892dc481180d2a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/GIT.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "GIT"
+              "title": "新标签页"
             }
           }
         ]
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/GIT.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GIT 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -185,8 +180,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "f7892dc481180d2a",
   "lastOpenFiles": [
+    "李沐深度学习/3-感知机/多层感知机.md",
+    "李沐深度学习/感知机/多层感知机.md",
+    "Tools/GIT.md",
     "李沐深度学习/模型选择/pics/Pasted image 20251128173904.png",
     "李沐深度学习/模型选择/pics/Pasted image 20251125212012.png",
     "李沐深度学习/模型选择/pics/Pasted image 20251127003435.png",
@@ -201,10 +199,8 @@
     "李沐深度学习/模型选择/优化函数.md",
     "李沐深度学习/模型选择/pics",
     "李沐深度学习/模型选择",
-    "李沐深度学习/感知机/pics/Pasted image 20251128171136.png",
     "李沐深度学习/感知机/数值稳定性.md",
     "李沐深度学习/感知机/感知机.md",
-    "李沐深度学习/感知机/多层感知机.md",
     "李沐深度学习/感知机/pics",
     "李沐深度学习/感知机",
     "李沐深度学习/卷积/前置知识/多输入输出通道.md",
@@ -231,7 +227,6 @@
     "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
     "李沐深度学习/Softmax/pics",
     "Tools/Tools.md",
-    "李宏毅Machine Learning的学习告一段落.md",
-    "ML/ML.md"
+    "李宏毅Machine Learning的学习告一段落.md"
   ]
 }

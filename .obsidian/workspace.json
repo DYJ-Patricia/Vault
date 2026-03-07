@@ -11,10 +11,14 @@
             "id": "f7892dc481180d2a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "李沐深度学习/7-物体检测/物体检测算法.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "物体检测算法"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "李沐深度学习/7-物体检测/物体检测算法.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "物体检测算法 的大纲"
             }
           },
           {
@@ -180,8 +185,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f7892dc481180d2a",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
+    "李沐深度学习/7-物体检测/pics/Pasted image 20260307231321.png",
+    "李沐深度学习/7-物体检测/pics/Pasted image 20260307231014.png",
+    "Pasted image 20260307230812.png",
+    "李沐深度学习/7-物体检测/物体检测算法.md",
+    "李沐深度学习/7-物体检测/锚框（anchor box）.md",
+    "李沐深度学习/5-卷积/6-批量归一化(batch-norm).md",
+    "李沐深度学习/5-卷积/5-GoogLeNet.md",
+    "李沐深度学习/5-卷积/4-NiN.md",
+    "李沐深度学习/5-卷积/1-LeNet.md",
+    "李沐深度学习/5-卷积/2-AlexNet.md",
     "李沐深度学习/3-感知机/多层感知机.md",
     "李沐深度学习/感知机/多层感知机.md",
     "Tools/GIT.md",
@@ -193,8 +208,6 @@
     "李沐深度学习/模型选择/pics/Pasted image 20251127001332.png",
     "李沐深度学习/模型选择/pics/Pasted image 20251125221706.png",
     "李沐深度学习/模型选择/pics/Pasted image 20251125215143.png",
-    "李沐深度学习/模型选择/pics/Pasted image 20251125205422.png",
-    "李沐深度学习/模型选择/pics/Pasted image 20251124231905.png",
     "李沐深度学习/模型选择/让训练更加稳定.md",
     "李沐深度学习/模型选择/优化函数.md",
     "李沐深度学习/模型选择/pics",
@@ -216,17 +229,9 @@
     "李沐深度学习/卷积/6-批量归一化(batch-norm).md",
     "李沐深度学习/卷积/4-NiN.md",
     "李沐深度学习/卷积/3-VGG.md",
-    "李沐深度学习/卷积/2-AlexNet.md",
     "李沐深度学习/卷积",
-    "李沐深度学习/前置/线性回归.md",
-    "李沐深度学习/前置/常用损失函数.md",
-    "李沐深度学习/前置/前置知识.md",
     "李沐深度学习/前置/pics1",
     "李沐深度学习/前置",
-    "李沐深度学习/Softmax/图片分类数据集.md",
-    "李沐深度学习/Softmax/Softmax回归-多类分类模型.md",
-    "李沐深度学习/Softmax/pics",
-    "Tools/Tools.md",
-    "李宏毅Machine Learning的学习告一段落.md"
+    "李沐深度学习/Softmax/pics"
   ]
 }

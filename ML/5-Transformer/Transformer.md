@@ -1,0 +1,108 @@
+[[Self-attention]]是transformer的核心组件
+
+# Seq2Seq Module
+
+__Encoder+Decoder__
+
+## Encoder
+
+![[Pasted image 20251014172430.png]]
+==encoder==内部结构，上图灰框为Block
+![[Pasted image 20251014172804.png]]
+### ==实际上，transformer里做的事情更复杂==
+
+- Residual connection是另一种network结构
+- 此处的normalization是layer norm,比batch norm更简单，不用考虑batch的资讯
+- ==batch==是对不同example,不同feature的同一个dimension计算
+- ==layer==是对同一个example,同一个feature的不同dimension计算
+- ![[Pasted image 20251014173930.png]]
+- **红点所指处才是真正的==Block==输出**
+- ![[Pasted image 20251014174231.png]]
+- Feed Forword为一种fully connected network
+- Block会重复多次
+
+### 原始架构不一定Optimum
+
+![[Pasted image 20251014174710.png]]
+
+
+## Decoder
+
+- 把Encoder输出到Decoder
+- 输入时先添加一个BEGIN token
+- 运作后输出END,机器自己决定output length
+
+### Autoregressive（AT）
+
+![[Pasted image 20251014212926.png]]
+可能一步错，步步错
+
+#### Masked Self-attention
+==不考虑右边的==
+![[Pasted image 20251014213322.png]]
+**因为Decoder的output是一个一个产生的，只能考虑左边的东西**
+
+### Non-autoregressive(NAT)
+
+- NAT 速度比AT快
+- NAT is usually worth than AT
+- ![[Pasted image 20251014214603.png]]
+
+
+
+ ## Encoder-Decoder
+
+[[0-常学常新：《Attention Is All You Need》万字解读！#Model Architecture 模型架构]]
+
+
+![[Pasted image 20251014215028.png]]
+
+
+### Cross attention运作过程（Encoder-Decoder互动）
+- 它在self-attention前就出来了
+- ==Encoder提供k,Decoder提供q==
+![[Pasted image 20251014215309.png]]
+
+- 原始上看，encoder,decoder都有很多层，且decoder用encoder的最后一层
+- 然而，可以创新，随意用encoder的任意一层叠加
+
+## Training
+
+==刚刚讲的都是模型训练好后怎么做testing的==
+
+==把ground truth提前给出，作为decoder的输入，与decoder输出对比，计算cross entropy,越小越接近。以此训练。==
+![[Pasted image 20251014223156.png]]
+
+## Tips
+
+### Copy Mechanism
+
+- chatbot
+- summarization
+- 有复制能力的模型Pointer Network
+
+### Guided Attention
+
+- ==可用于语音辨识、语音合成==
+
+![[Pasted image 20251014224146.png]]
+- 说话输出应该由左向右
+- 应强迫其由左向右
+
+### Beam Search
+
+![[Pasted image 20251014224611.png]]
+
+- 用一种不算精确的估测，即用Beam Search来解决这个问题，来找出比较好的path
+- 有时候有用，有时候没用，有些创造性的任务不太能帮助
+- 在里面加点随机性，结果更好
+
+### 作业tip
+![[Pasted image 20251014225721.png]]
+
+### Schedule Sampling
+- 很早就有了，但会伤害transformer的图形能力
+![[Pasted image 20251014225825.png]]
+==训练时不要一直给正确答案，偶尔给错误答案会训练得更好==
+
+![[Pasted image 20251014230324.png]]

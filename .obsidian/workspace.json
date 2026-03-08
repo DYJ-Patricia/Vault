@@ -15,9 +15,9 @@
               "state": {
                 "file": "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
                 "page": 2,
-                "left": -13,
-                "top": 626,
-                "zoom": 1.2389705882352942
+                "left": -2,
+                "top": 637,
+                "zoom": 1.48
               },
               "icon": "lucide-file-text",
               "title": "Modeling and Extending RSS-baesd Intrusion Detection Bound"
@@ -30,7 +30,7 @@
               "type": "markdown",
               "state": {
                 "file": "WiFi感知/Intensive Reading 1-1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -43,16 +43,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WiFi感知/Intensive Reading 2-1.md",
+                "file": "WiFi感知/Intensive Reading 1-2.md",
                 "mode": "source",
-                "source": false
+                "source": true,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Intensive Reading 2-1"
+              "title": "Intensive Reading 1-2"
+            }
+          },
+          {
+            "id": "aae25b8c7cb6cd70",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
+                "page": 1,
+                "zoom": 1
+              },
+              "icon": "lucide-file-text",
+              "title": "Modeling and Extending RSS-baesd Intrusion Detection Bound"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WiFi感知/Intensive Reading 1-1.md",
+                "file": "WiFi感知/Intensive Reading 1-2.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Intensive Reading 1-1 的大纲"
+              "title": "Intensive Reading 1-2 的大纲"
             }
           },
           {
@@ -216,12 +231,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "893d994fdc6d5e96",
+  "active": "27f26e6ff6f27412",
   "lastOpenFiles": [
-    "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
-    "WiFi感知/TMC-2024-08-1247_Proof_hi.pdf",
-    "WiFi感知/Intensive Reading 1-1.md",
     "WiFi感知/Intensive Reading 2-1.md",
+    "WiFi感知/Intensive Reading 1-2.md",
+    "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
+    "WiFi感知/Intensive Reading 1-1.md",
+    "WiFi感知/TMC-2024-08-1247_Proof_hi.pdf",
     "李沐深度学习/5-卷积/前置知识/卷积层.md",
     "李沐深度学习/9-序列模型",
     "李沐深度学习/8-计算机视觉/样式迁移.md",
@@ -261,7 +277,6 @@
     "李沐深度学习/卷积/前置知识/池化层(pooling layer).md",
     "李沐深度学习/卷积/前置知识/填充和步幅.md",
     "李沐深度学习/卷积/前置知识/卷积层.md",
-    "李沐深度学习/卷积/前置知识/从全连接层到卷积.md",
     "李沐深度学习/卷积/pics"
   ]
 }

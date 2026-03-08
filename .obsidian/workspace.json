@@ -8,17 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e06519624a663188",
+            "id": "d5d77cadd24b098e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "李沐深度学习/8-语义分割/Semantic Segmentation(语义分割).md",
-                "mode": "source",
-                "source": false
+                "file": "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
+                "page": 1,
+                "left": -13,
+                "top": 190,
+                "zoom": 1.2389705882352942
               },
+              "icon": "lucide-file-text",
+              "title": "Modeling and Extending RSS-baesd Intrusion Detection Bound"
+            }
+          },
+          {
+            "id": "893d994fdc6d5e96",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Semantic Segmentation(语义分割)"
+              "title": "新标签页"
             }
           }
         ]
@@ -142,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/8-语义分割/Semantic Segmentation(语义分割).md",
+                "file": "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Semantic Segmentation(语义分割) 的大纲"
+              "title": "Modeling and Extending RSS-baesd Intrusion Detection Bound 的大纲"
             }
           },
           {
@@ -185,18 +197,27 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "d5d77cadd24b098e",
   "lastOpenFiles": [
-    "李沐深度学习/8-语义分割/pics/Pasted image 20260307235225.png",
-    "李沐深度学习/8-语义分割/pics/Pasted image 20260307234454.png",
+    "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
+    "李沐深度学习/5-卷积/前置知识/卷积层.md",
+    "李沐深度学习/9-序列模型",
+    "李沐深度学习/8-计算机视觉/样式迁移.md",
+    "李沐深度学习/8-计算机视觉/pics/Pasted image 20260308191317.png",
+    "李沐深度学习/8-计算机视觉/全连接卷积神经网络（FCN）.md",
+    "李沐深度学习/8-计算机视觉/Semantic Segmentation(语义分割).md",
+    "李沐深度学习/8-计算机视觉/pics/Pasted image 20260308185428.png",
+    "李沐深度学习/8-计算机视觉/pics/Pasted image 20260308184812.png",
+    "李沐深度学习/8-计算机视觉/pics/Pasted image 20260308184001.png",
+    "李沐深度学习/8-计算机视觉/pics/Pasted image 20260308183230.png",
+    "李沐深度学习/8-计算机视觉/pics/Pasted image 20260308182544.png",
+    "李沐深度学习/8-计算机视觉/pics/Pasted image 20260307235225.png",
+    "李沐深度学习/8-计算机视觉/pics/Pasted image 20260307234454.png",
     "李沐深度学习/8-语义分割/pics/Pasted image 20260307234211.png",
-    "李沐深度学习/8-语义分割/pics",
+    "李沐深度学习/8-计算机视觉/pics",
     "李沐深度学习/7-物体检测/物体检测算法(基于锚框).md",
-    "李沐深度学习/8-语义分割/Semantic Segmentation(语义分割).md",
-    "李沐深度学习/8-语义分割",
+    "李沐深度学习/8-计算机视觉",
     "李沐深度学习/7-物体检测/pics/Pasted image 20260307231321.png",
-    "李沐深度学习/7-物体检测/pics/Pasted image 20260307231014.png",
-    "Pasted image 20260307230812.png",
     "李沐深度学习/7-物体检测/锚框（anchor box）.md",
     "李沐深度学习/5-卷积/6-批量归一化(batch-norm).md",
     "李沐深度学习/5-卷积/5-GoogLeNet.md",
@@ -206,11 +227,6 @@
     "李沐深度学习/3-感知机/多层感知机.md",
     "李沐深度学习/感知机/多层感知机.md",
     "Tools/GIT.md",
-    "李沐深度学习/模型选择/pics/Pasted image 20251128173904.png",
-    "李沐深度学习/模型选择/pics/Pasted image 20251125212012.png",
-    "李沐深度学习/模型选择/pics/Pasted image 20251127003435.png",
-    "李沐深度学习/模型选择/pics/Pasted image 20251125220524.png",
-    "李沐深度学习/模型选择/pics/Pasted image 20251127002844.png",
     "李沐深度学习/模型选择/让训练更加稳定.md",
     "李沐深度学习/模型选择/优化函数.md",
     "李沐深度学习/模型选择/pics",
@@ -227,11 +243,6 @@
     "李沐深度学习/卷积/pics",
     "李沐深度学习/卷积/前置知识",
     "李沐深度学习/卷积/5-GoogLeNet.md",
-    "李沐深度学习/卷积/1-LeNet.md",
-    "李沐深度学习/卷积/7-ResNet.md",
-    "李沐深度学习/卷积/6-批量归一化(batch-norm).md",
-    "李沐深度学习/卷积/4-NiN.md",
-    "李沐深度学习/卷积",
-    "李沐深度学习/前置/pics1"
+    "李沐深度学习/卷积/1-LeNet.md"
   ]
 }

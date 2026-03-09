@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d5d77cadd24b098e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
-                "page": 2,
-                "left": -2,
-                "top": 637,
-                "zoom": 1.48
-              },
-              "icon": "lucide-file-text",
-              "title": "Modeling and Extending RSS-baesd Intrusion Detection Bound"
-            }
-          },
-          {
             "id": "893d994fdc6d5e96",
             "type": "leaf",
             "state": {
@@ -41,12 +25,9 @@
             "id": "27f26e6ff6f27412",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "WiFi感知/Intensive Reading 1-2.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
+                "file": "WiFi感知/Intensive Reading 1-2.md"
               },
               "icon": "lucide-file",
               "title": "Intensive Reading 1-2"
@@ -65,9 +46,23 @@
               "icon": "lucide-file-text",
               "title": "Modeling and Extending RSS-baesd Intrusion Detection Bound"
             }
+          },
+          {
+            "id": "707839e61ff24b8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "李沐深度学习/9-序列模型/语言模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "语言模型"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -188,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WiFi感知/Intensive Reading 1-2.md",
+                "file": "李沐深度学习/9-序列模型/语言模型.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Intensive Reading 1-2 的大纲"
+              "title": "语言模型 的大纲"
             }
           },
           {
@@ -231,12 +226,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "27f26e6ff6f27412",
+  "active": "707839e61ff24b8e",
   "lastOpenFiles": [
-    "WiFi感知/Intensive Reading 2-1.md",
-    "WiFi感知/Intensive Reading 1-2.md",
-    "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
+    "李沐深度学习/9-序列模型/序列模型.md",
+    "李沐深度学习/9-序列模型/语言模型.md",
+    "李沐深度学习/9-序列模型/pics/Pasted image 20260309215250.png",
+    "Pasted image 20260309214721.png",
+    "李沐深度学习/9-序列模型/pics/Pasted image 20260309214311.png",
+    "李沐深度学习/9-序列模型/pics/Pasted image 20260309213038.png",
+    "李沐深度学习/9-序列模型/pics/Pasted image 20260309212642.png",
+    "李沐深度学习/9-序列模型/pics",
     "WiFi感知/Intensive Reading 1-1.md",
+    "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
+    "WiFi感知/Intensive Reading 1-2.md",
+    "WiFi感知/Intensive Reading 2-1.md",
     "WiFi感知/TMC-2024-08-1247_Proof_hi.pdf",
     "李沐深度学习/5-卷积/前置知识/卷积层.md",
     "李沐深度学习/9-序列模型",
@@ -248,14 +251,9 @@
     "李沐深度学习/8-计算机视觉/pics/Pasted image 20260308184812.png",
     "李沐深度学习/8-计算机视觉/pics/Pasted image 20260308184001.png",
     "李沐深度学习/8-计算机视觉/pics/Pasted image 20260308183230.png",
-    "李沐深度学习/8-计算机视觉/pics/Pasted image 20260308182544.png",
-    "李沐深度学习/8-计算机视觉/pics/Pasted image 20260307235225.png",
-    "李沐深度学习/8-计算机视觉/pics/Pasted image 20260307234454.png",
-    "李沐深度学习/8-语义分割/pics/Pasted image 20260307234211.png",
     "李沐深度学习/8-计算机视觉/pics",
     "李沐深度学习/7-物体检测/物体检测算法(基于锚框).md",
     "李沐深度学习/8-计算机视觉",
-    "李沐深度学习/7-物体检测/pics/Pasted image 20260307231321.png",
     "李沐深度学习/7-物体检测/锚框（anchor box）.md",
     "李沐深度学习/5-卷积/6-批量归一化(batch-norm).md",
     "李沐深度学习/5-卷积/5-GoogLeNet.md",
@@ -275,8 +273,6 @@
     "李沐深度学习/感知机",
     "李沐深度学习/卷积/前置知识/多输入输出通道.md",
     "李沐深度学习/卷积/前置知识/池化层(pooling layer).md",
-    "李沐深度学习/卷积/前置知识/填充和步幅.md",
-    "李沐深度学习/卷积/前置知识/卷积层.md",
-    "李沐深度学习/卷积/pics"
+    "李沐深度学习/卷积/前置知识/填充和步幅.md"
   ]
 }

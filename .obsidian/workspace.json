@@ -48,17 +48,17 @@
             }
           },
           {
-            "id": "4f92f90f8ec400ab",
+            "id": "9aaffb47a3fb52f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李沐深度学习/9-序列模型/6-Encoder-Decoder.md",
+                "file": "李沐深度学习/10-束搜索/注意力机制.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6-Encoder-Decoder"
+              "title": "注意力机制"
             }
           }
         ],
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/9-序列模型/6-Encoder-Decoder.md",
+                "file": "李沐深度学习/10-束搜索/注意力机制.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "6-Encoder-Decoder 的大纲"
+              "title": "注意力机制 的大纲"
             }
           },
           {
@@ -226,26 +226,30 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7860188cde985504",
+  "active": "9aaffb47a3fb52f7",
   "lastOpenFiles": [
+    "李沐深度学习/10-束搜索/1-Beam Search（束搜索）.md",
+    "李沐深度学习/10-束搜索/注意力机制.md",
+    "李沐深度学习/10-束搜索/pics/Pasted image 20260315145106.png",
+    "李沐深度学习/10-束搜索/pics/Pasted image 20260315144333.png",
+    "李沐深度学习/10-束搜索/pics/Pasted image 20260315143335.png",
+    "李沐深度学习/10-束搜索/pics/Pasted image 20260315143047.png",
+    "李沐深度学习/10-束搜索/pics",
+    "李沐深度学习/10-束搜索",
+    "李沐深度学习/9-序列模型/7-Seq2Seq.md",
+    "李沐深度学习/9-序列模型/pics/Pasted image 20260315141022.png",
+    "李沐深度学习/9-序列模型/pics/Pasted image 20260315141009.png",
+    "李沐深度学习/9-序列模型/pics/Pasted image 20260315140831.png",
+    "李沐深度学习/9-序列模型/pics/Pasted image 20260315140808.png",
+    "李沐深度学习/9-序列模型/6-Encoder-Decoder.md",
     "李沐深度学习/9-序列模型/pics/Pasted image 20260314215112.png",
     "李沐深度学习/9-序列模型/pics/Pasted image 20260314215002.png",
-    "李沐深度学习/9-序列模型/pics/Pasted image 20260314214948.png",
-    "李沐深度学习/9-序列模型/6-Encoder-Decoder.md",
     "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
     "李沐深度学习/9-序列模型/2-门控循环单元GRU.md",
     "李沐深度学习/9-序列模型/5-双向循环神经网络.md",
-    "李沐深度学习/9-序列模型/pics/Pasted image 20260314213515.png",
-    "李沐深度学习/9-序列模型/pics/Pasted image 20260314212532.png",
-    "李沐深度学习/9-序列模型/pics/Pasted image 20260314211840.png",
     "李沐深度学习/9-序列模型/4-深度循环神经网络.md",
-    "李沐深度学习/9-序列模型/pics/Pasted image 20260314211226.png",
-    "李沐深度学习/9-序列模型/pics/Pasted image 20260314211020.png",
     "李沐深度学习/9-序列模型/3-长短期记忆网络LSTM.md",
-    "李沐深度学习/9-序列模型/pics/Pasted image 20260314204923.png",
-    "李沐深度学习/9-序列模型/pics/Pasted image 20260314203717.png",
     "WiFi感知/Intensive Reading 1-2.md",
-    "李沐深度学习/9-序列模型/pics/Pasted image 20260314203414.png",
     "李沐深度学习/9-序列模型/1-循环神经网络(RNN).md",
     "ML/1-Classification/鱼与熊掌可兼得.md",
     "李沐深度学习/8-计算机视觉/全连接卷积神经网络（FCN）.md",
@@ -268,11 +272,7 @@
     "李沐深度学习/8-计算机视觉/pics",
     "李沐深度学习/8-计算机视觉",
     "李沐深度学习/5-卷积/6-批量归一化(batch-norm).md",
-    "李沐深度学习/5-卷积/5-GoogLeNet.md",
-    "李沐深度学习/5-卷积/4-NiN.md",
     "李沐深度学习/模型选择/pics",
-    "李沐深度学习/模型选择",
-    "李沐深度学习/感知机/pics",
-    "李沐深度学习/感知机"
+    "李沐深度学习/模型选择"
   ]
 }

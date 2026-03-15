@@ -48,17 +48,17 @@
             }
           },
           {
-            "id": "9aaffb47a3fb52f7",
+            "id": "f9c7ec1a3f47c000",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李沐深度学习/10-束搜索/3-注意力分数.md",
+                "file": "李沐深度学习/10-束搜索/4-使用注意力机制的seq2seq.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3-注意力分数"
+              "title": "4-使用注意力机制的seq2seq"
             }
           }
         ],
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/10-束搜索/3-注意力分数.md",
+                "file": "李沐深度学习/10-束搜索/4-使用注意力机制的seq2seq.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3-注意力分数 的大纲"
+              "title": "4-使用注意力机制的seq2seq 的大纲"
             }
           },
           {
@@ -226,11 +226,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9aaffb47a3fb52f7",
+  "active": "f9c7ec1a3f47c000",
   "lastOpenFiles": [
-    "Pasted image 20260315160123.png",
-    "李沐深度学习/10-束搜索/2-注意力机制.md",
+    "李沐深度学习/10-束搜索/4-使用注意力机制的seq2seq.md",
     "李沐深度学习/10-束搜索/3-注意力分数.md",
+    "李沐深度学习/10-束搜索/pics/Pasted image 20260315163915.png",
+    "李沐深度学习/10-束搜索/pics/Pasted image 20260315163215.png",
+    "李沐深度学习/10-束搜索/pics/Pasted image 20260315160949.png",
+    "李沐深度学习/10-束搜索/pics/Pasted image 20260315160123.png",
+    "李沐深度学习/10-束搜索/2-注意力机制.md",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315153047.png",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315152738.png",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315152626.png",
@@ -238,13 +242,9 @@
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315151455.png",
     "李沐深度学习/10-束搜索/1-Beam Search（束搜索）.md",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315145106.png",
-    "李沐深度学习/10-束搜索/pics/Pasted image 20260315144333.png",
-    "李沐深度学习/10-束搜索/pics/Pasted image 20260315143335.png",
-    "李沐深度学习/10-束搜索/pics/Pasted image 20260315143047.png",
     "李沐深度学习/10-束搜索/pics",
     "李沐深度学习/10-束搜索",
     "李沐深度学习/9-序列模型/7-Seq2Seq.md",
-    "李沐深度学习/9-序列模型/pics/Pasted image 20260315141022.png",
     "李沐深度学习/9-序列模型/6-Encoder-Decoder.md",
     "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
     "李沐深度学习/9-序列模型/2-门控循环单元GRU.md",

@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "f1654309e38d8ba7",
+            "id": "22a822ed05b60e55",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -214,9 +214,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f1654309e38d8ba7",
+  "active": "22a822ed05b60e55",
   "lastOpenFiles": [
     "李沐深度学习/0-总览.md",
+    "李沐深度学习/1-前置/前置知识.md",
+    "ML/ML.md",
+    "Algorithm/基础/第一章/模版1.md",
+    "Algorithm/基础/第一章/高精度.md",
+    "Algorithm/基础/第一章/第三课.md",
+    "WiFi感知/0-总览.md",
     "WiFi感知/从理论到应用.md",
     "WiFi感知/Intensive Reading 1-2.md",
     "Algorithm/基础/第一章/前缀和与差分.md",
@@ -249,12 +255,6 @@
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315145106.png",
     "李沐深度学习/10-束搜索/pics",
     "李沐深度学习/10-束搜索",
-    "李沐深度学习/9-序列模型/7-Seq2Seq.md",
-    "李沐深度学习/9-序列模型/6-Encoder-Decoder.md",
-    "李沐深度学习/9-序列模型/2-门控循环单元GRU.md",
-    "李沐深度学习/9-序列模型/5-双向循环神经网络.md",
-    "李沐深度学习/9-序列模型/4-深度循环神经网络.md",
-    "李沐深度学习/9-序列模型/3-长短期记忆网络LSTM.md",
     "李沐深度学习/9-序列模型/pics",
     "WiFi感知/TMC-2024-08-1247_Proof_hi.pdf",
     "李沐深度学习/9-序列模型",

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李沐深度学习/0-总览.md",
+                "file": "CSAPP/【读薄 CSAPP】壹 数据表示 - 小土刀 4.0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0-总览"
+              "title": "【读薄 CSAPP】壹 数据表示 - 小土刀 4.0"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习/0-总览.md",
+                "file": "CSAPP/【读薄 CSAPP】壹 数据表示 - 小土刀 4.0.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "0-总览 的大纲"
+              "title": "【读薄 CSAPP】壹 数据表示 - 小土刀 4.0 的大纲"
             }
           },
           {
@@ -216,17 +216,19 @@
   },
   "active": "22a822ed05b60e55",
   "lastOpenFiles": [
+    "WiFi感知/从理论到应用.md",
+    "CSAPP/【读薄 CSAPP】壹 数据表示 - 小土刀 4.0.md",
     "李沐深度学习/0-总览.md",
+    "CSAPP",
+    "WiFi感知/Intensive Reading 1-2.md",
+    "WiFi感知/Intensive Reading 1-1.md",
     "李沐深度学习/1-前置/前置知识.md",
     "ML/ML.md",
     "Algorithm/基础/第一章/模版1.md",
     "Algorithm/基础/第一章/高精度.md",
     "Algorithm/基础/第一章/第三课.md",
     "WiFi感知/0-总览.md",
-    "WiFi感知/从理论到应用.md",
-    "WiFi感知/Intensive Reading 1-2.md",
     "Algorithm/基础/第一章/前缀和与差分.md",
-    "WiFi感知/Intensive Reading 1-1.md",
     "李沐深度学习/5-卷积/3-VGG.md",
     "李沐深度学习/5-卷积/1-LeNet.md",
     "李沐深度学习/5-卷积/2-AlexNet.md",
@@ -251,7 +253,6 @@
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315152626.png",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315151639.png",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315151455.png",
-    "李沐深度学习/10-束搜索/1-Beam Search（束搜索）.md",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315145106.png",
     "李沐深度学习/10-束搜索/pics",
     "李沐深度学习/10-束搜索",
@@ -260,7 +261,6 @@
     "李沐深度学习/9-序列模型",
     "李沐深度学习/8-计算机视觉/pics",
     "李沐深度学习/8-计算机视觉",
-    "李沐深度学习/模型选择/pics",
-    "李沐深度学习/模型选择"
+    "李沐深度学习/模型选择/pics"
   ]
 }

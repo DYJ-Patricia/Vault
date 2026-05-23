@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Gan",
+                "query": "domain a",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,7 +183,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "ffc402688677607a",
+  "active": "65024bb5544de275",
   "lastOpenFiles": [
     "ML/6-Generative Adversarial Network/GAN(生成式对抗网络)4 on Unsupervised Learning.md",
     "ML/6-Generative Adversarial Network/GAN(生成式对抗网络)3.md",

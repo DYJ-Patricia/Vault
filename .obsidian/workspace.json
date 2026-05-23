@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5c22e42600aba061",
+        "id": "024c1e4de6fee4d7",
         "type": "tabs",
         "children": [
           {
-            "id": "58618ad439842a7f",
+            "id": "ffc402688677607a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WiFi感知/Intensive Reading 2-1.md",
+                "file": "ML/10-Deep Reinforcement Learning/RL 1 (What is RL).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intensive Reading 2-1"
-            }
-          },
-          {
-            "id": "64057598204427c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WiFi感知/从理论到应用.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "从理论到应用"
+              "title": "RL 1 (What is RL)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Gan",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WiFi感知/从理论到应用.md",
+                "file": "ML/10-Deep Reinforcement Learning/RL 1 (What is RL).md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "从理论到应用 的大纲"
+              "title": "RL 1 (What is RL) 的大纲"
             }
           },
           {
@@ -185,7 +171,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
+      "bases:新建数据库": false,
       "github-sync:Sync with Remote": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -194,15 +180,22 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "64057598204427c3",
+  "active": "ffc402688677607a",
   "lastOpenFiles": [
+    "ML/6-Generative Adversarial Network/GAN(生成式对抗网络)4 on Unsupervised Learning.md",
+    "ML/6-Generative Adversarial Network/GAN(生成式对抗网络)3.md",
+    "ML/6-Generative Adversarial Network/GAN(生成式对抗网络)1.md",
+    "ML/6-Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
+    "李沐深度学习/5-卷积/7-ResNet.md",
+    "WiFi感知/Notes",
+    "WiFi感知/汇报/Gait Recognition Using WiFi Signals.pdf",
+    "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
+    "WiFi感知/汇报",
     "WiFi感知/Intensive Reading 2-1.md",
+    "WiFi感知/从理论到应用.md",
     "WiFi感知/Intensive Reading 1-2.md",
     "ML/1-Classification/鱼与熊掌可兼得.md",
     "ML/0-Regression/regression (v16).pdf",
@@ -210,7 +203,6 @@
     "ML/1-Classification/Classification.md",
     "ML/1-Deep Learning/small-gradient-v7.pdf",
     "ML/1-Deep Learning/overfit-v6.pdf",
-    "WiFi感知/从理论到应用.md",
     "CSAPP/【读薄 CSAPP】贰 机器指令与程序优化 - 小土刀 4.0.md",
     "WiFi感知/jpg/Pasted image 20260428190713.png",
     "SimpRead/3-【读薄 CSAPP】贰 机器指令与程序优化 _ 小土刀 4_0/3-【读薄 CSAPP】贰 机器指令与程序优化 _ 小土刀 4_0.md",
@@ -223,7 +215,6 @@
     "WiFi感知/Intensive Reading 1-1.md",
     "img-4.md",
     "李沐深度学习/0-总览.md",
-    "CSAPP",
     "李沐深度学习/1-前置/前置知识.md",
     "ML/ML.md",
     "Algorithm/基础/第一章/模版1.md",
@@ -233,20 +224,12 @@
     "Algorithm/基础/第一章/前缀和与差分.md",
     "李沐深度学习/5-卷积/3-VGG.md",
     "李沐深度学习/5-卷积/1-LeNet.md",
-    "李沐深度学习/5-卷积/2-AlexNet.md",
-    "李沐深度学习/5-卷积/6-批量归一化(batch-norm).md",
-    "李沐深度学习/5-卷积/5-GoogLeNet.md",
-    "李沐深度学习/5-卷积/4-NiN.md",
-    "ML/13-Meta Learning/More about Meta Learning.md",
-    "WiFi感知/Modeling and Extending RSS-baesd Intrusion Detection Bound.pdf",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315163915.png",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315163215.png",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315160949.png",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315160123.png",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315153047.png",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315152738.png",
-    "李沐深度学习/10-束搜索/pics/Pasted image 20260315152626.png",
-    "李沐深度学习/10-束搜索/pics",
-    "李沐深度学习/10-束搜索"
+    "李沐深度学习/10-束搜索/pics/Pasted image 20260315152626.png"
   ]
 }

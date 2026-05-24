@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/10-Deep Reinforcement Learning/RL 1 (What is RL).md",
+                "file": "李沐深度学习/5-卷积/7-ResNet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RL 1 (What is RL)"
+              "title": "7-ResNet"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "domain a",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/10-Deep Reinforcement Learning/RL 1 (What is RL).md",
+                "file": "李沐深度学习/5-卷积/7-ResNet.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "RL 1 (What is RL) 的大纲"
+              "title": "7-ResNet 的大纲"
             }
           },
           {
@@ -183,11 +182,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "65024bb5544de275",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
-    "ML/6-Generative Adversarial Network/GAN(生成式对抗网络)4 on Unsupervised Learning.md",
-    "ML/6-Generative Adversarial Network/GAN(生成式对抗网络)3.md",
+    "WiFi感知/汇报/代宇佳5.24 周报.docx",
+    "李沐深度学习/5-卷积/5-GoogLeNet.md",
+    "SimpRead/0-常学常新：《Attention Is All You Need》万字解读！/0-常学常新：《Attention Is All You Need》万字解读！.md",
     "ML/6-Generative Adversarial Network/GAN(生成式对抗网络)1.md",
+    "ML/6-Generative Adversarial Network/GAN(生成式对抗网络)3.md",
+    "ML/6-Generative Adversarial Network/GAN(生成式对抗网络)4 on Unsupervised Learning.md",
+    "ML/10-Deep Reinforcement Learning/RL 1 (What is RL).md",
     "ML/6-Generative Adversarial Network/GAN(生成式对抗网络)2 WGAN.md",
     "李沐深度学习/5-卷积/7-ResNet.md",
     "WiFi感知/Notes",
@@ -220,10 +223,6 @@
     "Algorithm/基础/第一章/模版1.md",
     "Algorithm/基础/第一章/高精度.md",
     "Algorithm/基础/第一章/第三课.md",
-    "WiFi感知/0-总览.md",
-    "Algorithm/基础/第一章/前缀和与差分.md",
-    "李沐深度学习/5-卷积/3-VGG.md",
-    "李沐深度学习/5-卷积/1-LeNet.md",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315163915.png",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315163215.png",
     "李沐深度学习/10-束搜索/pics/Pasted image 20260315160949.png",

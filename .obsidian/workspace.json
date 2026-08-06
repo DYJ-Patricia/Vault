@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IELTS/Speaking/Part1/Part1基础.md",
+                "file": "IELTS/Speaking/Part1/作业.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part1基础"
+              "title": "作业"
             }
           },
           {
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IELTS/Speaking/Part1/Part1基础.md",
+                "file": "IELTS/Speaking/Part1/作业.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -198,10 +198,14 @@
   },
   "active": "7860188cde985504",
   "lastOpenFiles": [
+    "IELTS/Speaking/Part2/jpg",
+    "IELTS/Speaking/Part2",
+    "IELTS/Speaking/Part1/Part1基础.md",
+    "IELTS/Speaking/Part1/作业.md",
+    "IELTS/Speaking/Part1/jpg/Pasted image 20260806224741.png",
     "IELTS/Speaking/Part1/jpg/Pasted image 20260806215945.png",
     "IELTS/Speaking/Part1/jpg/Pasted image 20260806215735.png",
     "IELTS/Speaking/Part1/jpg/Pasted image 20260806215150.png",
-    "IELTS/Speaking/Part1/Part1基础.md",
     "IELTS/Speaking/Part1/jpg/Pasted image 20260806214257.png",
     "IELTS/Speaking/Part1/jpg/Pasted image 20260806213730.png",
     "IELTS/Speaking/Part1/jpg/Pasted image 20260806213112.png",
@@ -228,21 +232,17 @@
     "WiFi感知/从理论到应用.md",
     "WiFi感知/Intensive Reading 1-2.md",
     "ML/1-Classification/鱼与熊掌可兼得.md",
-    "ML/0-Regression/regression (v16).pdf",
     "ML/1-Classification/Classification.md",
     "CSAPP/【读薄 CSAPP】贰 机器指令与程序优化 - 小土刀 4.0.md",
     "WiFi感知/jpg/Pasted image 20260428190713.png",
     "SimpRead/3-【读薄 CSAPP】贰 机器指令与程序优化 _ 小土刀 4_0/3-【读薄 CSAPP】贰 机器指令与程序优化 _ 小土刀 4_0.md",
     "WiFi感知/jpg/Pasted image 20260428185630.png",
-    "WiFi感知/jpg/Pasted image 20260428185317.png",
     "SimpRead/3-【读薄 CSAPP】贰 机器指令与程序优化 _ 小土刀 4_0/3-【读薄 CSAPP】贰 机器指令与程序优化 _ 小土刀 4_0@annote.md",
     "CSAPP/【读薄 CSAPP】壹 数据表示 - 小土刀 4.0.md",
     "WiFi感知/Intensive Reading 1-1.md",
     "img-4.md",
     "李沐深度学习/0-总览.md",
     "李沐深度学习/1-前置/前置知识.md",
-    "ML/ML.md",
-    "Algorithm/基础/第一章/模版1.md",
-    "李沐深度学习/10-束搜索/pics/Pasted image 20260315163915.png"
+    "ML/ML.md"
   ]
 }

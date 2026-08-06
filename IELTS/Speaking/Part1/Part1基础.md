@@ -86,8 +86,16 @@ Do you prefer to wear comfortable and casual clothes or smart clothes（商务�
 ==Honestly/actually, I don’t have a solid answer.==
 ==It really depends on ==what I do.
 
-If I’m doing a presentation, I prefer to wear smart clothes like leather shoes and blazer. However, if I’m just chilling with my friends, I would just wear hoodie and jeans.
+If I’m doing a presentation, I prefer to wear smart clothes like **leather shoes** and **blazer**. However, if I’m just chilling with my friends, I would just wear **hoodie** and **jeans**.
 
 
+![[Pasted image 20260806224741.png]]
 
+### 都不选
 
+Do you prefer to use tea or coffee to serve your guests?
+
+==Well, honestly, neither.==
+==(No, I don’t serve them either tea or coffee.)==
+
+I don't really drink tea or coffee personally, so I don't have any stock at home. When I have guests come over, I usually serve them fizzy drinks like Coke or Sprite. And that's about it.

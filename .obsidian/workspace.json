@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IELTS/Speaking/Part1/未命名.md",
+                "file": "IELTS/Speaking/Part1/Part1基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "Part1基础"
+            }
+          },
+          {
+            "id": "f6f9b81bda19c055",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.13.4"
             }
           }
         ]
@@ -41,7 +53,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -142,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IELTS/Speaking/Part1/未命名.md",
+                "file": "IELTS/Speaking/Part1/Part1基础.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -182,9 +196,16 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "be80bef27d371ddc",
+  "active": "7860188cde985504",
   "lastOpenFiles": [
-    "IELTS/Speaking/Part1/未命名.md",
+    "IELTS/Speaking/Part1/jpg/Pasted image 20260806215945.png",
+    "IELTS/Speaking/Part1/jpg/Pasted image 20260806215735.png",
+    "IELTS/Speaking/Part1/jpg/Pasted image 20260806215150.png",
+    "IELTS/Speaking/Part1/Part1基础.md",
+    "IELTS/Speaking/Part1/jpg/Pasted image 20260806214257.png",
+    "IELTS/Speaking/Part1/jpg/Pasted image 20260806213730.png",
+    "IELTS/Speaking/Part1/jpg/Pasted image 20260806213112.png",
+    "IELTS/Speaking/Part1/jpg/Pasted image 20260806212859.png",
     "IELTS/Speaking/Part1/jpg",
     "IELTS/Speaking/Part1",
     "IELTS/Speaking",
@@ -222,13 +243,6 @@
     "李沐深度学习/1-前置/前置知识.md",
     "ML/ML.md",
     "Algorithm/基础/第一章/模版1.md",
-    "Algorithm/基础/第一章/高精度.md",
-    "李沐深度学习/10-束搜索/pics/Pasted image 20260315163915.png",
-    "李沐深度学习/10-束搜索/pics/Pasted image 20260315163215.png",
-    "李沐深度学习/10-束搜索/pics/Pasted image 20260315160949.png",
-    "李沐深度学习/10-束搜索/pics/Pasted image 20260315160123.png",
-    "李沐深度学习/10-束搜索/pics/Pasted image 20260315153047.png",
-    "李沐深度学习/10-束搜索/pics/Pasted image 20260315152738.png",
-    "李沐深度学习/10-束搜索/pics/Pasted image 20260315152626.png"
+    "李沐深度学习/10-束搜索/pics/Pasted image 20260315163915.png"
   ]
 }

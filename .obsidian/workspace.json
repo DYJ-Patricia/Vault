@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IELTS/Writing/1/line/8-4.md",
+                "file": "IELTS/Speaking/Part1/Part1基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8-4"
+              "title": "Part1基础"
+            }
+          },
+          {
+            "id": "36e7c4e4e8865650",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IELTS/Speaking/Part1/作业.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "作业"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IELTS/Writing/1/line/8-4.md",
+                "file": "IELTS/Speaking/Part1/作业.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -184,20 +199,20 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "be80bef27d371ddc",
+  "active": "36e7c4e4e8865650",
   "lastOpenFiles": [
-    "IELTS/Writing/1/line/19-1.md",
+    "IELTS/Speaking/Part1/Part1基础.md",
+    "IELTS/Speaking/Part1/作业.md",
     "IELTS/Writing/1/line/8-4.md",
+    "IELTS/Writing/1/line/19-1.md",
     "Pasted image 20260807223751.png",
     "IELTS/Writing/1/line/jpg",
     "IELTS/Writing/1/line/jpg/Pasted image 20260807223305.png",
-    "IELTS/Speaking/Part1/作业.md",
     "IELTS/Writing/1/line",
     "IELTS/Writing/1",
     "IELTS/Writing",
     "IELTS/Speaking/Part2/jpg",
     "IELTS/Speaking/Part2",
-    "IELTS/Speaking/Part1/Part1基础.md",
     "IELTS/Speaking/Part1/jpg/Pasted image 20260806224741.png",
     "IELTS/Speaking/Part1/jpg/Pasted image 20260806215945.png",
     "IELTS/Speaking/Part1/jpg/Pasted image 20260806215735.png",
